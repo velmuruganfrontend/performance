@@ -1,9 +1,8 @@
 {
-  "name": "cb-design",
+  "name": "",
   "version": "1.0.0",
   "description": "Nuxt.js project",
-  "author": "Ayyasamy <ayyasamy@chargebee.com>",
-  "private": true,
+  "author": "",
   "scripts": {
     "dev": "concurrently --kill-others \"nuxt\" \"gulp\"",
     "build": "nuxt build",
