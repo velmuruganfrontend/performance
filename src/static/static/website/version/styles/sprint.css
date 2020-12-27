@@ -1,0 +1,745 @@
+.ct-row {
+  padding: 50px 0;
+  color: #00000A;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5; }
+  .ct-row--hidden {
+    max-height: 1020px;
+    overflow-y: hidden;
+    margin-bottom: 150px;
+    position: relative; }
+    .ct-row--hidden:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 250px;
+      bottom: 0px;
+      background: white;
+      background: linear-gradient(0deg, #ffffffdb 0%, rgba(255, 255, 255, 0.46) 100%); }
+  .ct-row--visible {
+    max-height: 100%;
+    overflow: visible; }
+  .ct-row__btn {
+    border-radius: 21.43px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.12), 0 5px 16px 0 rgba(5, 5, 5, 0.12);
+    color: #000FF0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    bottom: 40px;
+    max-width: 160px;
+    padding: 12px 24px;
+    transition: .3s ease-out; }
+    .ct-row__btn:hover, .ct-row__btn:focus {
+      box-shadow: none;
+      color: #ffffff;
+      background: #000FF0; }
+  .ct-row:first-child {
+    padding-top: 100px; }
+  @media (min-width: 768px) {
+    .ct-row {
+      padding: 70px 0; }
+      .ct-row:first-child {
+        padding-top: 120px; } }
+  @media (min-width: 1441px) {
+    .ct-row {
+      padding: 70px 0; } }
+  @media (min-width: 992px) {
+    .ct-row:first-child {
+      padding-top: 180px; } }
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: none; }
+
+.ct-link {
+  color: #000FF0;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500; }
+  .ct-link--icon:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    margin-left: 8px;
+    background: url("../images/home/jan-2019/arrow/arrow.svg") center/contain no-repeat; }
+
+@media (min-width: 991px) {
+  .ct-aicd {
+    display: flex;
+    align-items: center; } }
+
+.ct-btn {
+  color: #fff;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #6200EA;
+  display: inline-block;
+  height: 54px;
+  line-height: 54px;
+  padding-left: 24px;
+  padding-right: 24px;
+  transition: 0.3s ease;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer; }
+  .ct-btn:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    margin-left: 8px;
+    transition: 0.3s ease;
+    background: url("../images/home/jan-2019/arrow/button-arrow.svg") center/contain no-repeat; }
+  .ct-btn:hover, .ct-btn:focus {
+    color: #fff;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-color: transparent;
+    background: #6200EA; }
+    .ct-btn:hover:before, .ct-btn:focus:before {
+      transform: translate(1px, 1px);
+      width: 100%;
+      height: 100%; }
+    .ct-btn:hover:after, .ct-btn:focus:after {
+      transform: translateX(4px); }
+  .ct-btn--ghost {
+    color: #000FF0;
+    background: transparent;
+    box-shadow: 0px 0px 0px 1px #000FF0 inset;
+    font-size: 18px; }
+    .ct-btn--ghost:after {
+      background: url("../images/home/jan-2019/arrow/arrow.svg") center/contain no-repeat; }
+    .ct-btn--ghost:hover, .ct-btn--ghost:focus {
+      background: transparent;
+      color: #000FF0; }
+
+@media (min-width: 768px) {
+  .ct-hero__flex {
+    display: flex; } }
+
+.ct-hero__container {
+  margin-top: 54px; }
+
+.ct-hero__header {
+  margin-bottom: 40px; }
+
+.ct-hero__tall {
+  height: 100%; }
+
+@media (max-width: 767px) {
+  .ct-hero__affix {
+    margin-top: 40px; } }
+
+@media (min-width: 768px) {
+  .ct-hero__affix {
+    top: 40px;
+    position: sticky; } }
+
+.ct-hero__label {
+  margin-bottom: 12px;
+  display: inline-flex;
+  align-items: center; }
+
+.ct-hero__figure {
+  margin-top: 24px; }
+
+.ct-hero__title {
+  color: #00000A;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 40px; }
+  @media (min-width: 992px) {
+    .ct-hero__title {
+      font-size: 40px;
+      line-height: 50px; } }
+
+.ct-hero__heading {
+  opacity: 0.86;
+  color: #00000A;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 24px; }
+
+.ct-hero__highlight {
+  background: linear-gradient(-5deg, transparent 40%, #FEE5AB 40%, #FEE5AB 59%, transparent 59%);
+  padding: 0 4px;
+  margin: 0 -4px;
+  background-size: 100% 100%; }
+
+.ct-medias {
+  margin-top: 200px;
+  max-width: 400px; }
+
+.ct-media:not(:last-child) {
+  margin-bottom: 80px; }
+
+.ct-media__head, .ct-media__header {
+  margin-bottom: 24px; }
+
+.ct-media__label {
+  margin-bottom: 8px;
+  color: #5511D3;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  line-height: 18px; }
+
+.ct-media__title {
+  color: #00000A;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -0.6px;
+  line-height: 38px; }
+  @media (min-width: 992px) {
+    .ct-media__title {
+      font-size: 32px;
+      line-height: 40px; } }
+
+.ct-media__heading {
+  color: #00000A;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -0.3px;
+  line-height: 32px; }
+
+.ct-media__highlight {
+  background: linear-gradient(-2deg, transparent 40%, #FEE5AB 40%, #FEE5AB 59%, transparent 59%);
+  padding: 0 4px;
+  margin: 0 -4px;
+  background-size: 100% 100%; }
+
+.ct-media__desc {
+  color: #242438;
+  line-height: 24px; }
+
+.ct-media__card {
+  border: 1px solid #EFEFF1;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.09);
+  padding: 50px 30px 0; }
+  @media (min-width: 768px) {
+    .ct-media__card {
+      padding: 80px 60px 0; } }
+
+.ct-media__content {
+  padding-bottom: 60px; }
+
+.ct-media__list {
+  list-style: none; }
+  .ct-media__lists {
+    margin-bottom: 90px; }
+  @media (min-width: 992px) {
+    .ct-media__list {
+      padding-left: 0; } }
+
+.ct-media__item {
+  margin-bottom: 32px;
+  position: relative; }
+  .ct-media__item:before {
+    content: '';
+    background-image: url("../images/pricing/icon/icon-status.svg");
+    background-position: top right;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: -36px;
+    top: 4px; }
+
+.ct-slider {
+  text-align: center; }
+  .ct-slider__figure {
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    max-width: 650px;
+    margin: 24px auto 16px; }
+    .ct-slider__figure:after, .ct-slider__figure:before {
+      content: '';
+      width: 50px;
+      height: 40px;
+      display: inline-block;
+      z-index: 1;
+      position: absolute;
+      top: 0; }
+    .ct-slider__figure:after {
+      right: 0;
+      background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%); }
+    .ct-slider__figure:before {
+      left: 0;
+      background: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%); }
+    .ct-slider__figure > figure {
+      height: 36px;
+      width: 2526px;
+      background: url("../images/home/jan-2019/customers/customers.png") center/contain;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      transform: translate3d(0, 0, 0);
+      animation: moveSlideshow 80s ease infinite; }
+  @media (min-width: 768px) {
+    .ct-slider__actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px; } }
+  @media (min-width: 768px) {
+    .ct-slider__action + .ct-slider__action {
+      margin-left: 24px; } }
+  @media (max-width: 767px) {
+    .ct-slider__action + .ct-slider__action {
+      margin-top: 12px; } }
+  .ct-sliderinfo {
+    color: #00000A;
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 18px; }
+  .ct-slider--customers .ct-slider__figure > figure {
+    background: url("../images/home/jan-2019/customers/customers.png") center/contain; }
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%); } }
+
+.ct-panel {
+  text-align: center; }
+  .ct-panel__title {
+    color: #00000A;
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 40px;
+    margin-bottom: 16px; }
+    @media (min-width: 1200px) {
+      .ct-panel__title {
+        font-size: 40px;
+        line-height: 50px; } }
+  .ct-panel__desc {
+    opacity: 0.72;
+    color: #00000A;
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    line-height: 30px; }
+    @media (min-width: 768px) {
+      .ct-panel__desc {
+        font-size: 24px;
+        line-height: 32px; } }
+  .ct-panel__figure {
+    margin-top: 48px;
+    margin-bottom: 48px; }
+    .ct-panel__figure > img {
+      margin: auto; }
+  @media (min-width: 768px) {
+    .ct-panel__actions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px; } }
+  @media (min-width: 768px) {
+    .ct-panel__action + .ct-panel__action {
+      margin-left: 24px; } }
+  @media (max-width: 767px) {
+    .ct-panel__action + .ct-panel__action {
+      margin-top: 12px; } }
+
+.slick-slide {
+  margin: 0px 15px; }
+  .slick-slide img {
+    width: 100%; }
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
+  .slick-list:focus {
+    outline: none; }
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block; }
+  .slick-track:before {
+    display: table;
+    content: ''; }
+  .slick-track:after {
+    display: table;
+    content: '';
+    clear: both; }
+
+.slick-loading .slick-track {
+  visibility: hidden; }
+
+.slick-slide {
+  display: none;
+  height: 100%;
+  min-height: 1px; }
+
+[dir='rtl'] .slick-slide {
+  float: right; }
+
+.slick-slide img {
+  display: block; }
+
+.slick-slide.slick-loading img {
+  display: none; }
+
+.slick-slide.dragging img {
+  pointer-events: none; }
+
+.slick-initialized .slick-slide {
+  display: inline-block;
+  vertical-align: middle; }
+
+.slick-loading .slick-slide {
+  visibility: hidden; }
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: none; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+.slick-slide div {
+  width: inherit;
+  height: 50px;
+  background-size: contain; }
+
+.doodle_bg {
+  background: transparent url("../images/home/jan-2019/customers/doodle.png") no-repeat center; }
+
+.envoy_bg {
+  background: transparent url("../images/home/jan-2019/customers/envoy.png") no-repeat center; }
+
+.freedom_bg {
+  background: transparent url("../images/home/jan-2019/customers/freedom.png") no-repeat center 4px; }
+
+.freshworks_blck_bg {
+  background: transparent url("../images/home/jan-2019/customers/freshworks_blck.png") no-repeat center; }
+
+.knewton_logo_bg {
+  background: transparent url("../images/home/jan-2019/customers/knewton_logo.png") no-repeat center -3px; }
+
+.okta_bg {
+  background: transparent url("../images/home/jan-2019/customers/okta.png") no-repeat center;
+  background-size: 70px !important;
+  background-position: center 4px !important; }
+
+.percona_bg {
+  background: transparent url("../images/home/jan-2019/customers/percona.png") no-repeat center; }
+
+.zenchef_bg {
+  background: transparent url("../images/home/jan-2019/customers/zenchef.png") no-repeat center;
+  background-size: 120px !important;
+  margin-top: -18px; }
+
+.calendy_bg {
+  background: transparent url("../images/home/jan-2019/customers/calendly.png") no-repeat center; }
+
+.study_bg {
+  background: transparent url("../images/home/jan-2019/customers/study.png") no-repeat center; }
+
+.braintree_bg {
+  background: transparent url("../images/home/jan-2019/payment-gateway/braintree.png") no-repeat center; }
+
+.gocardless_bg {
+  background: transparent url("../images/home/jan-2019/payment-gateway/gocardless.png") no-repeat center; }
+
+.paypal_bg {
+  background: transparent url("../images/home/jan-2019/payment-gateway/paypal.png") no-repeat center;
+  background-size: 70px !important;
+  background-position: center 7px !important; }
+
+.worldpay_bg {
+  background: transparent url("../images/home/jan-2019/payment-gateway/worldpay.png") no-repeat center; }
+
+.so-tab [cb-vtab-item-bg] {
+  border-bottom: 1px solid #000000;
+  z-index: 1;
+  display: block;
+  position: absolute;
+  height: 100%;
+  transition: .25s; }
+
+.so-tab__item span {
+  color: rgba(25, 25, 35, 0.55);
+  font-size: 16px;
+  padding: 6px 8px;
+  opacity: .5;
+  display: block;
+  cursor: pointer;
+  padding: 10px 20px; }
+  @media (min-width: 768px) {
+    .so-tab__item span {
+      font-size: 22px; } }
+  @media (min-width: 992px) {
+    .so-tab__item span {
+      font-size: 16px;
+      color: rgba(21, 21, 34, 0.55); } }
+  @media (min-width: 1200px) {
+    .so-tab__item span {
+      padding: 10px 15px; } }
+
+.so-tab__item[cb-vtab-item-selected] span {
+  opacity: 1;
+  color: #120EF0;
+  text-shadow: 0 0 .65px #333, 0 0 .65px #333; }
+
+.so-tab__items {
+  display: grid;
+  position: relative;
+  z-index: 2;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center; }
+
+.so-tab__select {
+  background-color: #8929e0;
+  border-radius: 50px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 14px -1px rgba(0, 0, 0, 0.18);
+  border-width: 0;
+  text-align: left;
+  color: #ffffff;
+  position: relative; }
+  .so-tab__select:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 6px solid transparent;
+    border-top-color: #ffffff;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+  .so-tab__select select {
+    font-size: 18px; }
+    .so-tab__select select, .so-tab__select select:focus {
+      -webkit-appearance: none;
+      border: 0;
+      background: 0 0;
+      font-weight: 500;
+      padding: 10px 24px 10px 18px;
+      width: 100%;
+      outline: none; }
+  @media (max-width: 991px) {
+    .so-tab__select {
+      margin-bottom: 30px; } }
+
+.so-tab__aside {
+  margin-bottom: 30px;
+  border-bottom: none;
+  position: relative; }
+  @media (min-width: 992px) {
+    .so-tab__aside {
+      margin-bottom: 36px;
+      display: inline-block;
+      border-bottom: 1px solid #E5E4E4; } }
+
+.so-tab__content [cb-vtab-content] .so-tab__features li {
+  flex: 0 0 49%;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+.so-tab__content [cb-vtab-content] .so-tab__features li:after {
+  content: '';
+  background: url(../images/compare-competitors/sassoptics/check-circle.svg);
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background-size: contain;
+  position: relative;
+  left: 5px; }
+
+@media (min-width: 992px) {
+  .so-tab__content [cb-vtab-content] .so-tab__parent {
+    display: flex; }
+    .so-tab__content [cb-vtab-content] .so-tab__parent .so-tab__left {
+      flex: 0 0 430px; }
+      .so-tab__content [cb-vtab-content] .so-tab__parent .so-tab__left .so-tab__header h2 {
+        color: #101010;
+        font-size: 20px;
+        font-weight: bold; }
+      .so-tab__content [cb-vtab-content] .so-tab__parent .so-tab__left .so-tab__descs {
+        margin: 30px 0; }
+        .so-tab__content [cb-vtab-content] .so-tab__parent .so-tab__left .so-tab__descs p {
+          color: #000000; }
+      .so-tab__content [cb-vtab-content] .so-tab__parent .so-tab__left .so-tab__features {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+    .so-tab__content [cb-vtab-content] .so-tab__parent .so-tab__right {
+      flex: auto;
+      margin-left: 40px; } }
+
+.so-tab__title {
+  color: #033d48;
+  font-size: 16px;
+  margin-bottom: 30px; }
+
+.so-tab__desc {
+  color: #033d48;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  .so-tab__desc ul li {
+    margin-bottom: 16px; }
+
+/*Desktop Tap*/
+.so-subscription .container {
+  max-width: 900px; }
+
+.so-heading {
+  color: #101010;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center; }
+  @media (max-width: 991px) {
+    .so-heading {
+      font-size: 28px; } }
+
+.so-tab__left .so-tab__header h2 {
+  color: #101010;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px; }
+  @media (max-width: 991px) {
+    .so-tab__left .so-tab__header h2 {
+      font-size: 20px; } }
+
+.so-tab-top {
+  position: sticky;
+  top: 0; }
+  .so-tab-top .so-tab__ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 0;
+    justify-content: center;
+    border-bottom: 1px solid #e5e4e4;
+    background-color: #fff; }
+    .so-tab-top .so-tab__ul li {
+      position: relative; }
+      .so-tab-top .so-tab__ul li a {
+        font-size: 16px;
+        color: #333333;
+        padding: 10px 20px;
+        display: block;
+        cursor: pointer; }
+      .so-tab-top .so-tab__ul li .active {
+        opacity: 1;
+        color: #120ef0;
+        text-shadow: 0 0 0.65px #333, 0 0 0.65px #333;
+        border-bottom: 1px solid transparent; }
+        .so-tab-top .so-tab__ul li .active::after {
+          content: '';
+          position: absolute;
+          left: 0px;
+          border-bottom: 1px solid #000;
+          bottom: 0;
+          width: 100%; }
+
+.so-tab-bottom .so-tab__parent {
+  display: flex;
+  /*left*/ }
+  .so-tab-bottom .so-tab__parent .so-tab__left {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 430px;
+    flex: 0 0 430px;
+    padding-top: 70px; }
+    .so-tab-bottom .so-tab__parent .so-tab__left .so-tab__header h2 {
+      color: #101010;
+      font-size: 24px;
+      font-weight: 700; }
+    .so-tab-bottom .so-tab__parent .so-tab__left .so-tab__descs {
+      margin: 30px 0; }
+      .so-tab-bottom .so-tab__parent .so-tab__left .so-tab__descs p {
+        color: #000000; }
+    .so-tab-bottom .so-tab__parent .so-tab__left .so-tab__features {
+      list-style-type: none;
+      padding-left: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .so-tab-bottom .so-tab__parent .so-tab__left .so-tab__features li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 49%;
+        flex: 0 0 49%;
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 10px; }
+        .so-tab-bottom .so-tab__parent .so-tab__left .so-tab__features li::after {
+          content: '';
+          background: url(../images/compare-competitors/sassoptics/check-circle.svg);
+          display: inline-block;
+          width: 11px;
+          height: 11px;
+          background-size: contain;
+          position: relative;
+          left: 5px;
+          z-index: -1; }
+  .so-tab-bottom .so-tab__parent .so-tab__right {
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+    margin-left: 40px;
+    padding-top: 50px; }
+
+.so-tab-bottom div {
+  margin-bottom: 20px; }
+
+/*Desktop Tap*/

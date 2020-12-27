@@ -1,0 +1,1073 @@
+{
+    "Steady Involuntary churn" : {
+        "note" : "",
+        "title" : "Steady Involuntary churn",
+        "problem_summary" :  [
+            "Payment failures"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Getting a dunning system can help you effectively avoid involuntary churn",
+                "solution" : "A dunning system lets you automatically retry failed payments, or proactively reach out to customers before their cards expire."
+            }
+        ],
+        "metrics_to_check" : [
+            "Get a dunning system ",
+            "Card expiry dates"
+        ],
+        "track_list" : [
+            {
+                "label" : "Chargebee automates the process of dunning and retries to collect the payment when the payment doesn't come through (online dunning). Chargebee will send emails to the customers informing them about the payment failure. You can configure multiple retries for collecting payment. After the final payment retry attempt, you can configure what should be the status of the subscription.",
+                "imageName" : ""
+            },
+            {
+                "label" : "Card expiry date reminders, automatic services to update payment information, and a revenue analytics system that notifies you when churn exceeds a certain upper limit are a few other anticipatory solutions.",
+                "imageName" : ""
+            }
+        ]
+    },
+    "Steady early-stage downgrades" : {
+        "note" : "",
+        "title" : "Steady early-stage downgrades",
+        "problem_summary" :  [
+            "Overpromise of value either by sales or the website",
+            "Expectation mismatch within the product"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Short-term fix: Improve sales training, redo value offerings on your website",
+                "solution" : "A short-term fix would be providing sufficient training to your sales team and redoing your value-promises on your website."
+            },
+            {
+                "cause" : "Long-term solution: Add high-value features consistently",
+                "solution" : "A long-term prevention method would be adding relevant high-value features to your product consistently across all plans."
+            }
+        ],
+        "metrics_to_check" : [
+            "Downgrade MRR: ",
+            "Churn Breakdown:",
+            "MRR Retention Cohort: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should decrease.",
+                "imageName" : "Gross_MRR_Churn"
+            },
+            {
+                "label" : "To understand at what stage these customers are downgrading and avoid it.",
+                "imageName" : "Churn_break_down"
+            },
+            {
+                "label" : "To gauge how much value your subscriptions are giving you over a period of time. Anything above 100% is good.",
+                "imageName" : "MRR_Retention_Cohort"
+            }
+        ]
+    },
+    "Steady late-stage downgrades" : {
+        "note" : "",
+        "title" : "Steady late-stage downgrades",
+        "problem_summary" :  [
+            "This churn is attributable to plan/pricing changes.",
+            "Your product isn’t growing with your customers"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Sudden price increase, or plan change which moved features valuable to them to lower plans",
+                "solution" : "In case of sudden pricing or plan changes, grandfather your existing customers for a limited period of time before moving them into a new pricing."
+            },
+            {
+                "cause" : "Your product not growing with your customers",
+                "solution" : "This could be an indication of these customers cancelling their subscriptions. To avoid this, align your feature-set and plans with their growth in a way that they can see incremental value as they grow."
+            }
+        ],
+        "metrics_to_check" : [
+            "Downgrade MRR: ",
+            "Churn Breakdown by time:",
+            "MRR Retention Cohort: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should decrease.",
+                "imageName" : "Gross_MRR_Churn"
+            },
+            {
+                "label" : "To understand at what stage these customers are downgrading and alter your solutions accordingly.",
+                "imageName" : "Churn_break_down"
+            },
+            {
+                "label" : "To gauge how much value your subscriptions are giving you over a period of time. Anything above 100% is good.",
+                "imageName" : "MRR_Retention_Cohort"
+            }
+        ]
+    },
+    "Steady early-stage cancellations" : {
+        "note" : "",
+        "title" : "Steady early-stage cancellations",
+        "problem_summary" :  [
+            "Lack of product-market fit",
+            "Overpromise of value either by sales or the website"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "",
+                "solution" : "A short-term fix would be giving sufficient training to your sales team and redoing your value-promises in your website."
+            },
+            {
+                "cause" : "",
+                "solution" : "Re-evaluate the current target market for the kind of offering you have. Market-size estimation, and re-positioning will help curb this problem."
+            }
+        ],
+        "metrics_to_check" : [
+            "Downgrade MRR: ",
+            "Churn Breakdown by time: ",
+            "MRR Retention Cohort: ",
+            "Subscription Retention Cohort: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should decrease.",
+                "imageName" : "Gross_MRR_Churn"
+            },
+            {
+                "label" : "To understand at what stage these customers are downgrading and alter your solutions accordingly.",
+                "imageName" : "Churn_break_down"
+            },
+            {
+                "label" : "To gauge how much value your subscriptions are giving you over a period of time. Anything above 100% is good.",
+                "imageName" : "MRR_Retention_Cohort"
+            },
+            {
+                "label" : "To understand how customers evolve over a 12-month period.",
+                "imageName" : "Subscription_Retntn_Cohort"
+            }
+        ]
+    },
+    "Steady late-stage cancellations" : {
+        "note" : "",
+        "title" : "Steady late-stage cancellations",
+        "problem_summary" :  [
+            "Product hasn’t scaled with the customers’ growth."
+        ],
+        "solution_list" : [
+            {
+                "cause" : "As your early customers scale, their needs evolve",
+                "solution" : "If your product doesn't stay ahead of their curve, the older customers tend to churn. This is twice as bad since you lose customers with whom you have built a relationship on one hand and have to spend a lot to acquire new ones on the other. To prevent this from happening further, you need to focus on developing a product that scales along with the growth of your ideal customers. "
+            }
+        ],
+        "metrics_to_check" : [
+            "Downgrade MRR: ",
+            "Churn Breakdown by time: ",
+            "MRR Retention Cohort: ",
+            "Subscription Retention Cohort: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should decrease.",
+                "imageName" : "Gross_MRR_Churn"
+            },
+            {
+                "label" : "To understand at what stage these customers are downgrading and alter your solutions accordingly.",
+                "imageName" : "Churn_break_down"
+            },
+            {
+                "label" : "To gauge how much value your subscriptions are giving you over a period of time. Anything above 100% is good.",
+                "imageName" : "MRR_Retention_Cohort"
+            },
+            {
+                "label" : "To understand how customers evolve over a 12-month period.",
+                "imageName" : "Subscription_Retntn_Cohort"
+            }
+        ]
+    },
+    "Irregular Involuntary churn" : {
+        "note" : "This could be a business side-effect of the pandemic.",
+        "title" : "Irregular Involuntary churn",
+        "problem_summary" :  [
+            "Card failures",
+            "Payment gateway failures",
+            "Poor revenue recovery processes",
+            "Business shutdown or bankruptcy"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Collect back-up payment methods from existing customers",
+                "solution" : "Collecting more than one payment method from existing customers can help reduce voluntary churn significantly. In the event that the primary payment method fails, your subscription billing tool can automatically collect payment from the back-up option."
+            },
+            {
+                "cause" : "Backup payment gateway",
+                "solution" : "Having a secondary payment gateway helps when there’s an outage with your primary payment gateway. Smart routing payments also helps bring down transaction costs."
+            },
+            {
+                "cause" : "Getting a dunning system can help you effectively avoid involuntary churn",
+                "solution" : "A dunning system lets you automatically retry failed payments, or proactively reach out to customers before their cards expire."
+            }
+        ],
+        "metrics_to_check" : [
+            "Smart revenue recovery system ",
+            "Strong collection workflows"
+        ],
+        "track_list" : [
+            {
+                "label" : "Chargebee automates the process of dunning and retries to collect the payment when the payment doesn't come through (online dunning). Chargebee will send emails to the customers informing them about the payment failure. You can configure multiple retries for collections. After the final payment retry attempt, you can configure what should be the status of the subscription.",
+                "imageName" : ""
+            },
+            {
+                "label" : "Card expiry date reminders, automatic services to update or collect backup payment information, and a revenue analytics system that alerts you when churn exceeds a certain limit are a few other anticipatory solutions.",
+                "imageName" : ""
+            }
+        ]
+    },
+    "Irregular early-stage downgrades" : {
+        "note" : "This could be a business side-effect of the pandemic.",
+        "title" : "Irregular early-stage downgrades",
+        "problem_summary" :  [
+            "Value proposition of higher plans isn’t strong enough.",
+            "Cash-flow problems at the customers’ end."
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Better targeted onboarding:",
+                "solution" : "Onboard users based on the plan they activate on and educate high-value customers about the value proposition of premium features. This will help improve the retention of ideal customers on your premium plans."
+            },
+            {
+                "cause" : "Reassess value proposition for recent customers",
+                "solution" : "In light of the recent pandemic, how can the new customers leverage your product better? For example: At Chargebee we help businesses use our platform for free till they hit $100k in revenue, we also help offer discounts and coupons, pause subscriptions, and a lot more that a SaaS company can take advantage of to stabilize their business. "
+            },
+            {
+                "cause" : "Discounts and promos for businesses affected by the pandemic",
+                "solution" : "Extend promos and discounts to help businesses affected by the pandemic if your financial position permits you to do so. This not only helps with reducing churn, but this will also help other businesses weather storms like this and stay afloat."
+            }
+        ],
+        "metrics_to_check" : [
+            "Downgrade MRR: ",
+            "Churn Breakdown: ",
+            "MRR Retention Cohort: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should decrease.",
+                "imageName" : "Downgrade_MRR"
+            },
+            {
+                "label" : "To understand at what stage these customers are downgrading and avoid it.",
+                "imageName" : "Churn_break_down"
+            },
+            {
+                "label" : "Helps you track how early-stage customers from different time periods are growing month-on-month.",
+                "imageName" : "MRR_Retention_Cohort"
+            }
+        ]
+    },
+    "Irregular late-stage downgrades" : {
+        "note" : "This could be a business side-effect of the pandemic.",
+        "title" : "Irregular late-stage downgrades",
+        "problem_summary" :  [
+            "This is almost always due to a cashflow problem from the customers’ end.",
+            "Your higher plans don’t offer enough value for money"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Customer taskforce:",
+                "solution" : "Set up a cross-functional customer task force team that reaches out to all customers whose businesses are affected by the pandemic. Based on their input, you need to align your development and marketing efforts to help your worst-hit customers survive the pandemic. "
+            },
+            {
+                "cause" : "Resell product value with respect to the current scenario",
+                "solution" : "How can your customers leverage your product/service to make the most out of this situation? For example: At Chargebee we help businesses use our platform for free till they hit $100k in revenue, we also help offer discounts and coupons, pause subscriptions, and a lot more that a SaaS company can take advantage of to stabilize their business."
+            },
+            {
+                "cause" : "Relax your payment terms and offer a payment holiday",
+                "solution" : "Consider offering a net-60 or net-90 in your upcoming invoices and extend your payment terms. For invoices that have already been raised for affected customers, consider offering a payment holiday for the next 30-60 days."
+            }
+        ],
+        "metrics_to_check" : [
+            "Downgrade MRR: ",
+            "Churn Breakdown: ",
+            "MRR Retention Cohort: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should decrease.",
+                "imageName" : "Downgrade_MRR"
+            },
+            {
+                "label" : "To understand at what stage these customers are downgrading and avoid it.",
+                "imageName" : "Churn_break_down"
+            },
+            {
+                "label" : "Helps you track how early-stage customers from different time periods are growing month-on-month.",
+                "imageName" : "MRR_Retention_Cohort"
+            }
+        ]
+    },
+    "Irregular early-stage cancellations" : {
+        "note" : "This could be a business side-effect of the pandemic",
+        "title" : "Irregular early-stage cancellations",
+        "problem_summary" :  [
+            "New customers do not see sufficient value in your product.",
+            "Cash-flow problems at the customers’ end."
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Situational sales training  ",
+                "solution" : "Sales team hasn’t changed their strategy to adapt to the business situation. Train your sales team to highlight how your product can help prospects to deal with a crisis like this. Don’t try to oversell/upsell the product if the customer doesn’t need it. Don’t hesitate to offer discounts or premium features at lower plans. "
+            },
+            {
+                "cause" : "Discounts and promos for businesses affected by the pandemic",
+                "solution" : "Extend promos and discounts to help businesses affected by the pandemic if your financial position permits you to do so. This not only helps with reducing churn, but this will also help other businesses weather storms like this and stay afloat."
+            },
+            {
+                "cause" : "Add contract terms to your subscriptions",
+                "solution" : "If your product is slightly complex and requires proper implementation and onboarding, deriving value from it might take some time. At times like this, customers can get impatient and churn early. To tackle this consider adding contract terms to your subscription so that they can stay long enough to be properly onboarded and start seeing value."
+            }
+        ],
+        "metrics_to_check" : [
+            "Downgrade MRR: ",
+            "Churn Breakdown by time: ",
+            "MRR Retention Cohort: ",
+            "Subscription Retention Cohort: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should decrease.",
+                "imageName" : "Downgrade_MRR"
+            },
+            {
+                "label" : "To understand at what stage these customers are downgrading and alter your solutions accordingly.",
+                "imageName" : "Churn_break_down"
+            },
+            {
+                "label" : "To gauge how much value your subscriptions are giving you over a period of time. Anything above 100% is good.",
+                "imageName" : "MRR_Retention_Cohort"
+            },
+            {
+                "label" : "To understand how customers evolve over a 12-month period.",
+                "imageName" : "Subscription_Retntn_Cohort"
+            }
+        ]
+    },
+    "Irregular late-stage cancellations" : {
+        "note" : "This could be a business side-effect of the pandemic.",
+        "title" : "Irregular late-stage cancellations",
+        "problem_summary" :  [
+            "This is almost always due to a cashflow problem from the customers’ end.",
+            "Your product doesn’t offer sufficient value in the current market conditions."
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Offer to pause or downgrade subscriptions",
+                "solution" : "When a customer tries to cancel, give them the option to downgrade or pause the subscription instead (Facebook does it when you try to deactivate your account). The idea behind if you manage to retain the customer and not the revenue, there are chances of them reactivating later when the situation normalizes. "
+            },
+            {
+                "cause" : "Discounts and promos for businesses affected by the pandemic",
+                "solution" : "Offer premium features at a low cost, or price waivers. Late-stage customers are people who have stuck by you for a long time. This not only helps with reducing churn, but this will also help other businesses weather storms like this and stay afloat. And as a bonus you might even create an evangelist."
+            },
+            {
+                "cause" : "Customer taskforce:",
+                "solution" : "Set up a cross-functional customer task force team that reaches out to all customers whose businesses are affected by the pandemic. Based on their input, you need to align your development and marketing efforts to help your worst-hit customers survive the pandemic. "
+            },
+            {
+                "cause" : "Resell product value with respect to the current scenario",
+                "solution" : "How can your customers leverage your product/service to make the most out of this situation? For example: At Chargebee we help businesses use our platform for free till they hit $100k in revenue, we also help offer discounts and coupons, pause subscriptions, and a lot more that a SaaS company can take advantage of to stabilize their business."
+            }
+        ],
+        "metrics_to_check" : [
+            "Downgrade MRR: ",
+            "Churn Breakdown by time: ",
+            "MRR Retention Cohort: ",
+            "Subscription Retention Cohort: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should decrease.",
+                "imageName" : "Downgrade_MRR"
+            },
+            {
+                "label" : "To understand at what stage these customers are downgrading and alter your solutions accordingly.",
+                "imageName" : "Churn_break_down"
+            },
+            {
+                "label" : "To gauge how much value your subscriptions are giving you over a period of time. Anything above 100% is good.",
+                "imageName" : "MRR_Retention_Cohort"
+            },
+            {
+                "label" : "To understand how customers evolve over a 12-month period.",
+                "imageName" : "Subscription_Retntn_Cohort"
+            }
+        ]
+    },
+    "Steady dip in New MRR" : {
+        "note" : "",
+        "title" : "Steady dip in New MRR",
+        "problem_summary" :  [
+            "Lack of a free trial",
+            "If there’s a free trial, the ‘trial to activation’ flow isn’t smooth",
+            "Saturated marketing channels",
+            "Poor campaign targeting",
+            "Pricing problems",
+            "Plan value problems"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Free trial: ",
+                "solution" : "A great product sells itself. Letting a potential customer experience your product before they buy it builds trust. A non-SaaS equivalent of it would be to give free samples. If you don't have a free trial, consider offering one. It's one of the easiest strategies to improve early customer acquisition."
+            },
+            {
+                "cause" : "Improving ‘trial to activation’ flow: ",
+                "solution" : "If your trial stage has a lot of high-quality leads, there should be no friction when they are willing to convert into a paying user. The ‘trial to activation’ experience should be seamless and intuitive. "
+            },
+            {
+                "cause" : "Experiment with acquisition channels: ",
+                "solution" : "When the lead quality from existing channels of acquisition falls, experiment with new channels to see what works for your business. For example, a discount campaign works really well for B2C businesses but can be a Revenue-leech for B2B businesses."
+            },
+            {
+                "cause" : "Improve campaign targeting: ",
+                "solution" : "If you are already working on increasing marketing efforts, you are probably targeting irrelevant audience or audience meant for your lower plans. Try improving your ad targeting. "
+            },
+            {
+                "cause" : "Revamp pricing plans: ",
+                "solution" : "The least-expensive paid plan is too steep a jump for the user in terms of cost. In this case, you can consider offering a mid-level plan that has more value than the free plan and also less expensive. "
+            },
+            {
+                "cause" : "Increase value in higher plans: ",
+                "solution" : "Your lower plans are providing more value than your higher plans. In this case, revisit your current plans and shuffle things up a bit. And add more high-value features to your higher plans."
+            }
+        ],
+        "metrics_to_check" : [
+            "Signups by channel: ",
+            "New MRR by channel: ",
+            "ARPS by channel: ",
+            "LTV by channel: ",
+            "LTV to CAC ratio: "
+        ],
+        "track_list" : [
+            {
+                "label" : "High signups from a particular channel indicate that it's a good one to pursue.",
+                "imageName" : "Signups_by_Acquisition_Channel"
+            },
+            {
+                "label" : "To understand which acquisition channel brings in the highest number of paying customers.",
+                "imageName" : "New_MRR_Acquisition_Channel"
+            },
+            {
+                "label" : "One channel might give the highest number of paying customers but the other might bring high-value customers even if the count is lesser. This metric helps you find that channel.",
+                "imageName" : "Average_Rev_Per_Subscription"
+            },
+            {
+                "label" : "This Indicates on an average how long your customers from each acquisition channel stay with you.",
+                "imageName" : "LTV_by_channel"
+            },
+            {
+                "label" : "This metric measures the relationship between the lifetime value of a customer and the cost of acquiring that customer. An ideal LTV to CAC ratio is 3:1.",
+                "imageName" : "LTV_to_CAC_Ratio"
+            }
+        ]
+    },
+    "Stagnant New MRR" : {
+        "note" : "",
+        "title" : "Stagnant New MRR",
+        "problem_summary" :  [
+            "Saturated marketing channels",
+            "Poor campaign targeting",
+            "Pricing problems",
+            "Plan value problems"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Experiment with acquisition channels: ",
+                "solution" : "When the lead quality from existing channels of acquisition falls, experiment with new channels to see what works for your business. For example: a discount campaign works really well for B2C businesses but can be a Revenue-leech for B2B businesses."
+            },
+            {
+                "cause" : "Improve campaign targeting: ",
+                "solution" : "If you are already working on increasing marketing efforts, you are probably targeting irrelevant audience or audience meant for your lower plans. Try improving your ad targeting. "
+            },
+            {
+                "cause" : "Revamp pricing plans: ",
+                "solution" : "The least-expensive paid plan is too steep a jump for the user in terms of cost. In this case you can consider offering a mid-level plan that has more value than the free plan and also less expensive. "
+            },
+            {
+                "cause" : "Increase value in higher plans:  ",
+                "solution" : "Your lower plans are providing more value than your higher plans. In this case, revisit your current plans and shuffle things up a bit. And add more high-value features to your higher plans."
+            }
+        ],
+        "metrics_to_check" : [
+            "Signups by channel: ",
+            "New MRR by channel: ",
+            "ARPS by channel: ",
+            "LTV by channel: ",
+            "LTV to CAC ratio: "
+        ],
+        "track_list" : [
+            {
+                "label" : "Watch out for a high number of signups from a particular channel to get the best out of that channel.",
+                "imageName" : "Signups_by_Acquisition_Channel"
+            },
+            {
+                "label" : "This helps you understand which acquisition channel brings in the highest number of paying customers.",
+                "imageName" : "New_MRR_Acquisition_Channel"
+            },
+            {
+                "label" : "This metric helps you find the channel that gives the highest number of paying customers but the other might bring high-value customers even if the count is lesser.",
+                "imageName" : "Average_Rev_Per_Subscription"
+            },
+            {
+                "label" : "This Indicates on an average how long do your customers from each acquisition channel stay with you.",
+                "imageName" : "LTV_by_channel"
+            },
+            {
+                "label" : "This metric measures the relationship the lifetime value of a customer and the cost of acquiring that customer. An ideal LTV to CAC ratio is 3:1",
+                "imageName" : "LTV_to_CAC_Ratio"
+            }
+        ]
+    },
+    "Irregular decrease in New MRR" : {
+        "note" : "This could be a business side-effect of the pandemic",
+        "title" : "Irregular decrease in New MRR",
+        "problem_summary" :  [
+            "Saturated markets",
+            "Sales methods that aren’t relevant to the current scenario",
+            "Poor value proposition"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Try new markets: ",
+                "solution" : "While the pandemic has brought some businesses to a standstill, some others have boomed as well. Consider exploring the avenues that can weather the storm. For example, eLearning."
+            },
+            {
+                "cause" : "Repackage/Reassess value proposition: ",
+                "solution" : "Your value proposition before the pandemic may not completely answer the changed demands of your customers during pandemic. Look at repackaging your solutions and reassess your messaging to highlight the features that add more value in these turbulent times."
+            },
+            {
+                "cause" : "Situational Sales training: ",
+                "solution" : "Challenging times call for innovative problem solving. Your sales team is on the frontline and should be well prepared and retrained to handle pandemic-induced fluctuations while working remotely."
+            }
+        ],
+        "metrics_to_check" : [
+            "Signups by channel",
+            "New MRR by channel",
+            "ARPS by channel",
+            "LTV by channel",
+            "LTV to CAC ratio"
+        ],
+        "track_list" : [
+            {
+                "label" : "Watch out for a high number of signups from a particular channel to get the best out of that channel.",
+                "imageName" : "Signups_by_Acquisition_Channel"
+            },
+            {
+                "label" : "This helps you understand which acquisition channel brings in the highest number of paying customers.",
+                "imageName" : "New_MRR_Acquisition_Channel"
+            },
+            {
+                "label" : "This metric helps you find the channel that gives the highest number of paying customers but the other might bring high-value customers even if the count is lesser.",
+                "imageName" : "Average_Rev_Per_Subscription"
+            },
+            {
+                "label" : "This Indicates on an average how long do your customers from each acquisition channel stay with you.",
+                "imageName" : "LTV_by_channel"
+            },
+            {
+                "label" : "This metric measures the relationship the lifetime value of a customer and the cost of acquiring that customer. An ideal LTV to CAC ratio is 3:1",
+                "imageName" : "LTV_to_CAC_Ratio"
+            }
+        ]
+    },
+    "Irregular New MRR Stagnation" : {
+        "note" : "This could be a business side-effect of the pandemic",
+        "title" : "Irregular New MRR Stagnation",
+        "problem_summary" :  [
+            "Freemium/Limitless free trial gives more value than paid plans",
+            "Paid plans are all too expensive",
+            "Sales methods that aren’t relevant to the current scenario",
+            "Poor value proposition"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Consider removing Freemium: ",
+                "solution" : "Desperate times call for desperate measures. While the freemium model may give you more number of users, the need of the hour for you to sustain is cash. Instead of customers opting for freemium, wouldn’t you rather have them on one of your paid plans, at least during these turbulent times?"
+            },
+            {
+                "cause" : "Consultative Sales with authority to override prices and/or give discounts: ",
+                "solution" : "In addition to special training for your sales staff, you can also take the approach of consultative sales. Empower your sales team to override prices and give discounts within reason. This will help them close more deals."
+            },
+            {
+                "cause" : "Reassess packaging and pricing: ",
+                "solution" : "Look at repackaging your solutions and reassess your messaging to highlight the features that add more value in these turbulent times. You can also consider offering a mid-level plan that has more value than the free plan and also less expensive."
+            }
+        ],
+        "metrics_to_check" : [],
+        "track_list" : []
+    },
+    "Decreasing Free-to-paid conversion rate" : {
+        "note" : "",
+        "title" : "Decreasing Free-to-paid conversion rate",
+        "problem_summary" :  [
+            "Value proposition of your paid plans is unclear.",
+            "A steep cost jump between two plans."
+        ],
+        "solution_list" : [
+            {
+                "cause" : "The value differentiation between your free and paid plans aren’t clear",
+                "solution" : "There is a chance that your free plan gives away all your valued features, making the paid plans look not as exciting. Consider gating your high-value capabilities in your paid plans."
+            },
+            {
+                "cause" : "The least-expensive paid plan is too steep a jump for the user in terms of cost ",
+                "solution" : "In this case you can consider offering a mid-level plan that has more value than the free plan and also less expensive."
+            }
+        ],
+        "metrics_to_check" : [
+            "Free to paid MRR: ",
+            "Free to Paid Evolution Cohort: ",
+            "Subscription Breakdown: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should increase.",
+                "imageName" : "Free_to_Paid_MRR"
+            },
+            {
+                "label" : "This cohort shows how a group of customers move from free to paid in a span of 12 months.",
+                "imageName" : "Free_to_Paid_Evolution"
+            },
+            {
+                "label" : "This chart shows the number of subscriptions that got added, upgraded, downgraded, cancelled or reactivated in the last 12 months.",
+                "imageName" : "Subscription_Breakdown"
+            }
+        ]
+    },
+    "Customer stagnation in one plan" : {
+        "note" : "",
+        "title" : "Customer stagnation in one plan",
+        "problem_summary" :  [
+            "Higher plans aren’t providing enough value for money.",
+            "UI/UX isn’t intuitive enough"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Their current plan is providing more value than the higher plans",
+                "solution" : "Your higher plans aren't providing enough value for the money. In this case, revisit your current plans and pricing and shuffle things up a bit. And add more high-value features to your higher plans."
+            },
+            {
+                "cause" : "Make Upgrades more enticing ",
+                "solution" : "This could be done by giving a discount. Give more options to upgrade within the user interface. A customer shouldn't have to dig deep to find the \"Upgrade\" button."
+            }
+        ],
+        "metrics_to_check" : [
+            "Plan Movement Report: ",
+            "Expansion MRR: ",
+            "Upgrade MRR: ",
+            "Subscription Breakdown: "
+        ],
+        "track_list" : [
+            {
+                "label" : "To see how customers are migrating between your lower and higher-tiered plans.",
+                "imageName" : "Plan_Movement_Report"
+            },
+            {
+                "label" : "An increase in this number indicates that the revenue generated from your existing customer base is growing",
+                "imageName" : "Expansion_MRR"
+            },
+            {
+                "label" : "Increase in upgrade MRR indicates your product is scaling as your customers scale.",
+                "imageName" : "Upgrade_MRR"
+            },
+            {
+                "label" : "This chart shows the number of subscriptions that got added, upgraded, downgraded, cancelled or reactivated in the last 12 months.",
+                "imageName" : "Subscription_Breakdown"
+            }
+        ]
+    },
+    "Customer stagnation and consistent churn" : {
+        "note" : "",
+        "title" : "Customer stagnation and consistent churn",
+        "problem_summary" :  [
+            "Product isn’t offering enough value.",
+            "Customer support isn’t efficient enough."
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Bring in more high value features ",
+                "solution" : "Your support and success team should talk to your customers and identify why the problem exists"
+            },
+            {
+                "cause" : "The turnaround time for support tickets should be significantly reduced ",
+                "solution" : "It is also ideal to have a best-practices framework for answering support tickets, and improving training for the support team."
+            }
+        ],
+        "metrics_to_check" : [
+            "Gross MRR Churn",
+            "Cancellation MRR",
+            "Expansion MRR",
+            "Upgrade MRR",
+            "Subscription Breakdown"
+        ],
+        "track_list" : [
+            {
+                "label" : "To ensure your churn doesn't become a long-term trend.",
+                "imageName" : "Gross_MRR_Churn"
+            },
+            {
+                "label" : "A decrease in cancellation MRR indicates that your churn is reducing.",
+                "imageName" : "Cancellation_MRR"
+            },
+            {
+                "label" : "An increase in this number indicates that the revenue generated from your existing customer base is growing",
+                "imageName" : "Expansion_MRR"
+            },
+            {
+                "label" : "Increase in upgrade MRR indicates your product is scaling as your customers scale.",
+                "imageName" : "Upgrade_MRR"
+            },
+            {
+                "label" : "This chart shows the number of subscriptions that got added, upgraded, downgraded, cancelled or reactivated in the last 12 months.",
+                "imageName" : "Subscription_Breakdown"
+            }
+        ]
+    },
+    "Irregular free-to-paid conversion rates" : {
+        "note" : "This could be a business side-effect of the pandemic",
+        "title" : "Irregular free-to-paid conversion rates",
+        "problem_summary" :  [
+            "Freemium gives more value than paid plans",
+            "Paid plans are all too expensive",
+            "Sales methods that aren’t relevant to the current scenario",
+            "Poor value proposition"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Consider removing Freemium: ",
+                "solution" : "Desperate times call for desperate measures. While the freemium model may give you more number of users, the need of the hour for you to sustain is cash. Instead of customers opting for freemium, wouldn’t you rather have them on one of your paid plans, at least during these turbulent times?"
+            },
+            {
+                "cause" : "Consultative Sales with authority to override prices and/or give discounts: ",
+                "solution" : "In addition to special training for your sales staff, you can also take the approach of consultative sales. Empower your sales team to override prices and give discounts within reason. This will help them close more deals."
+            },
+            {
+                "cause" : "Reassess packaging and pricing: ",
+                "solution" : "Look at repackaging your solutions and reassess your messaging to highlight the features that add more value in these turbulent times. You can also consider offering a mid-level plan that has more value than the free plan and also less expensive."
+            }
+        ],
+        "metrics_to_check" : [
+            "Free to paid MRR: ",
+            "Free to Paid Evolution Cohort: ",
+            "Subscription Breakdown: "
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, this should increase.",
+                "imageName" : "Free_to_Paid_MRR"
+            },
+            {
+                "label" : "This cohort shows how a group of customers move from free to paid in a span of 12 months.",
+                "imageName" : "Free_to_Paid_Evolution"
+            },
+            {
+                "label" : "This chart shows the number of subscriptions that got added, upgraded, downgraded, cancelled or reactivated in the last 12 months.",
+                "imageName" : "Subscription_Breakdown"
+            }
+        ]
+    },
+    "Irregular customer stagnation in plans" : {
+        "note" : "This could be a business side-effect of the pandemic",
+        "title" : "Irregular customer stagnation in plans",
+        "problem_summary" :  [
+            "The panemic is particularly stunting the growth of your customers",
+            "cashflow conservation has taken priority over the incremental value in your higher plans/add-ons."
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Rethink packaging of higher tier plans: ",
+                "solution" : "Consider bringing more high-value capabilities in higher tier plans to nudge customers towards upgrading. However, as long as these customers are retained and giving steady revenue, now is not the time to worry about upgrades."
+            }
+        ],
+        "metrics_to_check" : [
+            "Plan Movement Report: ",
+            "Expansion MRR: ",
+            "Upgrade MRR: ",
+            "Subscription Breakdown: "
+        ],
+        "track_list" : [
+            {
+                "label" : "To see how customers are migrating between your lower and higher-tiered plans.",
+                "imageName" : "Plan_Movement_Report"
+            },
+            {
+                "label" : "An increase in this number indicates that the revenue generated from your existing customer base is growing",
+                "imageName" : "Expansion_MRR"
+            },
+            {
+                "label" : "Increase in upgrade MRR indicates your product is scaling as your customers scale.",
+                "imageName" : "Upgrade_MRR"
+            },
+            {
+                "label" : "This chart shows the number of subscriptions that got added, upgraded, downgraded, cancelled or reactivated in the last 12 months.",
+                "imageName" : "Subscription_Breakdown"
+            }
+        ]
+    },
+    "Irregular customer stagnation with consistent churn" : {
+        "note" : "This could be a business side-effect of the pandemic",
+        "title" : "Irregular customer stagnation with consistent churn",
+        "problem_summary" :  [
+            "The panemic is particularly stunting the growth of your customers",
+            "cashflow conservation has taken priority over the incremental value in your higher plans/add-ons.",
+            "Value proposition wrt the current situation isn’t clear"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Rethink packaging of higher tier plans: ",
+                "solution" : "Consider bringing more high-value capabilities in higher tier plans to nudge customers towards upgrading. However, as long as these customers are retained and giving steady revenue, now is not the time to worry about upgrades."
+            },
+            {
+                "cause" : "Reassess value proposition: ",
+                "solution" : "Your value proposition before the pandemic may not completely answer the changed demands of your customers during pandemic. Look at repackaging your solutions and reassess your messaging to highlight the features that add more value in these turbulent times."
+            }
+        ],
+        "metrics_to_check" : [
+            "Gross MRR Churn: ",
+            "Cancellation MRR: ",
+            "Expansion MRR: ",
+            "Upgrade MRR: ",
+            "Subscription Breakdown: "
+        ],
+        "track_list" : [
+            {
+                "label" : "To ensure your churn doesn't become a long-term trend.",
+                "imageName" : "Gross_MRR_Churn"
+            },
+            {
+                "label" : "A decrease in cancellation MRR indicates that your churn is reducing.",
+                "imageName" : "Cancellation_MRR"
+            },
+            {
+                "label" : "An increase in this number indicates that the revenue generated from your existing customer base is growing",
+                "imageName" : "Expansion_MRR"
+            },
+            {
+                "label" : "Increase in upgrade MRR indicates your product is scaling as your customers scale.",
+                "imageName" : "Upgrade_MRR"
+            },
+            {
+                "label" : "This chart shows the number of subscriptions that got added, upgraded, downgraded, cancelled or reactivated in the last 12 months.",
+                "imageName" : "Subscription_Breakdown"
+            }
+        ]
+    },
+    "Steady revenue leakage across multiple geographies" : {
+        "note" : "",
+        "title" : "Steady revenue leakage across multiple geographies",
+        "problem_summary" :  [
+            "Easily available coupon codes",
+            "Rocketing gateway fees"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Implement a proper coupons system",
+                "solution" : "Enforce a process of single-use coupons and keep a track on all the coupons generated and redeemed. When running discount campaigns, you can set a maximum redemption limit and also an expiration date. Generally maintaining hygiene with your credits and coupon system can help you minimize leakage."
+            },
+            {
+                "cause" : "Reassess payment processing rules",
+                "solution" : "When payments from different geographies are processed through gateways that don’t accept local currency, it’s expensive for your customer and for you. Gateway fees can sometimes be even more than your invoice amount. Reassess if you should process payments in specific geographies through local gateways"
+            }
+        ],
+        "metrics_to_check" : [
+            "Chargebee does Smart payment routing:",
+            "Revenue Leakage Summary (coupons):",
+            "Failed Payments by Payment Gateway:"
+        ],
+        "track_list" : [
+            {
+                "label" : "All you have to do is set some rules for which payment gateways should be used for a particular type of currency and Chargebee automatically redirects transactions from different geographies into the designated local payment gateways.",
+                "imageName" : ""
+            },
+            {
+                "label" : "This report gives a holistic view of how well each coupon is performing by juxtaposing discount amount redeemed and new revenue generated.",
+                "imageName" : "revenue-leakage-summary"
+            },
+            {
+                "label" : "This helps you understand which gateway has the least successful payments. Keeping an eye on this and getting a backup gateway will help reduce leakage and involuntary churn.",
+                "imageName" : "failed-payment-transactions"
+            }
+        ]
+    },
+    "Steady revenue leakage in a single geography" : {
+        "note" : "",
+        "title" : "Steady revenue leakage in a single geography",
+        "problem_summary" :  [
+            "Sales offering too many discounts",
+            "Easily available coupon codes"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Implement a proper coupons system",
+                "solution" : "Enforce a process of single-use coupons and keep a track on all the coupons generated and redeemed. When running discount campaigns, you can set a maximum redemption limit and also an expiration date. Generally maintaining hygiene with your credits and coupon system can help you minimize leakage."
+            },
+            {
+                "cause" : "Better sales training and enablement",
+                "solution" : "When the sales team isn’t confident about what they’re selling, or try to hit unrealistic targets, they might resort to heavy discounting. A way to counter that is to provide adequate sales training that can help the sales executives see value in your product and also help them identify the proper target audience who don’t need heavy discounts to see value in your product."
+            }
+        ],
+        "metrics_to_check" : [
+            "Revenue Leakage Summary (coupons):"
+        ],
+        "track_list" : [
+            {
+                "label" : "This report gives a holistic view of how well each coupon is performing by juxtaposing discount amount redeemed and new revenue generated.",
+                "imageName" : "revenue-leakage-summary"
+            }
+        ]
+    },
+    "Payment delays from older invoices" : {
+        "note" : "",
+        "title" : "Payment delays from older invoices",
+        "problem_summary" :  [
+            "Contact in customer org has moved or left",
+            "Customer has been having cashflow issues for a while",
+            "Customer has voluntarily decided to allow this invoice remain open"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Have a workflow to update contacts",
+                "solution" : "When a point of contact leaves your customer org, chances are the customer success manager is aware about it. Enforce a mechanism in place for CSMs to update contacts whenever required."
+            },
+            {
+                "cause" : "Smart payment retry and recovery",
+                "solution" : "If the method of payment is online and you have an auto-collection mechanism, attempt the transaction when it is mostly likely to go through or succeed based on your previous successful transaction history. Consider setting up a smart dunning process in place to collect outstanding invoices."
+            },
+            {
+                "cause" : "Extended payment terms or waivers",
+                "solution" : "If you have a good relationship with this customer, and they seem to be genuinely going through a cashflow crisis, consider offering them a waiver or your services free of cost for a limited period of time if you’re in a position to do so. Sometimes it’s more about the recurring relationship than the recurring revenue. "
+            },
+            {
+                "cause" : "Service disruption or write-off",
+                "solution" : "If the defaulting customer is still using your product and not replying to your collection emails and attempts, consider disrupting your services to them till you hear back. If they don’t actively use your product anymore, shutdown services and consider writing off the amount as a bad debt. "
+            },
+            {
+                "cause" : "Legal options",
+                "solution" : "If the amount is high, you can consider settling this legally. This option is often very expensive, and it’s not worth pursuing if the legal fees > invoice amount. If this has been a repeat offence, or if a lot of customers are doing this, a lawsuit might be your only redemption."
+            }
+        ],
+        "metrics_to_check" : [
+            "AR Aging summary: ",
+            "Overdue invoice recovery breakdown:"
+        ],
+        "track_list" : [
+            {
+                "label" : "This report shows you how much is due in receivables and for how long they’ve been in the due status. If your solution is working, the amount due from older invoices (above 90 days) will start decreasing.",
+                "imageName" : "AR-aging"
+            },
+            {
+                "label" : "This report gives you an idea of when you can expect overdue invoices to be paid. When looked at along with the AR aging report, this enables you to identify at what point overdue invoices become bad debts.",
+                "imageName" : "overdue-invoice-recovery-breakdown"
+            }
+        ]
+    },
+    "Irregular revenue leakage" : {
+        "note" : "This could be a business side-effect of the pandemic",
+        "title" : "Irregular revenue leakage",
+        "problem_summary" :  [
+            "Sales tying to push deeper discounts to close deals",
+            "Existing customers requesting refunds/ credit"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Sales and Product should offer better value",
+                "solution" : "If your sales team has to resort to deep discounting to close deals, it either means the sales team isn’t trained properly or you are selling to the wrong audience. Try situational sales training techniques to make your proposition make sense for the current business scenario. Consider shuffling your features between plans and offer better value."
+            },
+            {
+                "cause" : "Customer taskforce:",
+                "solution" : "Set up a cross-functional customer task force team that reaches out to all customers who are requesting cancellations and refunds. Find out what is pushing them to do this. If it is cashflow problems, offer discounts. If it is a value problem, reassess your value proposition with respect to the current business scenario. "
+            }
+        ],
+        "metrics_to_check" : [
+            "Revenue Leakage Summary (coupons): "
+        ],
+        "track_list" : [
+            {
+                "label" : "This report gives a holistic view of how well each coupon is performing by juxtaposing discount amount redeemed and new revenue generated.",
+                "imageName" : "revenue-leakage-summary"
+            }
+        ]
+    },
+    "Widening AR Gap from irregular payment delays" : {
+        "note" : "This could be a business side-effect of the pandemic",
+        "title" : "Widening AR Gap from irregular payment delays",
+        "problem_summary" :  [
+            "Cashflow problems at the customers’ end"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Get a dunning system",
+                "solution" : "A dunning system lets you automatically retry payments if the given payment method is online. A dunning system also sends payment reminders and links to the customers at prescribed intervals."
+            },
+            {
+                "cause" : "Relax your payment terms",
+                "solution" : "Consider offering a net-60 or net-90 in your upcoming invoices and extend your payment terms. For invoices that have already been raised for affected customers, consider offering a payment holiday for the next 30-60 days."
+            },
+            {
+                "cause" : "Backup payment methods and collection automation",
+                "solution" : "Collecting more than one payment method from existing customers can help reduce the AR gap. In the event that the primary payment method fails, your subscription billing tool can automatically collect payment from the back-up option. You’ll also need an automated collection workflow for this."
+            }
+        ],
+        "metrics_to_check" : [
+            "AR Aging summary:",
+            "Overdue invoice recovery breakdown:",
+            "Smart revenue recovery system",
+            "Strong collection workflows"
+        ],
+        "track_list" : [
+            {
+                "label" : "This report shows you how much is due in receivables and for how long they’ve been in the due status. If your solution is working, the amount due from older invoices (above 90 days) will start decreasing.",
+                "imageName" : "AR-aging"
+            },
+            {
+                "label" : "This report gives you an idea of when you can expect overdue invoices to be paid. When looked at along with the AR aging report, this enables you to identify at what point overdue invoices become bad debts",
+                "imageName" : "overdue-invoice-recovery-breakdown"
+            },
+            {
+                "label" : "Chargebee automates the process of dunning and retries to collect the payment when the payment doesn't come through (online dunning). Chargebee will send emails to the customers informing them about the payment failure. You can configure multiple retries for collections. After the final payment retry attempt, you can configure what should be the status of the subscription.",
+                "imageName" : ""
+            },
+            {
+                "label" : "Card expiry date reminders, automatic services to update or collect backup payment information, and a revenue analytics system that alerts you when churn exceeds a certain limit are a few other anticipatory solutions.",
+                "imageName" : ""
+            }
+        ]
+    },
+    "default" : {
+        "note" : "",
+        "title" : "Default",
+        "problem_summary" :  [
+            "Recent Price Changes", 
+            "Significant design changes in the product"
+        ],
+        "solution_list" : [
+            {
+                "cause" : "Your customers could’ve churned because of a recent pricing change that didn't bode well",
+                "solution" : "In this case you might want to consider giving customers the option to be grandfathered in their existing plans in the future."
+            },
+            {
+                "cause" : "A significant product or UX change that customers didn't appreciate",
+                "solution" : "You might want to roll out subsequent releases to a smaller audience first. Also consider having a phasing-out period when you give users the option to switch between multiple versions of your product."
+            }
+        ],
+        "metrics_to_check" : [
+            "Downgrade MRR",
+            "Churn Breakdown by Time",
+            "MRR Retention Cohort"
+        ],
+        "track_list" : [
+            {
+                "label" : "If your solution is working, your downgrade MRR should decrease.",
+                "imageName" : "Expansion_MRR"
+            },
+            {
+                "label" : "Track Churn Breakdown by Time to understand at what stage these customers are downgrading and alter your solutions accordingly.",
+                "imageName" : "Churn_break_down"
+            },
+            {
+                "label" : "Track MRR Retention Cohort to gauge how much value your subscriptions are giving you over a period of time. Anything above 100% is good ",
+                "imageName" : "MRR_Retention_Cohort"
+            }
+        ]
+    }
+}

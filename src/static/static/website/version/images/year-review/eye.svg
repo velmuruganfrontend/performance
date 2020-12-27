@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="93px" height="23px" viewBox="0 0 93 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 5 + Path 5 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="year-in-review-copy" sketch:type="MSArtboardGroup" transform="translate(-674.000000, -2316.000000)" fill="#FFFFFF">
+            <g id="Path-5-+-Path-5-Copy" sketch:type="MSLayerGroup" transform="translate(674.000000, 2316.000000)">
+                <path d="M0,0.0482885343 C0,0.0482885343 9.55916899,17.4129688 23.0752526,22.6119119 C26.5932104,23.9650896 37.5421617,11.2181769 37.5421617,11.2181769 C37.5421617,11.2181769 20.1231445,11.2181775 0,0.0482885343 Z" id="Path-5" sketch:type="MSShapeGroup"></path>
+                <path d="M92.9955778,0.0482885343 C92.9955778,0.0482885343 83.4364088,17.4129688 69.9203252,22.6119119 C66.4023674,23.9650896 55.4534161,11.2181769 55.4534161,11.2181769 C55.4534161,11.2181769 72.8724333,11.2181775 92.9955778,0.0482885343 Z" id="Path-5-Copy" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

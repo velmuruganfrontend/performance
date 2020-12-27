@@ -1,0 +1,382 @@
+a[href="#"],
+a[href=""] {
+  background: red;
+  display: block;
+  width: 100px; }
+
+.rp-link {
+  color: #000FF0;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500;
+  display: inline-block;
+  line-height: 24px; }
+  @media (max-width: 767px) {
+    .rp-link {
+      max-width: 300px; } }
+  .rp-link:hover, .rp-link:focus {
+    color: #000FF0;
+    text-decoration: none;
+    opacity: .7; }
+  .rp-link--icon:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    margin-left: 8px;
+    background: url("../images/home/jan-2019/arrow/arrow.svg") center/contain no-repeat; }
+
+.rp-btn {
+  color: #ffffff;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #6450F0;
+  box-shadow: 0 2px 10px 0 rgba(0, 4, 48, 0.08), 0 8px 8px 0 rgba(0, 4, 48, 0.12), 0 12px 21px 0 rgba(0, 4, 48, 0.24);
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.3s ease;
+  position: relative; }
+  @media (max-width: 767px) {
+    .rp-btn {
+      display: block;
+      width: 100%;
+      white-space: nowrap;
+      text-align: center;
+      max-width: 320px;
+      margin: auto; } }
+  .rp-btn:after {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    margin-left: 8px;
+    transition: 0.3s ease;
+    background: url("../images/home/jan-2019/arrow/button-arrow.svg") center/contain no-repeat; }
+  .rp-btn:hover, .rp-btn:focus {
+    color: #ffffff;
+    transition: 0.3s ease;
+    text-decoration: none;
+    border-color: transparent; }
+    .rp-btn:hover:after, .rp-btn:focus:after {
+      transform: translateX(4px); }
+  .rp-btn--ghost {
+    color: #6450F0;
+    background: transparent;
+    box-shadow: 0px 0px 0px 1px #6450F0 inset; }
+    .rp-btn--ghost:hover, .rp-btn--ghost:focus {
+      color: #6450F0; }
+    .rp-btn--ghost:after {
+      background: url("../images/home/jan-2019/arrow/button-arrow-hero.svg") center/contain no-repeat; }
+
+@media (min-width: 992px) {
+  .rp-hero {
+    padding-top: 240px; } }
+
+@media (max-width: 991px) {
+  .rp-hero {
+    padding: 160px 6px 0; } }
+
+@media (max-width: 767px) {
+  .rp-hero {
+    padding-top: 120px; } }
+
+.rp-hero__container {
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  @media (max-width: 991px) {
+    .rp-hero__container {
+      max-width: 540px;
+      margin: auto; } }
+  @media (max-width: 767px) {
+    .rp-hero__container {
+      display: block;
+      max-width: 450px; } }
+
+.rp-hero__main {
+  margin-bottom: 210px; }
+  @media (max-width: 991px) {
+    .rp-hero__main {
+      text-align: center;
+      margin-bottom: 160px; } }
+  @media (max-width: 767px) {
+    .rp-hero__main {
+      margin-bottom: 100px; } }
+
+.rp-hero__content {
+  margin-bottom: 40px; }
+
+.rp-hero__header {
+  margin-bottom: 16px; }
+
+.rp-hero__figure {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px; }
+
+.rp-hero__title {
+  color: #00000A;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  letter-spacing: -1.4px;
+  line-height: 36px; }
+  @media (min-width: 768px) {
+    .rp-hero__title {
+      font-size: 36px;
+      line-height: 46px; } }
+
+.rp-hero__heading {
+  color: #00000A;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 30px;
+  max-width: 400px; }
+  @media (min-width: 768px) {
+    .rp-hero__heading {
+      font-size: 24px;
+      line-height: 34px; } }
+
+.rp-hero__subheading {
+  color: #00000A;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 24px;
+  margin-bottom: 8px; }
+  @media (min-width: 768px) {
+    .rp-hero__subheading {
+      margin-bottom: 8px; } }
+
+.rp-hero__desc {
+  color: #242438;
+  font-size: 16px;
+  line-height: 24px; }
+  @media (min-width: 768px) {
+    .rp-hero__desc {
+      font-size: 18px;
+      line-height: 28px; } }
+
+.rp-hero__list {
+  margin-bottom: 32px;
+  padding-left: 28px;
+  position: relative; }
+  @media (min-width: 768px) {
+    .rp-hero__list {
+      padding-left: 32px;
+      margin-bottom: 40px; } }
+  @media (min-width: 992px) {
+    .rp-hero__lists {
+      margin-left: -30px; } }
+  .rp-hero__list:before, .rp-hero__list:after {
+    content: '';
+    position: absolute;
+    padding: 1px;
+    left: 0;
+    top: 0;
+    transition: .3s all; }
+  .rp-hero__list:before {
+    background-color: #0ba011;
+    height: 4px;
+    left: 0px;
+    top: 12px;
+    transform: rotate(-45deg); }
+    @media (min-width: 768px) {
+      .rp-hero__list:before {
+        height: 8px;
+        top: 10px; } }
+  .rp-hero__list:after {
+    background-color: #0ba011;
+    width: 12px;
+    top: 12px;
+    transform: rotate(-45deg);
+    left: 1px; }
+    @media (min-width: 768px) {
+      .rp-hero__list:after {
+        width: 16px;
+        top: 10px; } }
+
+@media (max-width: 767px) {
+  .rp-hero__action {
+    flex: 1;
+    margin-bottom: 24px; } }
+
+@media (min-width: 768px) {
+  .rp-hero__action:not(:first-child) {
+    margin-left: 24px; } }
+
+@media (min-width: 768px) {
+  .rp-hero__actions {
+    display: flex; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .rp-hero__actions {
+    justify-content: center; } }
+
+.rp-blk {
+  margin-top: 120px;
+  margin-bottom: 120px; }
+  @media (min-width: 768px) {
+    .rp-blk {
+      margin-top: 180px;
+      margin-bottom: 180px; }
+      .rp-blk:last-child {
+        margin-bottom: 60px; } }
+  .rp-blk .rp-link + .rp-link {
+    margin-top: 12px; }
+
+.rp-article {
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-top: 40px; }
+  @media (min-width: 768px) {
+    .rp-article {
+      margin-top: 80px;
+      padding-left: 40px; }
+      .rp-article:not(:first-child) {
+        margin-top: 160px; } }
+  @media (max-width: 767px) {
+    .rp-article__body--xs {
+      margin-top: 40px; } }
+  .rp-article__header {
+    margin-bottom: 20px; }
+  .rp-article__content {
+    margin-bottom: 20px; }
+  .rp-article__title {
+    color: #00000A;
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 16px; }
+    @media (max-width: 767px) {
+      .rp-article__title {
+        line-height: 28px; } }
+  .rp-article__heading {
+    color: #00000A;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 30px;
+    max-width: 400px;
+    margin-bottom: 12px; }
+  .rp-article__desc {
+    color: #242438;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 24px; }
+  @media (max-width: 767px) {
+    .rp-article__list {
+      padding-left: 20px; } }
+  @media (min-width: 768px) {
+    .rp-article__list {
+      padding-left: 0; } }
+  .rp-article__list > li {
+    margin-bottom: 6px; }
+  .rp-article__blk {
+    margin-bottom: 48px; }
+  .rp-article__figure {
+    margin-bottom: 24px;
+    margin-top: 12px; }
+    @media (min-width: 992px) {
+      .rp-article__figure {
+        margin-bottom: 24px;
+        margin-top: 0; } }
+    @media (min-width: 992px) {
+      .rp-article__figure--alt {
+        bottom: -54px;
+        position: relative; } }
+    @media (max-width: 991px) {
+      .rp-article__figure--alt {
+        margin-bottom: 40px; } }
+    .rp-article__figure--rgt > img {
+      margin-right: 0;
+      margin-left: auto; }
+    @media (min-width: 992px) {
+      .rp-article__figure--rgt {
+        margin-right: -40px;
+        margin-bottom: -30px; } }
+    @media (max-width: 991px) {
+      .rp-article__figure--rgt {
+        margin-bottom: 40px;
+        margin-right: -15px; } }
+    @media (min-width: 768px) {
+      .rp-article__figure--transf {
+        transform: perspective(300px) rotateY(5deg); } }
+
+.rp-media__header {
+  margin-left: -15px;
+  border-radius: 0 100px 100px 0;
+  background-color: #FFE1E1;
+  color: #D3424C;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  display: inline-block;
+  padding: 8px 24px; }
+  @media (min-width: 768px) {
+    .rp-media__header {
+      margin-bottom: 54px;
+      margin-left: 18px;
+      border-radius: 10px; } }
+
+.rp-media__heading {
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #00000A;
+  margin-top: 40px; }
+
+@media (max-width: 767px) {
+  .rp-media__content {
+    background: #f4f8ff;
+    margin: -20px -15px 0;
+    padding: 42px 20px 24px; } }
+
+.rp-media__footer {
+  margin-top: 40px; }
+  @media (min-width: 768px) {
+    .rp-media__footer {
+      margin-left: 42px; } }
+
+.rp-media__list {
+  padding-left: 0;
+  list-style: none; }
+  @media (max-width: 767px) {
+    .rp-media__list {
+      margin-left: 32px; } }
+
+.rp-media__item {
+  margin-bottom: 6px;
+  position: relative;
+  color: #242438; }
+  .rp-media__item:before, .rp-media__item:after {
+    content: '';
+    position: absolute;
+    padding: 1px;
+    left: 0;
+    top: 0;
+    transition: .3s all; }
+  .rp-media__item:before {
+    background-color: #0ba011;
+    height: 6px;
+    left: -30px;
+    top: 12px;
+    transform: rotate(-45deg); }
+    @media (min-width: 768px) {
+      .rp-media__item:before {
+        height: 8px;
+        top: 10px; } }
+  .rp-media__item:after {
+    background-color: #0ba011;
+    width: 12px;
+    top: 12px;
+    transform: rotate(-45deg);
+    left: -30px; }
+    @media (min-width: 768px) {
+      .rp-media__item:after {
+        width: 16px;
+        top: 10px; } }

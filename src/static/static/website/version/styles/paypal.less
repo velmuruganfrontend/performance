@@ -1,0 +1,520 @@
+@app: .cw;
+
+// Media Breakpoints -- Start
+@mobile: ~"(min-width: 576px)";
+@tablet: ~"(min-width: 768px)";
+@desktop: ~"(min-width: 992px)";
+@largeDesktop: ~"(min-width: 1200px)";
+
+@uptoMob: ~"(max-width: 575px)";
+@uptoTab: ~"(max-width: 767px)";
+@uptoDesk: ~"(max-width: 991px)";
+@uptoLargeDesk: ~"(max-width: 1199px)";
+
+@btwMobTab: ~"(min-width: 576px) and (max-width: 767px)";
+@btwTabDesk: ~"(min-width: 768px) and (max-width: 991px)";
+@btwDeskLargeDesk: ~"(min-width: 992px) and (max-width: 1199px)";
+// Media Breakpoints -- End
+
+// Spacing -- Start
+@space-md-xxs: 40px;
+@space-md-xs: 55px;
+@space-md-s: 100px;
+@space-md-m: 160px;
+@space-md-l: 175px;
+@space-md-xl: 200px;
+// Spacing -- End
+
+// =====================================
+
+body {
+	font-family: basis-grotesque, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+@{app} {
+	@media @mobile {
+		&-md__Mt--xxs {
+			margin-top: @space-md-xxs;
+		}
+		&-md__Mt--l {
+			margin-top: @space-md-l;
+		}
+	}
+
+	@media @tablet {
+		&-md__Mt--xxs {
+			margin-top: @space-md-xxs;
+		}
+		&-md__Mt--l {
+			margin-top: @space-md-l;
+		}
+	}
+
+	&-section {
+		padding: 0 10px;
+		margin-bottom: 60px;
+		&--hero {
+			background: #130D23;
+		}
+		@media @tablet {
+			& {
+				padding: 0;
+				margin-bottom: 100px;
+			}
+		}
+	}
+	// Hero -- Start
+	&-hero {
+		padding: 140px 0 80px;
+		color: #FFFFFF;
+		&__title {
+			font-weight: 600;
+
+			font-size: 38px;
+			letter-spacing: -0.8px;
+			line-height: 40px;
+		}
+
+		&__text {
+			opacity: 0.7;
+			font-weight: normal;
+
+			font-size: 18px;
+			letter-spacing: -0.57px;
+			line-height: 24px;
+			margin: 0 auto;
+		}
+
+		&__title + &__content {
+			margin-top: 20px;
+		}
+
+		// Media - 768 -- Start
+		@media @tablet {
+			& {
+				padding: 144px 0;
+				text-align: center;
+				&__title {
+					font-size: 48px;
+					letter-spacing: -0.8px;
+					line-height: 60px;	
+				}
+
+				&__text {		
+					font-size: 28px;
+					letter-spacing: -0.57px;
+					line-height: 40px;
+					max-width: 520px;
+				}
+
+				&__title + &__content {
+					margin-top: 20px;
+				}
+			}
+		}
+		// Media - 768 -- End
+
+		@media @desktop {
+			& {
+				&__text {
+					max-width: 100%;
+				}
+			}
+		}
+	}
+	// Hero -- End
+
+	// Block -- Start
+	&-blk {
+		&__title, &__subtitle {
+			color: #02002F;
+			font-weight: 600;
+		}
+
+		&__title {
+			letter-spacing: -0.47px;
+			
+			font-size: 28px;
+  		line-height: 36px;
+			margin-bottom: 12px;
+		}
+
+		&__subtitle {
+			letter-spacing: -0.73px;
+
+			font-size: 26px;
+			line-height: 32px;
+		}
+
+		&__heading {
+			color: #6336AC;
+			font-weight: 600;
+			letter-spacing: -0.59px;
+
+			font-size: 22px;
+		}
+
+		&__desc {
+			color: #8C84A1;
+			font-weight: normal;
+			letter-spacing: -0.43px;
+			
+			font-size: 18px;
+  		line-height: 26px;
+
+			&--varB {
+				color: #4A4A4A;
+				font-weight: normal;
+				letter-spacing: -0.5px;
+				
+				font-size: 18px;
+				line-height: 26px;
+			}
+		}
+
+		&__text {
+			color: #787575;
+			font-weight: normal;
+			letter-spacing: -0.53px;
+
+			font-size: 16px;
+			line-height: 24px;
+
+			&__varB {
+				font-weight: 600;
+				color: #696767;
+				letter-spacing: -0.47px;
+
+				font-size: 16px;
+				line-height: 24px;
+			}
+		}
+
+		// Spacing
+
+		&__content + &__content {
+			margin-top: 48px;
+		}
+
+		&__heading + &__text {
+			margin-top: 20px;
+		}
+
+		&__subtitle + &__content {
+			margin-top: 16px;
+		}
+
+		&__text + &__text {
+			margin-top: 20px;
+		}
+
+		// Media -- 768 Start
+		@media @tablet {
+			& {
+				&__title {
+					font-size: 26px;
+					line-height: 38px;
+				}
+
+				&__subtitle {
+					font-size: 36px;
+					letter-spacing: -0.73px;
+					line-height: 52px;
+				}
+
+				&__heading {
+					font-weight: 600;
+					font-size: 24px;
+					color: #6336AC;
+					letter-spacing: -0.59px;
+				}
+
+				&__desc {
+					font-weight: normal;
+					font-size: 20px;
+					color: #8C84A1;
+					letter-spacing: -0.43px;
+					line-height: 30px;
+
+					&--varB {
+						font-weight: normal;
+						font-size: 24px;
+						color: #4A4A4A;
+						letter-spacing: -0.5px;
+						line-height: 36px;
+					}
+				}
+
+				&__text {
+					font-weight: normal;
+					font-size: 18px;
+					color: #787575;
+					letter-spacing: -0.53px;
+					line-height: 29px;
+
+					&__varB {
+						font-weight: 600;
+						font-size: 16px;
+						color: #696767;
+						letter-spacing: -0.47px;
+						line-height: 23.92px;
+					}
+				}
+
+				// Spacing
+
+				&__content + &__content {
+					margin-top: 48px;
+				}
+
+				&__heading + &__text {
+					margin-top: 20px;
+				}
+
+				&__subtitle + &__content {
+					margin-top: 16px;
+				}
+
+				&__text + &__text {
+					margin-top: 20px;
+				}
+			}
+		}
+		// Media -- 768 End
+
+		@media @desktop {
+			& {
+				&__title {
+					font-size: 42px;
+					line-height: 56px;
+				}
+			}
+		}
+	}
+	// Block -- End
+
+	// Metric -- Start
+	&-metric {
+		margin-top: 30px; 
+		&__title {
+			font-weight: 600;
+			color: #6D6C6D;
+			letter-spacing: -0.67px;
+
+			font-size: 28px;
+		}
+
+		&__subtitle {
+			color: #6D6C6D;
+			letter-spacing: -0.67px;
+
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		&__desc {
+			color: #6D6C6D;
+			letter-spacing: -0.67px;
+
+			font-size: 16px;
+  		line-height: 24px;
+		}
+
+		&__title + &__desc {
+
+		}
+
+		@media @tablet {
+			& {
+			}
+		}
+
+		@media @desktop {
+			& {
+				&__title {
+					font-size: 36px;
+				}
+
+				&__desc {
+					font-size: 16px;
+					line-height: 23px;
+				}
+
+				&__subtitle {
+					font-size: 20px;
+					line-height: 30px;
+				}
+			}
+		}
+	}
+
+	// Note -- Start 
+	&-note {
+		position: relative;
+		padding-bottom: 10px;
+		
+			&:before {
+				content: '';
+				width: 40%;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+				border: 1px solid fade(#979797, 22%);
+			}
+		@media @tablet {
+			&__desc {
+				font-size: 14px;
+				color: #696767;
+				letter-spacing: -0.35px;
+				line-height: 21px;
+			}
+		}
+	}
+	// Note -- End
+
+	// Feature -- Start
+	&-feature {
+		position: relative;
+		@thumbW: 24px;
+
+		&__thumb {
+			position: absolute;
+			top: 8px;
+			left: -@thumbW - 8px;
+			width: @thumbW;
+		}
+
+		&__title {
+			font-weight: 600;
+			font-size: 24px;
+			color: #130D23;
+			letter-spacing: -0.59px;
+			line-height: 32px;
+		}
+
+		&__text {
+			font-weight: normal;
+			font-size: 16px;
+			color: #696767;
+			letter-spacing: -0.47px;
+			line-height: 23.92px;
+		}
+
+		// Spacing
+		&__title + &__content {
+			margin-top: 28px;
+		}
+
+		& + & {
+			margin-top: 40px;
+		}
+
+		
+		@media @tablet {
+			& {
+				min-height: 240px;
+				&__thumb {
+					left: -@thumbW - 15px;
+					width: @thumbW;
+				}
+
+				&__title {
+					font-size: 20px;
+					line-height: 30px;
+				}
+
+				&__text {
+					font-weight: normal;
+					font-size: 16px;
+					color: #696767;
+					letter-spacing: -0.47px;
+					line-height: 23.92px;
+				}
+
+				// Spacing
+				&__title + &__content {
+					margin-top: 18px;
+				}
+			}
+		}
+
+		@media @desktop {
+			& {
+				@thumbW: 36px;
+
+				&__thumb {
+					left: -@thumbW - 15px;
+					width: @thumbW;
+				}
+
+				&__title {
+					font-size: 26px;
+					line-height: 32px;
+				}
+
+				// Spacing
+				&__title + &__content {
+					margin-top: 28px;
+				}
+			}
+		}
+	}
+	// Feature -- End
+
+	// CTA -- Start
+	&-cta {
+		&__header {
+			color: #02002F;
+			font-weight: 600;
+			letter-spacing: -0.54px;
+			
+			font-size: 32px;
+  		line-height: 38px;
+		}
+
+		&__text {
+			opacity: 0.7;
+			font-weight: normal;
+			color: #02002F;
+			letter-spacing: -0.43px;
+
+			font-size: 20px;
+  		line-height: 28px;
+		}
+
+		// Spacing 
+		&__header + &__content {
+			margin-top: 16px;
+		}
+
+		&__content &__actions {
+			margin-top: 42px;
+		}
+
+		@media @tablet {
+			& {
+				&__header {
+					font-size: 48px;
+					line-height: 58px;
+				}
+
+				&__text {
+					font-size: 24px;
+					line-height: 36px;
+				}
+
+				// Spacing 
+				&__header + &__content {
+					margin-top: 16px;
+				}
+
+				&__content &__actions {
+					margin-top: 42px;
+				}
+			}
+		}
+	}
+	// CTA -- End
+}

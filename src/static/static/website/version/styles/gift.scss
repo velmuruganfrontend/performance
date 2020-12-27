@@ -1,0 +1,871 @@
+// =====================================================================
+// Start: Fonts - Basis & SF Pro
+// =====================================================================
+$we-ff-basis: basis-grotesque,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$we-ff-sfpro: "SF Pro Text", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+// =====================================================================
+// End: Fonts - Basis & SF Pro
+// =====================================================================
+
+@mixin basis {
+  font-family: $we-ff-basis;
+}
+
+@mixin sfpro {
+  font-family: $we-ff-sfpro;
+}
+
+
+// =====================================================================
+// Start: Spacing
+// =====================================================================
+$gap-xxs:                                 40px;
+$gap-xs:                                  60px;
+$gap-s:                                   80px;
+$gap-m:                                   100px;
+$gap-l:                                   120px;
+
+
+// =====================================================================
+// End: Spacing
+// =====================================================================
+
+
+// =====================================================================
+// Start: Media - Breakpoints
+// =====================================================================
+$smallMobile-width:                       320px;
+$mobile-width:														576px;
+$tablet-width:														768px;
+$desktop-width:														992px;
+$largeDesktop-width:											1200px;
+// =====================================================================
+// End: Media - Breakpoints
+// =====================================================================
+
+@mixin onlyMobile {
+  @media (max-width: #{$mobile-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin mobileToTablet {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tabletToDesktop {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktopToLargeDesktop {
+  @media (min-width: #{$desktop-width}) and (max-width: #{$largeDesktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin fromTablet {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin fromDesktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin fromLargeDesktop {
+  @media (min-width: #{$largeDesktop-width}) {
+    @content;
+  }
+}
+
+
+@mixin clearfix {
+  & {
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+}
+
+[class*="se-mT__"] {
+  @include clearfix;
+}
+
+.gt {
+  &- {
+    // =====================================================================
+    // Start: Spacing
+    // =====================================================================
+    &mT__xxs {
+      margin-top: $gap-xxs !important;
+    }
+    &mT__xs {
+      margin-top: $gap-xs !important;
+    }
+    &mT__s {
+      margin-top: $gap-s !important;
+    }
+    &mT__m {
+      margin-top: $gap-m / 3 !important;
+
+      @include fromTablet {
+        margin-top: $gap-m / 2 !important;
+      }
+      @include fromDesktop {
+        margin-top: $gap-m !important;
+      }
+    }
+    &mT__l {
+      margin-top: $gap-l / 3 !important;
+
+      @include fromTablet {
+        margin-top: $gap-l / 2 !important;
+      }
+      @include fromDesktop {
+        margin-top: $gap-l !important;
+      }
+    }
+    // Margin - Bottom
+    &mB__xxs {
+      margin-bottom: $gap-xxs !important;
+    }
+    &mB__xs {
+      margin-bottom: $gap-xs !important;
+    }
+    &mB__s {
+      margin-bottom: $gap-s !important;
+    }
+    &mB__m {
+      margin-bottom: $gap-m / 3 !important;
+
+      @include fromTablet {
+        margin-bottom: $gap-m / 2 !important;
+      }
+      @include fromDesktop {
+        margin-bottom: $gap-m !important;
+      }
+    }
+    &mB__l {
+      margin-bottom: $gap-l / 3 !important;
+
+      @include fromTablet {
+        margin-bottom: $gap-l / 2 !important;
+      }
+      @include fromDesktop {
+        margin-bottom: $gap-l !important;
+      }
+    }
+    // =====================================================================
+    // End: Spacing
+    // =====================================================================
+
+    // =====================================================================
+    // Start: Link
+    // =====================================================================
+    &link {
+      display: inline-block;
+      color: #6200EA;
+      &:hover, &:focus {
+        color: darken( #6200EA, 10%)
+      }
+    }
+    // =====================================================================
+    // End: Link
+    // =====================================================================
+
+    // =====================================================================
+    // Start: Button
+    // =====================================================================
+    &btn {
+      $btn: &;
+
+      position: relative;
+      display: inline-block;
+      font-weight: 600;
+      color: #FFFFFF;
+      background: #6200EA;
+      border-radius: 6px;
+      box-shadow: 0 4px 0 0 #3A008C;
+      padding: 10px 20px;
+      text-decoration: none;
+      overflow: hidden;
+      // transition: all .2s ease-in-out;
+
+
+      &:hover, &:focus {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      &:focus, &:active {
+        box-shadow: 0 4px 0 0 #3A008C;
+        transform: translateY(2px);
+      }
+
+      @include fromTablet {
+        font-size: 20px;
+        padding: 14px 24px;
+        box-shadow: 0 7px 0 0 #3A008C;
+      }
+      @include mobileToTablet{
+        width: 100%;
+        letter-spacing: -.5px;
+        max-width: 260px;
+        padding: 16px 24px;
+        box-shadow: 0 8px 0 0 #3A008C;
+        margin: auto;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        line-height: normal;
+      }
+
+      &-- {
+        &arrow {
+          > span {
+            display: inline-block;
+            transition: all .3s ease-in-out;
+          }
+          &:after {
+            content: "";
+            display: inline-block;
+            transform: translateX(0);
+            transition: all .3s ease-in-out;
+            margin-left: 8px;
+            width: 16px;
+            height: 16px;
+            background-image: url(../images/subscription-commerce/arrow-right.svg);
+            vertical-align: middle;
+            background-repeat: no-repeat;
+          }
+
+          &:hover, &:active, &:focus {
+            > span {
+              // transform: translateX(-9px);
+            }
+            &:after {
+              transform: translateX(4px);
+            }
+          }
+        }
+
+        &ghost {
+          background: none;
+          border: 1px solid #6200EA;
+          font-weight: 600;
+          color: #6200EA;
+          letter-spacing: -0.75px;
+
+          @include fromTablet {
+            font-size: 20px;
+            padding: 18px 32px;
+          }
+        }
+      }
+    }
+    // =====================================================================
+    // End: Button
+    // =====================================================================
+
+    // =====================================================================
+    // Start: Hero Article
+    // =====================================================================
+    &section {
+      @include clearfix;
+      margin-bottom: $gap-l / 2;
+
+      @include fromDesktop {
+        margin-bottom: $gap-l;
+      }
+      &-- {
+        &hero {
+          position: relative;
+          background-color: #00001E;
+
+          // Page specific
+
+          @include mobileToTablet {
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          @include fromTablet {
+            min-height: 480px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          @include fromTablet {
+            min-height: 516px;
+          }
+
+
+          &__graphic {
+            position: absolute;
+            margin-top: -12px;
+
+
+
+            @include mobileToTablet {
+              max-width: 250px;
+              margin-left: auto;
+              margin-right: auto;
+              bottom: -135px;
+              left: 0;
+              right: 0;
+            }
+            // Start: Custom
+            @media (max-width: 371px) {
+              max-width: 250px;
+              margin-left: auto;
+              margin-right: auto;
+              bottom: -118px;
+              left: 0;
+              right: 0;
+            }
+            // End: Custom
+            @include fromTablet {
+              max-width: 300px;
+              margin-right: 0;
+              margin-top: -20px;
+            }
+
+            @include fromDesktop {
+              max-width: 380px;
+              margin-top: -100px;
+            }
+
+            @include fromLargeDesktop {
+
+            }
+          }
+        }
+      }
+    }
+    // =====================================================================
+    // Start: Hero Article
+    // =====================================================================
+
+    // =====================================================================
+    // Start: Hero Article
+    // =====================================================================
+    &heroarticle {
+      &__ {
+        // ------------------------------------------------
+        // Start: Layout
+        // ------------------------------------------------
+        &content {
+          margin-top: 16px;
+
+          @include fromTablet {
+
+          }
+
+          @include fromDesktop {
+          }
+        }
+
+        &footer {
+          margin-top: 45px;
+
+          @include fromTablet {
+
+          }
+
+          @include fromDesktop {
+
+          }
+        }
+        // ------------------------------------------------
+        // End: Layout
+        // ------------------------------------------------
+
+        &title {
+          @include basis;
+          color: #EFEFF1;
+          letter-spacing: -0.74px;
+          font-size: 26px;
+          line-height: 36px;
+
+          @include fromTablet {
+            font-size: 36px;
+            line-height: 46px;
+          }
+
+          @include fromDesktop {
+            font-size: 42px;
+            line-height: 58px;
+          }
+        }
+
+        &desc {
+          @include sfpro;
+          color: rgba(255,255,255,0.8);
+          font-size: 14px;
+          line-height: 24px;
+
+          // @include mobileToTablet {
+          //   max-width: 400px;
+          //   margin-left: auto;
+          //   margin-right: auto;
+          // }
+
+          @include fromTablet {
+            font-size: 16px;
+            line-height: 24px;
+            max-width: 530px;
+          }
+
+          @include fromDesktop {
+            font-size: 16px;
+            line-height: 24px;
+            max-width: auto;
+          }
+        }
+      }
+    }
+    // =====================================================================
+    // End: Hero Article
+    // =====================================================================
+
+    // =====================================================================
+    // Start: Section Article
+    // =====================================================================
+    &sectionarticle {
+      & {
+        // margin-bottom: 60px
+      }
+
+      &__ {
+        // ------------------------------------------------
+        // Start: Layout
+        // ------------------------------------------------
+        &content {
+          margin-top: 8px;
+
+          @include fromTablet {
+
+          }
+
+          @include fromDesktop {
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+        // ------------------------------------------------
+        // End: Layout
+        // ------------------------------------------------
+
+
+        &title {
+          @include basis;
+          color: #1D0046;
+          letter-spacing: -0.99px;
+          font-size: 22px;
+          line-height: 32px;
+
+          @include fromTablet {
+            font-size: 28px;
+            line-height: 36px;
+          }
+
+          @include fromDesktop {
+            font-size: 32px;
+            line-height: 40px;
+          }
+        }
+
+        &desc {
+          color: rgba(0,0,30,0.8);
+          @include sfpro;
+          font-size: 16px;
+          line-height: 24px;
+
+          @include fromTablet {
+            font-size: 16px;
+            line-height: 24px;
+          }
+
+          @include fromDesktop {
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    // =====================================================================
+    // End: Section Article
+    // =====================================================================
+
+    // =====================================================================
+    // Start: Article
+    // =====================================================================
+    &article {
+      &__ {
+        // ------------------------------------------------
+        // Start: Layout
+        // ------------------------------------------------
+        &header {
+          margin-bottom: 16px;
+        }
+
+        &content {
+          margin-bottom: 16px;
+        }
+        // ------------------------------------------------
+        // ENd: Layout
+        // ------------------------------------------------
+
+        &title {
+          @include basis;
+          color: #1D0046;
+          font-size: 24px;
+          line-height: 30px;
+          letter-spacing: -0.28px;
+
+          @include fromTablet {
+            font-size: 26px;
+            line-height: 30px;
+          }
+
+          @include fromDesktop {
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: -0.99px;
+          }
+        }
+
+        &subtitle {
+          @include basis;
+          color: #1D0046;
+          letter-spacing: -0.2px;
+          font-size: 20px;
+          line-height: 28px;
+
+          @include fromTablet {
+            font-size: 24px;
+            line-height: 32px;
+          }
+        }
+
+        &desc {
+          @include sfpro;
+          color: rgba(0,0,30,0.8);
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        &link {
+          color: #6C00F4;
+          @include sfpro;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19px;
+        }
+      }
+    }
+    // =====================================================================
+    // End: Article
+    // =====================================================================
+
+    // =====================================================================
+    // Start: Feature
+    // =====================================================================
+    &feature {
+      $feature: &;
+      &s {
+        &__ {
+          &heading {
+            @include basis;
+            color: #1D0046;
+            letter-spacing: -0.99px;
+
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 30px;
+
+            @include fromTablet {
+              font-size: 32px;
+              line-height: 40px;
+              margin-bottom: 36px;
+            }
+          }
+
+
+          &subheading {
+            @include basis;
+            color: #1D0046;
+            letter-spacing: -0.25px;
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 20px;
+
+            @include fromTablet {
+              font-size: 20px;
+              line-height: 30px;
+            }
+
+            @include fromDesktop {
+              font-size: 24px;
+              line-height: 30px;
+              letter-spacing: -0.71px;
+              margin-bottom: 36px;
+            }
+          }
+
+          &list {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+
+            &-- {
+              &horizontal {
+                @include fromTablet {
+                  flex-wrap: nowrap;
+                }
+
+                #{$feature} {
+                  @include fromTablet {
+                    max-width: 305px;
+                  }
+
+                  @include fromDesktop {
+                    max-width: 325px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      & {
+        display: flex;
+        flex-flow: row nowrap;
+      }
+      &:not(:last-child){
+        margin-bottom: 36px;
+        @include fromTablet {
+          margin-bottom: 36px;
+        }
+      }
+
+      &__ {
+
+        &icon {
+          flex: 0  1 24px;
+
+          @include mobileToTablet {
+            min-width: 16px;
+            margin-top: 2px;
+          }
+
+          @include fromTablet {
+            min-width: 24px;
+          }
+        }
+
+        &icon + &content {
+          margin-left: calc(24px / 2);
+
+          @include fromTablet {
+            margin-left: 24px;
+          }
+        }
+        &content {
+          display: flex;
+          flex-flow: column nowrap;
+        }
+
+        &title {
+          @include basis;
+        	color: #1D0046;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 18px;
+          margin-bottom: 8px;
+
+          @include fromDesktop {
+            font-size: 20px;
+            line-height: 24px;
+          }
+        }
+
+        &desc {
+          @include sfpro;
+          color: rgba(0,0,30,0.8);
+          font-size: 16px;
+          line-height: 24px;
+
+          @include fromDesktop {
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+        &link{
+          color: #6C00F4;
+          font-weight: 500;
+          margin-top: 8px;
+        }
+      }
+    }
+    // =====================================================================
+    // End: Feature
+    // =====================================================================
+
+    // =====================================================================
+    // Start: Cta
+    // =====================================================================
+    &cta {
+      $cta: &;
+
+      & {
+        // @include fromTablet {
+        //   margin-top: 30px;
+        //   margin-bottom: 30px;
+        // }
+
+        &-- {
+          &as-button {
+            display: flex;
+            max-width: 580px;
+            margin: 20px auto 32px;
+            padding: 16px 24px;
+            background-color: #fff;
+            border: 1px solid #DCDBF6;
+            border-radius: 300px;
+            text-decoration: none;
+            transition: all 0.16s ease-in;
+            flex-flow: row wrap;
+
+            @include mobileToTablet {
+              padding: 8px 12px;
+              align-items: center;
+              justify-content: center;
+            }
+
+            @include fromTablet {
+              flex-flow: row nowrap;
+            }
+
+            &:hover, &:focus {
+              text-decoration: none;
+              border-color: #fff;
+              box-shadow: 0 0 14px 0 rgba(0,0,0,0.12), 0 14px 24px 0 rgba(0,0,0,0.12);
+              transform: translateY(-3px);
+              transition: all 0.24s ease-out;
+            }
+
+            #{$cta} {
+              &__ {
+                &header {
+                  @include mobileToTablet {
+                    margin-bottom: 5px;
+                  }
+                  @include fromTablet {
+                    margin-right: 16px;
+                  }
+                }
+
+                &label {
+                  @include mobileToTablet {
+                    font-size: 12px;
+                    text-align: center;
+                  }
+                }
+
+                &thumb {
+                  max-width: 54px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      &__ {
+        &footer {
+          display: flex;
+          margin-top: 36px;
+        }
+
+        &label {
+          @include basis;
+          font-size: 16px;
+          color: #1D0046;
+        }
+
+        &thumb {
+          @include fromTablet {
+            max-width: 60px;
+            max-height: 26px;
+          }
+        }
+
+        &title {
+          color: #1D0046;
+          text-align: center;
+          font-weight: bold;
+
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.08px;
+
+          @include fromTablet {
+            font-size: 32px;
+            letter-spacing: -0.4px;
+            line-height: 42px;
+          }
+
+          @include fromDesktop {
+            font-size: 40px;
+            letter-spacing: -1.08px;
+            line-height: 53px;
+          }
+        }
+
+        &actions {
+          display: flex;
+          align-items: center;
+          margin: auto;
+          font-weight: bold;
+
+          @include mobileToTablet {
+            flex-flow: column wrap;
+            justify-content: center;
+          }
+        }
+
+        &anchor {
+          font-size: 18px;
+
+          & + & {
+            @include mobileToTablet {
+              margin-top: 20px;
+            }
+
+            @include fromTablet {
+              margin-left: 34px;
+            }
+          }
+        }
+      }
+    }
+    // =====================================================================
+    // End: Cta
+    // =====================================================================
+  }
+}

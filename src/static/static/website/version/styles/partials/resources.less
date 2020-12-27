@@ -1,0 +1,117 @@
+@border-color: #DCDCE1;
+@col-bot: 30px;
+@box-shadow: 0 0 2px #C8D0DC, 0 2px 2px rgba(116, 125, 147, 0.4);
+@transition: border-color .3s, box-shadow .3s;
+
+.resources {
+    margin-top: 150px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;
+    color: #212128;
+    line-height: 21px;
+
+    &__ {
+        &title {
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 36px;
+            margin-bottom: 60px;
+            padding: 0px;
+            text-transform: none;
+            max-width: 400px;
+        }
+    }
+    .r-label {
+        border: 1px solid @border-color;
+        color: #B4B4BE;
+        font-size: 10px;
+        height: 21px;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 0 9px;
+        line-height: 21px;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+    .readmore {
+        color: #1E8CE6;
+        font-size: 14px;
+        display: block;
+        margin: 8px 0 0;
+    }
+    &__r-row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: #212128!important;
+        text-decoration: none!important;
+        transition: @transition;
+
+        .r-col{
+            width: 100%;
+            min-height: 300px;
+            margin-bottom: @col-bot;
+            color: #212128!important;
+            text-decoration: none!important;
+
+            @media(min-width: 768px){
+                width: 48%;
+            }
+            @media(min-width: 1024px){
+                width: 31%;
+            }
+        }
+        .r-card {
+            height: 100%;
+            border: 1px solid @border-color;
+            border-radius: 3px;
+            transition: @transition;
+
+            .txt {
+                color: #212128;
+                padding: 21px;
+            }
+            &--right-txt {
+                border: 0px;
+                height: auto;
+
+                .txt {
+                    padding: 0px;
+                    height: auto;
+                }
+            }
+            .img{
+                height: 150px;
+                overflow: hidden;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: top center;
+            }
+            &:hover{
+                box-shadow: @box-shadow;
+                border-color: transparent;
+            }
+        }
+        &__ {
+            &full-col {
+                margin-bottom: @col-bot;
+
+                .left-img {
+                    border: 1px solid @border-color;
+                    border-radius: 3px;
+                    margin-bottom: 30px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: top center;
+                    height: 300px;
+                }
+            }
+        }
+        &:hover{
+            .left-img{
+                box-shadow: @box-shadow;
+                border-color: transparent;
+            }
+        }
+    }
+}

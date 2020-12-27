@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="48px" viewBox="0 0 96 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Flag_of_Australia</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Flag_of_Australia" sketch:type="MSLayerGroup">
+            <path d="M0,0 L96,0 L96,48 L0,48 L0,0 L0,0 Z" id="Shape" fill="#00008B" sketch:type="MSShapeGroup"></path>
+            <g id="Commonwealth_Star" transform="translate(16.800000, 28.800000)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M7.2,0 L8.588428,4.3168996 L12.8291866,2.71087344 L10.3197693,6.48793301 L14.219481,8.80215072 L9.70186072,9.19516736 L10.323963,13.6869758 L7.2,10.4 L4.07603704,13.6869758 L4.69813928,9.19516736 L0.18051904,8.80215072 L4.08023072,6.48793301 L1.57081336,2.71087344 L5.811572,4.3168996 L7.2,0 L7.2,0 Z" id="Star7"></path>
+            </g>
+            <g id="Star_Alpha_Crucis" transform="translate(68.571429, 36.571429)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M3.42857143,0 L4.08972762,2.05566648 L6.1091365,1.29089211 L4.91417585,3.08949191 L6.77118141,4.19150034 L4.61993368,4.37865112 L4.91617284,6.51760754 L3.42857143,4.95238095 L1.94097002,6.51760754 L2.23720918,4.37865112 L0.0859614476,4.19150034 L1.94296701,3.08949191 L0.748006362,1.29089211 L2.76741524,2.05566648 L3.42857143,0 L3.42857143,0 Z" id="Star7"></path>
+            </g>
+            <g id="Star_Beta_Crucis" transform="translate(56.571429, 17.571429)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M3.42857143,0 L4.08972762,2.05566648 L6.1091365,1.29089211 L4.91417585,3.08949191 L6.77118141,4.19150034 L4.61993368,4.37865112 L4.91617284,6.51760754 L3.42857143,4.95238095 L1.94097002,6.51760754 L2.23720918,4.37865112 L0.0859614476,4.19150034 L1.94296701,3.08949191 L0.748006362,1.29089211 L2.76741524,2.05566648 L3.42857143,0 L3.42857143,0 Z" id="Star7"></path>
+            </g>
+            <g id="Star_Gamma_Crucis" transform="translate(68.571429, 4.571429)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M3.42857143,0 L4.08972762,2.05566648 L6.1091365,1.29089211 L4.91417585,3.08949191 L6.77118141,4.19150034 L4.61993368,4.37865112 L4.91617284,6.51760754 L3.42857143,4.95238095 L1.94097002,6.51760754 L2.23720918,4.37865112 L0.0859614476,4.19150034 L1.94296701,3.08949191 L0.748006362,1.29089211 L2.76741524,2.05566648 L3.42857143,0 L3.42857143,0 Z" id="Star7"></path>
+            </g>
+            <g id="Star_Delta_Crucis" transform="translate(79.238095, 14.371429)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M3.42857143,0 L4.08972762,2.05566648 L6.1091365,1.29089211 L4.91417585,3.08949191 L6.77118141,4.19150034 L4.61993368,4.37865112 L4.91617284,6.51760754 L3.42857143,4.95238095 L1.94097002,6.51760754 L2.23720918,4.37865112 L0.0859614476,4.19150034 L1.94296701,3.08949191 L0.748006362,1.29089211 L2.76741524,2.05566648 L3.42857143,0 L3.42857143,0 Z" id="Star7"></path>
+            </g>
+            <g id="Star_Epsilon_Crucis" transform="translate(74.800000, 24.000000)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M2,0 L2.52247578,1.28087378 L3.90211302,1.38196602 L2.84538358,2.27468178 L3.17557051,3.61803398 L2,2.88888889 L0.824429489,3.61803398 L1.15461642,2.27468178 L0.0978869778,1.38196602 L1.47752422,1.28087378 L2,0 L2,0 Z" id="Star5"></path>
+            </g>
+            <path d="M20,0 L28,0 L28,8 L48,8 L48,16 L28,16 L28,24 L20,24 L20,16 L0,16 L0,8 L20,8 L20,0 L20,0 Z" id="White_Cross" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M0,0 L5.36656317,0 L48,21.3167184 L48,24 L42.6334381,24 L0,2.68328159 L0,0 L0,0 Z" id="White_Diagonal" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <g id="White_Diagonal_Flipped" transform="translate(24.000000, 12.000000) scale(-1, 1) translate(-24.000000, -12.000000) " fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M0,0 L5.36656317,0 L48,21.3167184 L48,24 L42.6334381,24 L0,2.68328159 L0,0 L0,0 Z" id="White_Diagonal"></path>
+            </g>
+            <path d="M21.6,0 L26.4,0 L26.4,9.6 L48,9.6 L48,14.4 L26.4,14.4 L26.4,24 L21.6,24 L21.6,14.4 L0,14.4 L0,9.6 L21.6,9.6 L21.6,0 L21.6,0 Z" id="Red_Cross" fill="#FF0000" sketch:type="MSShapeGroup"></path>
+            <path d="M0,0 L16,8 L12.4222911,8 L0,1.78885438 L0,0 L0,0 Z M48,0 L44.4222921,0 L28.4222911,8 L32,8 L48,0 L48,0 Z" id="Red_Diagonals" fill="#FF0000" sketch:type="MSShapeGroup"></path>
+            <g id="Red_Diagonals_Rotated" transform="translate(24.000000, 20.000000) scale(-1, -1) translate(-24.000000, -20.000000) translate(0.000000, 16.000000)" fill="#FF0000" sketch:type="MSShapeGroup">
+                <path d="M0,0 L16,8 L12.4222911,8 L0,1.78885438 L0,0 L0,0 Z M48,0 L44.4222921,0 L28.4222911,8 L32,8 L48,0 L48,0 Z" id="Red_Diagonals"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,518 @@
+/*********************
+VARIABLES
+*********************/
+/*********************
+BREAKPOINTS
+*********************/
+.cs-main {
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+@media (max-width: 991px) {
+  .sm-pad-zero {
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+    .sm-pad-zero .row {
+      margin: 0; }
+    .sm-pad-zero .col-sm-12 {
+      padding: 0; } }
+
+.cs-row:first-child {
+  padding-top: 120px; }
+  @media (max-width: 991px) {
+    .cs-row:first-child {
+      padding-top: 60px; } }
+
+.cs-link {
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 500;
+  color: #000FF0;
+  line-height: 18px;
+  opacity: .875;
+  display: inline-block; }
+  @media (min-width: 992px) {
+    .cs-link:not(:first-child) {
+      margin-left: 48px; } }
+  @media (max-width: 991px) {
+    .cs-link {
+      display: block; }
+      .cs-link:not(:last-child) {
+        margin-bottom: 16px; } }
+  .cs-link--icon:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    margin-left: 8px;
+    background: url(../images/home/jan-2019/arrow/arrow.svg) center/contain no-repeat; }
+  .cs-link--inner {
+    color: #000FF0;
+    text-decoration: none;
+    font-weight: 500; }
+    .cs-link--inner:hover, .cs-link--inner:focus {
+      color: #000FF0;
+      text-decoration: none; }
+  .cs-link:hover, .cs-link:focus {
+    color: #000FF0;
+    opacity: 1;
+    text-decoration: none;
+    outline: none; }
+
+.cs-row:not(:last-child) {
+  padding-bottom: 120px; }
+  @media (max-width: 991px) {
+    .cs-row:not(:last-child) {
+      padding-bottom: 80px; } }
+
+.cs-hero__banner {
+  min-height: 540px;
+  background: #333;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  overflow: hidden; }
+  @media (max-width: 991px) {
+    .cs-hero__banner {
+      border-radius: 0;
+      min-height: 320px; } }
+  @media (max-width: 767px) {
+    .cs-hero__banner {
+      background-position: left !important; } }
+  .cs-hero__banner--shadow {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
+    @media (min-width: 768px) {
+      .cs-hero__banner--shadow {
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0) 30%, black 100%); } }
+    @media (max-width: 767px) {
+      .cs-hero__banner--shadow {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%); } }
+
+.cs-hero__content {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  max-width: 380px;
+  padding: 36px; }
+  @media (max-width: 767px) {
+    .cs-hero__content {
+      padding: 15px;
+      bottom: 0;
+      left: 0;
+      max-width: 280px; } }
+
+.cs-hero__logo {
+  margin-bottom: 16px; }
+
+.cs-hero__desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 24px; }
+  @media (max-width: 767px) {
+    .cs-hero__desc {
+      font-size: 14px;
+      font-weight: 400;
+      color: #ffffff;
+      line-height: 18px; } }
+
+.cs-article-big {
+  margin-bottom: 90px; }
+  @media (max-width: 767px) {
+    .cs-article-big {
+      margin-bottom: 60px; } }
+  .cs-article-big .cs-article {
+    max-width: 720px; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .cs-article-big .cs-article {
+        max-width: 600px; } }
+    .cs-article-big .cs-article__title {
+      font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      margin-bottom: 8px; }
+      @media (min-width: 1200px) {
+        .cs-article-big .cs-article__title {
+          font-size: 44px;
+          font-weight: bold;
+          color: #00000A;
+          line-height: 50px;
+          letter-spacing: -1.28px; } }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        .cs-article-big .cs-article__title {
+          font-size: 40px;
+          font-weight: bold;
+          color: #00000A;
+          line-height: 48px;
+          letter-spacing: -1px; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .cs-article-big .cs-article__title {
+          font-size: 36px;
+          font-weight: bold;
+          color: #00000A;
+          line-height: 42px;
+          letter-spacing: -0.75px; } }
+      @media (max-width: 767px) {
+        .cs-article-big .cs-article__title {
+          font-size: 30px;
+          font-weight: bold;
+          color: #00000A;
+          line-height: 36px;
+          letter-spacing: -0.5px; } }
+      @media (min-width: 768px) {
+        .cs-article-big .cs-article__title--mark {
+          position: relative;
+          display: inline-block; } }
+      .cs-article-big .cs-article__title--mark:after {
+        content: '';
+        background: #ffe6ab;
+        width: 100%;
+        height: 20px;
+        display: block;
+        position: absolute;
+        z-index: -1;
+        bottom: 5px; }
+        @media (max-width: 767px) {
+          .cs-article-big .cs-article__title--mark:after {
+            display: none; } }
+    .cs-article-big .cs-article__desc {
+      font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 20px;
+      font-weight: 400;
+      color: #242438;
+      line-height: 32px;
+      letter-spacing: -0.2px; }
+      @media (max-width: 767px) {
+        .cs-article-big .cs-article__desc {
+          font-size: 16px;
+          font-weight: 400;
+          color: #242438;
+          line-height: 22px; } }
+
+.cs-article-half .cs-article__desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #242438;
+  line-height: 24px;
+  margin-bottom: 24px; }
+
+.cs-article-half .cs-article__logo {
+  margin-bottom: 32px;
+  display: inline-block; }
+  .cs-article-half .cs-article__logo:not(:first-child) {
+    margin-left: 48px; }
+
+.cs-article-full .cs-article {
+  margin-bottom: 48px; }
+  .cs-article-full .cs-article__desc {
+    font-size: 18px;
+    font-weight: 400;
+    color: #242438;
+    line-height: 28px;
+    margin-bottom: 16px; }
+    @media (max-width: 767px) {
+      .cs-article-full .cs-article__desc {
+        font-size: 16px;
+        font-weight: 400;
+        color: #242438;
+        line-height: 24px; } }
+  .cs-article-full .cs-article__title {
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 32px;
+    font-weight: bold;
+    color: #00000A;
+    line-height: 42px;
+    letter-spacing: -0.6px;
+    margin-bottom: 14px; }
+    @media (max-width: 767px) {
+      .cs-article-full .cs-article__title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #00000A;
+        line-height: 36px;
+        letter-spacing: -0.2px; } }
+  .cs-article-full .cs-article__list {
+    margin: 0;
+    padding: 0; }
+    @media (max-width: 991px) {
+      .cs-article-full .cs-article__list {
+        margin-left: 20px; } }
+  .cs-article-full .cs-article__item {
+    margin-bottom: 32px; }
+
+.cs-devider {
+  border-bottom: 1px solid #E0E0E4;
+  margin: 60px 0; }
+
+.cs-table {
+  border: 1px solid #0000001f;
+  border-radius: 5px;
+  padding: 24px;
+  display: block;
+  margin-top: 40px; }
+  @media (max-width: 767px) {
+    .cs-table {
+      margin-top: 0; } }
+  @media (min-width: 1200px) {
+    .cs-table {
+      margin-top: 40px; } }
+  .cs-table__title {
+    position: relative;
+    display: inline-block;
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: bold;
+    color: #00000A;
+    line-height: 26px;
+    letter-spacing: -0.4px;
+    margin-bottom: 15px; }
+    .cs-table__title:after {
+      content: '';
+      background: #ffe6ab;
+      width: 100%;
+      height: 8px;
+      display: block;
+      position: absolute;
+      z-index: -1;
+      bottom: 5px; }
+  .cs-table__heading, .cs-table__desc {
+    padding: 5px 24px 5px 0; }
+  .cs-table__heading {
+    font-weight: bold;
+    font-size: 14px;
+    vertical-align: top; }
+  .cs-table__desc {
+    font-weight: 500;
+    font-size: 14px;
+    padding-left: 24px; }
+
+.cs-testimonial-half {
+  position: relative;
+  margin-top: 58px; }
+  .cs-testimonial-half .cs-testimonial {
+    padding-left: 54px; }
+    @media (max-width: 767px) {
+      .cs-testimonial-half .cs-testimonial {
+        padding: 0; } }
+    .cs-testimonial-half .cs-testimonial::before {
+      content: '';
+      display: inline-block;
+      width: 40px;
+      height: 50px;
+      background: url(../images/case-study/fishburners/quote.svg) center/contain no-repeat;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin-top: -16px; }
+      @media (max-width: 767px) {
+        .cs-testimonial-half .cs-testimonial::before {
+          z-index: -1;
+          opacity: .2; } }
+    .cs-testimonial-half .cs-testimonial__logo {
+      margin-bottom: 24px; }
+    .cs-testimonial-half .cs-testimonial__author {
+      font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 16px;
+      font-weight: 400;
+      color: #242438;
+      line-height: 24px; }
+    .cs-testimonial-half .cs-testimonial__desc {
+      font-size: 16px;
+      font-weight: 400;
+      color: #242438;
+      line-height: 24px;
+      margin-bottom: 24px; }
+
+.cs-testimonial-full {
+  position: relative; }
+  .cs-testimonial-full .cs-testimonial {
+    padding-left: 64px; }
+    @media (max-width: 767px) {
+      .cs-testimonial-full .cs-testimonial {
+        padding: 0; } }
+    .cs-testimonial-full .cs-testimonial::before {
+      content: '';
+      display: inline-block;
+      width: 48px;
+      height: 60px;
+      background: url(../images/case-study/fishburners/quote.svg) center/contain no-repeat;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin-top: -24px; }
+      @media (max-width: 767px) {
+        .cs-testimonial-full .cs-testimonial::before {
+          z-index: -1;
+          opacity: .2; } }
+    .cs-testimonial-full .cs-testimonial__logo {
+      margin-bottom: 24px; }
+    .cs-testimonial-full .cs-testimonial__author {
+      font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 24px;
+      font-weight: bold;
+      color: #00000A;
+      line-height: 28px;
+      letter-spacing: -0.6px; }
+      @media (max-width: 767px) {
+        .cs-testimonial-full .cs-testimonial__author {
+          font-size: 16px;
+          font-weight: bold;
+          color: #00000A;
+          line-height: 24px;
+          letter-spacing: -0.2px; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .cs-testimonial-full .cs-testimonial__author {
+          font-size: 20px;
+          font-weight: bold;
+          color: #00000A;
+          line-height: 28px;
+          letter-spacing: -0.2px; } }
+      .cs-testimonial-full .cs-testimonial__author img {
+        margin-right: 24px;
+        border-radius: 50%; }
+        @media (max-width: 767px) {
+          .cs-testimonial-full .cs-testimonial__author img {
+            display: block;
+            margin-bottom: 16px; } }
+    .cs-testimonial-full .cs-testimonial__desc {
+      font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 32px;
+      font-weight: 400;
+      color: #00000A;
+      line-height: 42px;
+      letter-spacing: -0.6px;
+      margin-bottom: 24px; }
+      @media (max-width: 767px) {
+        .cs-testimonial-full .cs-testimonial__desc {
+          font-size: 18px;
+          font-weight: 400;
+          color: #00000A;
+          line-height: 28px;
+          letter-spacing: -0.2px; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .cs-testimonial-full .cs-testimonial__desc {
+          font-size: 28px;
+          font-weight: 400;
+          color: #00000A;
+          line-height: 36px;
+          letter-spacing: -0.2px; } }
+
+.cs-sidebar {
+  border: 1px solid #E0E0E4;
+  border-radius: 4px;
+  padding: 40px;
+  position: relative; }
+  @media (max-width: 767px) {
+    .cs-sidebar {
+      padding: 20px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .cs-sidebar {
+      display: flex;
+      justify-content: space-between;
+      align-items: normal; } }
+  @media (max-width: 991px) {
+    .cs-sidebar {
+      margin-bottom: 90px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .cs-sidebar__item {
+      flex: 1; }
+      .cs-sidebar__item:first-child {
+        padding-right: 24px; }
+      .cs-sidebar__item:last-child {
+        padding-left: 24px; } }
+  .cs-sidebar__item:not(:first-child) {
+    border-top: 1px solid #E0E0E4;
+    margin-top: 32px;
+    padding-top: 24px; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .cs-sidebar__item:not(:first-child) {
+        border-top: none;
+        margin-top: 0;
+        padding-top: 0; } }
+  .cs-sidebar__title {
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
+    font-weight: bold;
+    color: #00000A;
+    line-height: 26px;
+    letter-spacing: -0.4px;
+    margin-bottom: 24px; }
+    @media (min-width: 768px) {
+      .cs-sidebar__title--mark {
+        position: relative;
+        display: inline-block; } }
+    .cs-sidebar__title--mark:after {
+      content: '';
+      background: #ffe6ab;
+      width: 100%;
+      height: 8px;
+      display: block;
+      position: absolute;
+      z-index: -1;
+      bottom: 5px; }
+      @media (max-width: 767px) {
+        .cs-sidebar__title--mark:after {
+          display: none; } }
+  .cs-sidebar__content {
+    margin-bottom: 24px; }
+  .cs-sidebar__heading {
+    font-size: 14px;
+    font-weight: bold;
+    color: #00000A;
+    line-height: 21px;
+    margin-bottom: 4px; }
+  .cs-sidebar__desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: #242438;
+    line-height: 21px; }
+  .cs-sidebar__action {
+    border: 1px solid #3A008C;
+    background: #3A008C;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    padding: 12px;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 16px; }
+    @media (max-width: 767px) {
+      .cs-sidebar__action {
+        margin-top: 0; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .cs-sidebar__action {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-width: 150px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: -18px; } }
+    .cs-sidebar__action:after {
+      content: '';
+      display: inline-block;
+      width: 12px;
+      height: 10px;
+      margin-left: 8px;
+      background: url(../images/home/jan-2019/arrow/arrow.svg) center/contain no-repeat;
+      filter: brightness(0) invert(1); }
+    .cs-sidebar__action:hover, .cs-sidebar__action:focus {
+      color: #fff;
+      text-decoration: none;
+      outline: none; }
+
+/*Enhancement*/
+.fs-italic {
+  font-style: italic; }
+
+/*Enhancement*/

@@ -1,0 +1,341 @@
+body {
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #242438;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale; }
+
+cm-hidden {
+  display: none !important;
+  visibility: hidden !important; }
+
+.cm-link {
+  color: #000FF0;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500; }
+  .cm-link:hover, .cm-linkfocus {
+    color: #000FF0;
+    text-decoration: none; }
+  .cm-link--white {
+    color: #ffffff; }
+    .cm-link--white:hover, .cm-link--white:focus {
+      color: #ffffff;
+      opacity: .8;
+      text-decoration: none; }
+    .cm-link--white:after {
+      content: '';
+      display: inline-block;
+      width: 12px;
+      height: 10px;
+      margin-left: 8px;
+      background: url("../images/home/jan-2019/arrow/button-arrow.svg") center/contain no-repeat; }
+  .cm-link--icon:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    margin-left: 8px;
+    background: url("../images/home/jan-2019/arrow/arrow.svg") center/contain no-repeat; }
+
+.l-row:not(:last-child) {
+  margin-top: 160px;
+  margin-bottom: 160px; }
+  @media (max-width: 991px) {
+    .l-row:not(:last-child) {
+      margin-top: 100px;
+      margin-bottom: 100px; } }
+  @media (max-width: 767px) {
+    .l-row:not(:last-child) {
+      margin-top: 80px;
+      margin-bottom: 80px; } }
+
+.l-row--hero {
+  margin: 0 !important;
+  padding-top: 110px;
+  padding-bottom: 50px; }
+  @media (min-width: 768px) {
+    .l-row--hero {
+      padding-top: 160px;
+      padding-bottom: 100px; } }
+
+.l-row--reduceBottom {
+  margin-bottom: 100px !important; }
+  @media (max-width: 991px) {
+    .l-row--reduceBottom {
+      margin-bottom: 80px !important; } }
+  @media (max-width: 767px) {
+    .l-row--reduceBottom {
+      margin-bottom: 60px !important; } }
+
+.l-row--reduceTop {
+  margin-top: 100px !important; }
+  @media (max-width: 991px) {
+    .l-row--reduceTop {
+      margin-top: 80px !important; } }
+  @media (max-width: 767px) {
+    .l-row--reduceTop {
+      margin-top: 60px !important; } }
+
+.l-row--glow {
+  margin: 0 !important; }
+
+.cm-btn {
+  color: #ffffff;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-color: #6200EA;
+  display: inline-block;
+  height: 54px;
+  line-height: 54px;
+  padding-left: 32px;
+  padding-right: 32px;
+  transition: all 0.2s ease-out; }
+  .cm-btn:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    margin-left: 8px;
+    background: url("../images/home/jan-2019/arrow/button-arrow.svg") center/contain no-repeat; }
+  .cm-btn:hover, .cm-btn:focus {
+    color: #ffffff;
+    transition: all 0.2s ease-in;
+    text-decoration: none;
+    box-shadow: inset -2px -2px 0 0 rgba(32, 0, 77, 0.2), inset 1px 2px 0 0 rgba(209, 176, 255, 0.18), 0 2px 4px 0 rgba(0, 4, 48, 0.08), 0 8px 8px 0 rgba(0, 4, 48, 0.12), 0 16px 32px 0 rgba(0, 4, 48, 0.24); }
+
+.cm-hero {
+  text-align: center;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  .cm-hero__header {
+    margin-bottom: 48px;
+    margin-top: 20px;
+    color: #ffffff; }
+    .cm-hero__header--black {
+      color: #00001E; }
+  .cm-hero__title {
+    font-size: 46px;
+    font-weight: bold;
+    letter-spacing: -1.54px;
+    line-height: 56px;
+    margin-bottom: 16px;
+    margin-top: 0; }
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .cm-hero__title {
+        line-height: 46px;
+        font-size: 40px; } }
+    @media (max-width: 767px) {
+      .cm-hero__title {
+        font-size: 32px;
+        line-height: 38px; } }
+    @media (max-width: 480px) {
+      .cm-hero__title {
+        font-size: 28px;
+        line-height: 34px; } }
+  .cm-hero__desc:not(.text-left) {
+    max-width: 500px;
+    margin: auto;
+    opacity: 0.8; }
+  @media (min-width: 768px) {
+    .cm-hero__actions {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap; }
+      .cm-hero__actions:not(.text-left) {
+        justify-content: center; } }
+  .cm-hero__action + .cm-hero__action {
+    margin-left: 24px; }
+    @media (max-width: 767px) {
+      .cm-hero__action + .cm-hero__action {
+        margin: 24px 0 0; } }
+  .cm-hero__figure img {
+    margin-left: auto;
+    margin-right: auto; }
+    @media only screen and (max-width: 767px) {
+      .cm-hero__figure img {
+        margin: 24px auto;
+        max-width: 240px; } }
+
+.cm-cta {
+  text-align: center; }
+  .cm-cta__title {
+    color: #1D0046;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.08px;
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+    @media only screen and (min-width: 768px) {
+      .cm-cta__title {
+        font-size: 32px;
+        letter-spacing: -0.4px;
+        line-height: 42px; } }
+    @media only screen and (min-width: 992px) {
+      .cm-cta__title {
+        font-size: 40px;
+        letter-spacing: -1.08px;
+        line-height: 53px; } }
+  .cm-cta__header {
+    margin-bottom: 36px; }
+
+.cm-glow {
+  background-color: #ffffff;
+  padding: 16px 24px;
+  border-radius: 100px;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 14px -1px rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin: 0 auto 32px;
+  transition: all .2s ease-out; }
+  @media (max-width: 991px) {
+    .cm-glow {
+      display: block;
+      text-align: center; } }
+  .cm-glow:hover, .cm-glow:focus {
+    text-decoration: none;
+    color: #242438;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.12), 0 14px 24px 0 rgba(0, 0, 0, 0.12); }
+  @media (max-width: 991px) {
+    .cm-glow__icon {
+      margin: 4px auto;
+      display: inline-block; } }
+  .cm-glow__content {
+    color: #242438;
+    margin-left: 24px; }
+
+.cm-article__title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-bottom: 12px; }
+  .cm-article__title--highlight {
+    color: #000FF0; }
+  @media only screen and (max-width: 767px) {
+    .cm-article__title {
+      font-size: 20px;
+      line-height: 28px; } }
+  .cm-article__title--middle {
+    margin-top: 24px; }
+    @media only screen and (min-width: 768px) {
+      .cm-article__title--middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 180px;
+        text-align: center;
+        max-width: 400px;
+        margin: auto; } }
+
+.cm-article__desc {
+  color: #16172C;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.cm-article__heading {
+  font-size: 16px;
+  line-height: 32px;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #00001E;
+  font-weight: bold;
+  margin-bottom: 8px; }
+
+.cm-article__bg--sixty {
+  background: url("../images/recurring-payments/churn-management/60.png") top/contain no-repeat;
+  background-position: top 32px center;
+  padding-top: 74px;
+  background-size: 75%;
+  text-align: center;
+  max-width: 440px;
+  margin: auto; }
+  @media only screen and (max-width: 767px) {
+    .cm-article__bg--sixty {
+      padding-top: 48px;
+      background-position: top 0 center; } }
+
+.cm-article__bg--seventy {
+  background: url("../images/recurring-payments/churn-management/75.png") top/contain no-repeat;
+  background-position: top 32px center;
+  padding-top: 74px;
+  background-size: 75%;
+  text-align: center;
+  max-width: 440px;
+  margin: auto; }
+  @media only screen and (max-width: 767px) {
+    .cm-article__bg--seventy {
+      padding-top: 48px;
+      background-position: top 0 center; } }
+
+.cm-article__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 16px; }
+  .cm-article__list li {
+    background: url("../images/recurring-payments/churn-management/bullets.svg") center/contain no-repeat;
+    background-position: left center;
+    background-size: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 28px;
+    margin: 4px 0; }
+
+.cm-testimonial {
+  font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  max-width: 480px;
+  padding: 32px 36px;
+  border-radius: 8px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.12);
+  display: block;
+  transition: .2s ease;
+  position: relative;
+  overflow: hidden;
+  color: #242438; }
+  @media only screen and (max-width: 767px) {
+    .cm-testimonial {
+      margin-top: 24px; } }
+  .cm-testimonial--disabled {
+    cursor: default; }
+  .cm-testimonial:after {
+    content: '';
+    background: url("../images/home/jan-2019/quote-graphic.png") center/contain no-repeat;
+    width: 130px;
+    height: 105px;
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 0;
+    z-index: 1; }
+  .cm-testimonial:hover, .cm-testimonial:focus {
+    color: #242438;
+    text-decoration: none; }
+  .cm-testimonial:not(.cm-testimonial--disabled):hover, .cm-testimonial:not(.cm-testimonial--disabled):focus {
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 14px -1px rgba(0, 0, 0, 0.18); }
+  .cm-testimonial__figure {
+    margin-bottom: 16px; }
+  .cm-testimonial__content {
+    margin-bottom: 24px; }
+  .cm-testimonial__author {
+    color: #00000A;
+    font-size: 18px;
+    line-height: 21px; }
+
+.mTopSm {
+  margin-top: 24px; }
+
+.pad-bottom-none {
+  padding-bottom: 0 !important; }
+
+@media only screen and (max-width: 1024px) {
+  .diplay-block-md {
+    display: block; }
+    .diplay-block-md .cm-hero__action + .cm-hero__action {
+      margin: 24px 0 0; } }

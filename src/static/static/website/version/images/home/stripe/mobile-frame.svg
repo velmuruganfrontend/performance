@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="379px" height="564px" viewBox="0 0 379 564" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2 + Line Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="380" height="567"></rect>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-4" transform="translate(-259.000000, -2669.000000)">
+            <g id="bucket3" transform="translate(247.000000, 2666.000000)">
+                <g id="Group-10">
+                    <g id="Group-2-+-Line-Mask" transform="translate(12.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" xlink:href="#path-1"></use>
+                        <g id="Group-2" mask="url(#mask-2)">
+                            <g transform="translate(15.000000, 3.000000)">
+                                <path d="M345,143 L345,46.0022301 C345,20.6035793 324.404195,0 298.997982,0 L53.0020177,0 C27.6029914,0 7,20.5959 7,46.0022301 L7,121 L3.99936922,121 C1.79044819,121 0,122.793059 0,125.004908 L0,172.995092 C0,175.200205 1.79057859,177 3.99936922,177 L7,177 L7,191 L3.99936922,191 C1.79044819,191 0,192.793059 0,195.004908 L0,242.995092 C0,245.200205 1.79057859,247 3.99936922,247 L7,247 L7,668.99777 C7,694.396421 27.5958049,715 53.0020177,715 L298.997982,715 C324.397009,715 345,694.4041 345,668.99777 L345,199 L347.000631,199 C349.209552,199 351,197.206941 351,194.995092 L351,147.004908 C351,144.799795 349.209421,143 347.000631,143 L345,143 Z" id="Combined-Shape" stroke="#2C2A4F" stroke-width="2" fill="none"></path>
+                                <rect id="Rectangle-23-Copy" stroke="none" fill="#D8D8D8" fill-rule="evenodd" x="17" y="73" width="318" height="563" rx="2"></rect>
+                                <rect id="Rectangle-25" stroke="#2C2A4F" stroke-width="2" fill="none" x="147" y="35" width="55" height="8" rx="5"></rect>
+                                <rect id="Rectangle-25-Copy" stroke="#2C2A4F" stroke-width="2" fill="none" x="111" y="32" width="14" height="14" rx="15"></rect>
+                            </g>
+                        </g>
+                        <path d="M0.5,562 L377.798279,562" id="Line" stroke="#2C2A4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

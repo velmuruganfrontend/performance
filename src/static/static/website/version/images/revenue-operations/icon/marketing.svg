@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="187px" height="135px" viewBox="0 0 187 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="30.1941965%" y1="62.9809988%" x2="151.794029%" y2="-17.2634393%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#C7D8EF" offset="46%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-8" transform="translate(-265.000000, -1709.000000)">
+            <g id="Group-29" transform="translate(265.000000, 1709.000000)">
+                <rect id="Rectangle" fill-opacity="0.1" fill="#FFFFFF" x="0" y="0" width="187" height="135"></rect>
+                <g id="Asset-7texture" transform="translate(44.000000, 11.000000)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#A0D0FF" points="60 0 60 58.0753718 102.162162 82.7027027 102.162162 24.6273309"></polygon>
+                    <g id="Group" transform="translate(29.189189, 45.405405)">
+                        <polygon id="Path" fill="#167AF4" points="51.3330561 14.7794755 26.0143748 29.4905539 0.53032373 14.7794755 25.849005 0.0740968691"></polygon>
+                        <polygon id="Path" fill="#1F0256" points="51.3330561 14.7794755 51.2532225 42.6569976 25.9345411 57.368076 26.0143748 29.4905539"></polygon>
+                        <polygon id="Path" fill="#A0D0FF" points="26.0143748 29.4905539 25.9345411 57.368076 0.45049005 42.6569976 0.53032373 14.7794755"></polygon>
+                    </g>
+                    <polyline id="Path" fill-opacity="0.3" fill="url(#linearGradient-1)" points="26.2319186 120 55.0559017 102.807219 55.1351351 74.7865941 29.8426984 60 0 77.1412203"></polyline>
+                    <rect id="Rectangle" fill="#A0D0FF" x="43.7837838" y="31.6216216" width="4.05405405" height="4.05405405"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="81.0810811" y="46.2162162" width="4.05405405" height="4.05405405"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="93.2432432" y="59.1891892" width="1.62162162" height="1.62162162" rx="0.810810811"></rect>
+                    <rect id="Rectangle" fill="#A0D0FF" x="86.7567568" y="81.0810811" width="1.62162162" height="1.62162162" rx="0.810810811"></rect>
+                    <rect id="Rectangle" fill="#A0D0FF" x="49.4594595" y="36.4864865" width="1.62162162" height="1.62162162" rx="0.810810811"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

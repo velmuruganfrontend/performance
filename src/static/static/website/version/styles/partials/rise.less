@@ -1,0 +1,259 @@
+#Field1::-webkit-input-placeholder{
+	color:#fff
+}
+/*Placeholder Color*/
+
+.bg-dark{
+	background:#403F5A;
+	font-family: merriweather,georgia,cambria,serif
+}
+.cb-land-header{
+	margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul{
+    	list-style:none;
+    	margin:0;
+    	padding:0;
+
+    	li{
+    		display:inline-block;
+    		margin-left: 30px;
+    		color: #fff;
+    		font-size: 12px;
+    		font-style: italic;
+
+
+    		a{
+			    color: #fff;
+
+				&:hover, &:focus{
+					border-bottom:1px solid;
+				}
+
+    		}
+
+    		span{
+
+				a{
+					color:#50ABF1;
+				}
+			}
+
+    	}
+    }
+}
+
+.cb-land-content{
+	margin:20px 0;
+
+	.section-title{
+		font-family:merriweather,georgia,cambria,serif;
+    	font-style: italic;
+		font-size: 20px;
+		color: #FFFFFF;
+		line-height: 40px;
+		font-weight:300;
+		margin-bottom:30px;
+
+		span{
+			font-weight: 400;
+		    display: block;
+		    font-size: 32px;
+		}
+	}
+
+	ul{
+		list-style:none;
+		margin:60px 0;
+		padding:0;
+
+		li{
+			display:inline-block;
+			margin-right:30px;
+			vertical-align:middle;
+
+			&:last-child{
+				margin-right:0;
+			}
+
+		}
+	}
+
+
+}
+
+.cb-customer{
+	max-width: 720px;
+    margin: 40px auto;
+
+	.thumb-list{
+		display: flex;
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	    justify-content: space-around;
+	    align-items: center;
+	    opacity: .4;
+	}
+
+}
+.cb-land-form{
+	margin: 100px auto;
+    text-align: center;
+
+	input[type="text"], input[type="email"], select{
+		background: #545483;
+	    border: 2px solid #333333;
+	    box-shadow: inset 4px 4px 0px 0px #474676;
+	    border-radius: 2px;
+	    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	    font-size: 15px;
+	    color: #FFFFFF;
+	    line-height: 22px;
+	    padding: 18px 20px;
+	    width: 320px;
+	    display: inline-block;
+    	vertical-align: top;
+    	height:64px;
+	}
+	select{
+		width:200px;
+		padding:18px 40px 18px 10px;
+		text-indent:10px;
+		-webkit-appearance:none;-moz-appearance:none;appearance:none;
+	}
+
+	.btn{
+		background: #6C6EFA;
+		box-shadow: inset -3px -3px 0px 0px #6C6EFA;
+		border-radius: 2px;
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+		font-weight: bold;
+		font-size: 18px;
+		color: #fff;
+		line-height: 26px;
+		height:62px;
+		width:200px;
+		text-transform:uppercase;
+		border-width:0;
+		transition: .15s ease-out;-moz-transition: .15s ease-out;-webkit-transition: .15s ease-out;
+
+		&:hover, &:focus{
+			background:#F06E46;
+			color:#fff;
+			box-shadow: inset -3px -3px 0px 0px #F06E46;
+		}
+	}
+
+	ul{
+		list-style:none;
+		margin:0;
+		padding:0;
+
+		li{
+			display:inline-block;
+			vertical-align:top;
+			position:relative;
+			margin-right:20px;
+
+
+			&.cb-land-selectarrow{
+
+				&:after{
+					content: "\f107";
+				    font-family: 'FontAwesome';
+				    color: #fff;
+				    position: absolute;
+				    font-size: 18px;
+				    top: 50%;
+				    right: 20px;
+				    margin-top: -12px;
+				}
+
+			}
+		}
+	}
+}
+
+.hr-line-light{
+	max-width: 100px;
+    background: #747D93;
+    display: block;
+    height: 1px;
+    border: 0;
+    margin: 30px auto;
+}
+
+.cb-land-footer{
+	margin:80px 0 20px;
+
+	p{
+		opacity: 0.4;
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+		font-size: 11px;
+		color: #FFFFFF;
+		line-height: 18px;
+		text-transform:uppercase;
+		margin:10px 0 0;
+	}
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .cb-land-form{
+
+    	input[type="text"], input[type="email"]{
+    		width:200px;
+    	}
+
+	}
+}
+@media only screen and (max-width: 767px) {
+    .cb-land-form{
+
+	    ul{
+
+    		li{
+				display:block;
+				margin-top:30px;
+
+				input[type="text"], input[type="email"], select{
+		    		width:100%;
+
+		    	}
+
+			}
+
+	    }
+
+	    .btn{
+	    	width:100%;
+	    }
+
+	}
+
+
+	.cb-customer{
+
+		.thumb-list{
+			flex-wrap:wrap;
+
+			li{
+					display:inline-block;
+					margin:20px;
+
+			}
+		}
+
+	}
+
+}
+
+
+
+
+

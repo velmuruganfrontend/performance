@@ -1,0 +1,116 @@
+//------------------------------------------------------------------------------
+//  Article
+//------------------------------------------------------------------------------
+#{$prefix}-article{
+
+    //--------------------------------------------------------------------------
+    // For All Elements
+    //--------------------------------------------------------------------------
+    &__{
+		&header{
+			margin-bottom: 24px;
+		}
+		&content{
+			margin-bottom: 24px;
+		}
+		&action{
+			&s{
+				display: flex;
+				
+				@include pm-mq(upto-xs){
+                    flex-wrap: wrap;
+                }
+
+                @include pm-mq(from-sm){
+                    justify-content: center; 
+                }
+			}
+
+
+			&:not(:last-child){
+				margin-right: 16px;
+				margin-bottom: 16px;
+			}
+		}
+
+
+		&label{
+			@include font($ff_primary, $fs_st, $fw_base, $fColor: #193165);
+			margin-bottom: 4px;
+	        margin-top: 0;
+		}
+		&title{
+			@include font($ff_primary, $fs_lg, $fw_bold, 32px, $lSpacing: -0.6px, $fColor:$clr_base_dark);
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		&desc{
+			@include font(inherit, $fs_st, $fColor: $clr_base);
+		}
+    }
+
+
+
+    //--------------------------------------------------------------------------
+    // For All Modifiers
+    //--------------------------------------------------------------------------
+    &--{
+
+	    //----------------------------------------------------------------------
+	    // For Hero Modifiers
+	    //----------------------------------------------------------------------
+    	&hero{
+    		text-align: center;
+    		font-family: $ff_primary;
+
+
+			#{$prefix}-article__{
+				&header{
+					margin-bottom: 24px;
+				}
+				&content{
+					margin-bottom: 48px;
+				}
+
+
+				&title{
+					@include font(inherit, $fs_hero, $fw_bold, 50px, $lSpacing: -1.4px, $fColor:$clr_base_dark);
+				}
+				&desc{
+					@include font(inherit, $fs_sm, $lHeight: 28px, $fColor: $clr_base_dark);
+				}
+				&highlight{
+					position: relative;
+		            transition: background-size .3s ease;
+		            background: linear-gradient(to bottom, transparent 62%, #ffe6ab 0) center center/0% 75% no-repeat;
+		            padding: 0 4px;
+		            margin: 0 -4px;
+
+		            &--{
+		                &active{
+		                    background-size: 100% 100%;
+		                }
+		            }
+				}
+			}
+    	}
+	    //----------------------------------------------------------------------
+	    // For Hero Modifiers
+	    //----------------------------------------------------------------------
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

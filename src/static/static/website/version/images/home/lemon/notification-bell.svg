@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Iteration-+-Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-march-q1-final-5-Copy" transform="translate(-439.000000, -159.000000)">
+            <g id="Group-12" transform="translate(419.000000, 150.000000)">
+                <g id="Group-32" transform="translate(20.000000, 9.000000)">
+                    <g id="Group-28">
+                        <g id="bell-ring" transform="translate(2.000000, 0.000000)" fill="#FFC947" fill-rule="nonzero">
+                            <path d="M18,17 L18,18 L0,18 L0,17 L2,15 L2,9 C2,5.9 4.03,3.17 7,2.29 C7,2.19 7,2.1 7,2 C7,0.8954305 7.8954305,0 9,0 C10.1045695,0 11,0.8954305 11,2 C11,2.1 11,2.19 11,2.29 C13.97,3.17 16,5.9 16,9 L16,15 L18,17 M11,19 C11,20.1045695 10.1045695,21 9,21 C7.8954305,21 7,20.1045695 7,19" id="Shape"></path>
+                        </g>
+                        <path d="M18.75,1.19 L17.33,2.61 C19.04,4.3 20,6.6 20,9 L22,9 C22,6.07 20.84,3.25 18.75,1.19" id="Path" fill="#FFB400"></path>
+                        <path d="M0,9 L2,9 C2,6.6 2.96,4.3 4.67,2.61 L3.25,1.19 C1.16,3.25 0,6.07 0,9 Z" id="Path" fill="#FFB400"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

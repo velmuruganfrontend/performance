@@ -1,0 +1,549 @@
+{
+"calc_common":{
+        "stripe":{"name":"Stripe","imageUrl" : "/static/resources/payment-gateway/common/stripe.png", "success_ratio" : "99.95", "settle_time":"2 days","status_url":"https://status.stripe.com/"},
+        "braintree":{"name":"Braintree","imageUrl" :"/static/resources/payment-gateway/common/braintree.png", "success_ratio" : "100.00", "settle_time":"2-5 days","status_url":"https://status.braintreepayments.com/"},
+        "authorize":{"name":"Authorize.net","imageUrl" :"/static/resources/payment-gateway/common/authorize.png", "success_ratio" : "99.95","settle_time":"Based on MP*","status_url":"https://status.authorize.net/history"}, 
+        "amazon":{"name":"Amazon Payments","imageUrl" :"/static/resources/payment-gateway/common/amazon-pay.jpg", "success_ratio" : "96.58","settle_time":"Daily"},
+        "eway":{"name":"eWay","imageUrl" :"/static/resources/payment-gateway/common/eway.jpg", "success_ratio" : "99.88","settle_time":"2-5 days","status_url":"http://status.eway.com.au/"},
+        "worldpay":{"name":"Worldpay","imageUrl" :"/static/resources/payment-gateway/common/worldpay.png","success_ratio" : "99.97","settle_time":"Weekly basis"},
+        "pin":{"name":"Pin","imageUrl" :"/static/resources/payment-gateway/common/pin-payment.png", "success_ratio" : "98.20","settle_time":"7 days","status_url":"http://pin.statuspage.io/"},
+        "paypal_payments":{"name":"Paypal Payments Pro","imageUrl" :"/static/resources/payment-gateway/common/paypal-payments.jpg", "success_ratio" : "99.11","status_url":"https://www.paypal-notify.com/eventnotification/search?eventSearchType=PayPalSiteStatus"},
+        "paypal_payflow":{"name":"Paypal Payflow Pro","imageUrl" :"/static/resources/payment-gateway/common/paypal-payflow.png", "success_ratio" : "99.05","status_url":"https://www.paypal-notify.com/eventnotification/search?eventSearchType=PayPalSiteStatus"},
+        "paypal_express":{"name":"Paypal Express Checkout","imageUrl" :"/static/resources/payment-gateway/common/paypal-express.jpg","success_ratio" : "99.84","status_url":"https://www.paypal-notify.com/eventnotification/search?eventSearchType=PayPalSiteStatus"}
+    },
+"calc_details": [
+        {
+            "country": "united_states",
+            "code": "us",
+            "currency": "fc-usd",
+            "gateways": [
+                {
+                    "code": "stripe",
+                    "chargeback_fee": "15",
+                    "url": "https://stripe.com/us/pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "braintree",
+                    "chargeback_fee": "15",
+                    "extra_info": "Free processing on your first $50k.",
+                    "url":"https://www.braintreepayments.com/pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "authorize",
+                    "chargeback_fee": "25",
+                    "setup_fee": "49",
+                    "extra_info": "Daily batch fee is 10 cents.",
+                    "url":"http://reseller.authorize.net/application/?resellerId=72542",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "25",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            },
+                            {
+                                "with_merchant_account": false,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "25",
+                                "percentage": "0",
+                                "auth": "0.1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "amazon",
+                    "chargeback_fee": "20",
+                    "url":"https://payments.amazon.com/merchant",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ],
+                        "international": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "3.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "paypal_payments",
+                    "chargeback_fee": "20",
+                    "url":"https://www.paypal.com/webapps/mpp/paypal-payments-pro",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "30",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "paypal_payflow",
+                    "chargeback_fee": "20",
+                    "setup_fee": "99",
+                    "url":"https://www.paypal.com/webapps/mpp/payflow-payment-gateway",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": false,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "25",
+                                "percentage": "0",
+                                "auth": "0.1"
+                            }
+                        ],
+                        "international": [
+                            {
+                                "with_merchant_account": false,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "25",
+                                "percentage": "0",
+                                "auth": "0.1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "paypal_express",
+                    "chargeback_fee": "20",
+                    "url":"https://www.paypal.com/us/webapps/mpp/express-checkout",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "country": "united_kingdom",
+            "code": "uk",
+            "currency": "fc-pounds",
+            "gateways": [
+                {
+                    "code": "stripe",
+                    "chargeback_fee": "15",
+                    "extra_info": "The international fee goes for Non-European cards.",
+                    "url": "https://stripe.com/gb/pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "1.4",
+                                "auth": "0.2"
+                            }
+                        ],
+                        "international": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.9",
+                                "auth": "0.2"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "braintree",
+                    "chargeback_fee": "25",
+                    "extra_info": "The international fee goes for Non-European cards.",
+                    "url":"https://www.braintreepayments.com/pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.4",
+                                "auth": "0.2"
+                            }
+                        ],
+                        "international": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "3.4",
+                                "auth": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "authorize",
+                    "url":"http://www.authorize.net/en-GB/pricing/",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "19",
+                                "percentage": "2.49",
+                                "auth": "0.15"
+                            },
+                            {
+                                "with_merchant_account": false,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "19",
+                                "percentage": "0",
+                                "auth": "0.1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "eway",
+                    "setup_fee": "45",
+                    "url":"https://eway.io/uk/plans-pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "19",
+                                "percentage": "0",
+                                "auth": "0.5"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "worldpay",
+                    "chargeback_fee": "15",
+                    "url":"http://www.worldpay.com/uk/sme/online/online-payment-gateway",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "19.95",
+                                "percentage": "2.75",
+                                "auth": "0"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "paypal_payments",
+                    "url":"https://www.paypal.com/uk/webapps/mpp/pro",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "group_fee",
+                                "range": [
+                                    {
+                                        "lower_limit": "0",
+                                        "upper_limit": "1500",
+                                        "percentage": "3.4",
+                                        "auth": "0.2"
+                                    },
+                                    {
+                                        "lower_limit": "1500.01",
+                                        "upper_limit": "6000",
+                                        "percentage": "2.9",
+                                        "auth": "0.2"
+                                    },
+                                    {
+                                        "lower_limit": "6000.01",
+                                        "upper_limit": "15000",
+                                        "percentage": "2.4",
+                                        "auth": "0.2"
+                                    },
+                                    {
+                                        "lower_limit": "15000.01",
+                                        "upper_limit": "55000",
+                                        "percentage": "1.9",
+                                        "auth": "0.2"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "paypal_express",
+                    "chargeback_fee": "20",
+                    "url":"https://www.paypal.com/uk/webapps/mpp/express-checkout",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "group_fee",
+                                "range": [
+                                    {
+                                        "lower_limit": "0",
+                                        "upper_limit": "1500",
+                                        "percentage"    : "3.4",
+                                        "auth": "0.2"
+                                    },
+                                    {
+                                        "lower_limit": "1500.01",
+                                        "upper_limit": "6000",
+                                        "percentage": "2.9",
+                                        "auth": "0.2"
+                                    },
+                                    {
+                                        "lower_limit": "6000.01",
+                                        "upper_limit": "15000",
+                                        "percentage": "2.4",
+                                        "auth": "0.2"
+                                    },
+                                    {
+                                        "lower_limit": "15000.01",
+                                        "upper_limit": "55000",
+                                        "percentage": "1.9",
+                                        "auth": "0.2"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "country": "canada",
+            "code": "ca",
+            "currency": "fc-canadian-dollars",
+            "gateways": [
+                {
+                    "code": "stripe",
+                    "chargeback_fee": "15",
+                    "url": "https://stripe.com/ca/pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "braintree",
+                    "chargeback_fee": "15",
+                    "url":"https://www.braintreepayments.com/pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "authorize",
+                    "chargeback_fee": "25",
+                    "setup_fee": "49",
+                    "url":"http://www.authorize.net/international/",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "25",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            },
+                            {
+                                "with_merchant_account": false,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "25",
+                                "percentage": "0",
+                                "auth": "0.1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "paypal_payments",
+                    "chargeback_fee": "20",
+                    "url":"https://www.paypal.com/ca/webapps/mpp/merchant-fees",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "monthly_fee":"35",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "paypal_express",
+                    "chargeback_fee": "20",
+                    "url":"https://www.paypal.com/ca/webapps/mpp/express-checkout",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "country": "australia",
+            "code": "au",
+            "currency": "fc-australian-dollar",
+            "gateways": [
+                {
+                    "code": "stripe",
+                    "chargeback_fee": "25",
+                    "url": "https://stripe.com/au/pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "1.75",
+                                "auth": "0.3"
+                            }
+                        ],
+                        "international": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.9",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "braintree",
+                    "chargeback_fee": "25",
+                    "url":"https://www.braintreepayments.com/pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "1.75",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "authorize",
+                    "url":"http://www.authorize.net/en-ANZ/pricing/",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": false,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "35",
+                                "percentage": "0",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "pin",
+                    "chargeback_fee": "25",
+                    "url":"https://pin.net.au/pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "1.75",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "eway",
+                    "extra_info": "200 free transactions/month for payment gateway only plan.",
+                    "url":"https://www.eway.com.au/plans-pricing",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "1.75",
+                                "auth": "0.2"
+                            },
+                            {
+                                "with_merchant_account": false,
+                                "fee_type": "flat_fee",
+                                "monthly_fee": "60",
+                                "percentage": "0",
+                                "auth": "0.4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "code": "paypal_express",
+                    "chargeback_fee": "20",
+                    "url":"https://www.paypal.com/au/webapps/mpp/express-checkout",
+                    "plans": {
+                        "domestic": [
+                            {
+                                "with_merchant_account": true,
+                                "fee_type": "flat_fee",
+                                "percentage": "2.6",
+                                "auth": "0.3"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

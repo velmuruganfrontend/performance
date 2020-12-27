@@ -1,0 +1,27 @@
+//------------------------------------------------------------------------------
+// For All Links
+//------------------------------------------------------------------------------
+#{$prefix}-link{
+	@include font($ff_primary, $fWeight: $fw_medium, $fColor: $clr_link);
+	
+	@include onHover{
+		color: $clr_link;
+        text-decoration: none;
+	}
+
+
+	&--{
+
+		&icon{
+            &:after{
+                content: '';
+                display: inline-block;
+                width: 12px;
+                height: 10px;
+                margin-left: 8px;
+                background: url('../images/home/jan-2019/arrow/arrow.svg') center/contain no-repeat; 
+            }
+		}
+	}
+}
+

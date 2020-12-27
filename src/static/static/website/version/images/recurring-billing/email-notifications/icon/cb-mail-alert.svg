@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="100px" viewBox="0 0 94 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="36" cy="36" r="36"></circle>
+        <filter x="-42.4%" y="-29.9%" width="184.7%" height="184.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="8" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0588235294   0 0 0 0 0.156862745   0 0 0 0 0.294117647  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter2" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0588235294   0 0 0 0 0.156862745   0 0 0 0 0.294117647  0 0 0 0.09 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Chargebee-_-Engage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Engage-3-Copy-2" transform="translate(-1056.000000, -556.000000)">
+            <g id="Group-3-Copy-2" transform="translate(1067.000000, 565.000000)">
+                <g id="Oval-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0055FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="email-alert" transform="translate(20.800000, 24.800000)" fill-rule="nonzero" fill="#FFFFFF">
+                    <path d="M22.8846154,6.53846154 L22.8846154,3.26923077 L13.0769231,9.80769231 L3.26923077,3.26923077 L3.26923077,6.53846154 L13.0769231,13.0769231 L22.8846154,6.53846154 L22.8846154,6.53846154 Z M22.8846154,0 C24.6901617,0 26.1538462,1.46368447 26.1538462,3.26923077 L26.1538462,17.9807692 C26.1538462,19.7863155 24.6901617,21.25 22.8846154,21.25 L3.26923077,21.25 C1.45480769,21.25 0,19.7788462 0,17.9807692 L0,3.26923077 C-3.62957527e-16,1.46368447 1.46368447,0 3.26923077,0 L22.8846154,0 L22.8846154,0 Z M29.4230769,11.4423077 L29.4230769,3.26923077 L32.6923077,3.26923077 L32.6923077,11.4423077 L29.4230769,11.4423077 L29.4230769,11.4423077 Z M29.4230769,17.9807692 L29.4230769,14.7115385 L32.6923077,14.7115385 L32.6923077,17.9807692 L29.4230769,17.9807692 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

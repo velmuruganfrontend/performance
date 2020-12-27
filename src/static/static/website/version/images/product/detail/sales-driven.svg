@@ -1,0 +1,37 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 720">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="1440" height="720" style="fill: none"/>
+    </clipPath>
+  </defs>
+  <title>Pattern Banner</title>
+  <rect width="1440" height="720" style="fill: #d8d5f7"/>
+  <g style="clip-path: url(#clip-path)">
+    <g>
+      <path d="M188,534h81a0,0,0,0,1,0,0V733a0,0,0,0,1,0,0H84a0,0,0,0,1,0,0V638A104,104,0,0,1,188,534Z" style="fill: #3c1bb2;opacity: 0.4"/>
+      <circle cx="1" cy="733" r="189" style="fill: #3c1bb2;opacity: 0.4"/>
+      <circle cx="0.75" cy="733" r="137.75" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+      <circle cy="733" r="84" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+      <polygon points="14.857 372.926 -7.164 391.997 36.878 391.997 14.857 372.926" style="fill: #ea738c"/>
+      <polygon points="14.857 413.777 -31.704 454.1 61.418 454.1 14.857 413.777" style="fill: #3c1bb2;opacity: 0.4"/>
+      <polygon points="14.857 474.92 -22.572 507.335 52.286 507.335 14.857 474.92" style="fill: #ea738c"/>
+      <rect x="226" y="534" width="43" height="199" style="fill: #fff"/>
+    </g>
+    <g>
+      <g>
+        <polygon points="1290.387 577.944 1440 577.826 1440 422.652 1290.387 577.944" style="fill: #3c1bb2;opacity: 0.4"/>
+        <polygon points="1219 578 1073.911 733 1141 733 1290.387 577.944 1219 578" style="fill: #ea738c"/>
+        <polygon points="1440 733 1440 624 1332.887 733 1440 733" style="fill: #fff"/>
+        <polygon points="1141 733 1332.887 733 1440 624 1440 577.826 1290.387 577.944 1141 733" style="fill: #3c1bb2;opacity: 0.4"/>
+        <polygon points="1141 733 1332.887 733 1440 624 1440 577.826 1290.387 577.944 1141 733" style="fill: #3c1bb2;opacity: 0.4"/>
+      </g>
+      <g>
+        <polygon points="1296.333 491.454 1273.799 517.474 1273.799 465.434 1296.333 491.454" style="fill: #ea738c"/>
+        <polygon points="1258.374 491.454 1217.324 538.855 1217.324 444.053 1258.374 491.454" style="fill: #3c1bb2;opacity: 0.4"/>
+        <polygon points="1197.706 491.454 1172 521.137 1172 461.771 1197.706 491.454" style="fill: #ea738c"/>
+      </g>
+      <line x1="1321" y1="681" x2="1172" y2="836" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+      <line x1="1321" y1="617" x2="1172" y2="772" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+    </g>
+  </g>
+</svg>

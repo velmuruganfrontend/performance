@@ -1,0 +1,31 @@
+//------------------------------------------------------------------------------
+// For Typography
+//------------------------------------------------------------------------------
+
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// For Fontsize and line-height only
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+@mixin fontSize($fSize: null, 
+				$lHeight: null)
+{
+	font-size: $fSize;
+	line-height: $lHeight	
+}
+
+
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// For Full typography Specfication
+//- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+@mixin font($fFamily: null, 
+			$fSize: null, 
+			$fWeight: null,  
+			$lHeight: null, 
+			$lSpacing: null, 
+			$fColor: null) 
+{
+    font-family: $fFamily;
+    font-weight: $fWeight;
+    @include fontSize($fSize, $lHeight);
+    letter-spacing: $lSpacing;
+    color: $fColor;
+}

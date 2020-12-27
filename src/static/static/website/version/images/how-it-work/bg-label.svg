@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="302px" height="27px" viewBox="0 0 302 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,0.759 L341.066,0.759 L341.066,50 L0,50"></path>
+    </defs>
+    <g id="option2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="howitworks1" sketch:type="MSArtboardGroup" transform="translate(-709.000000, -536.000000)">
+            <g id="Two-fellow-earthling-+-Promise,-hope,-and-t" sketch:type="MSLayerGroup" transform="translate(693.000000, 475.000000)">
+                <g id="Page-1" transform="translate(0.000000, 51.000000)">
+                    <mask id="mask-2" sketch:name="Clip 2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M317.04884,23.4868907 C316.583646,17.218816 308.30549,11.2108008 297.187621,11.49644 C229.407899,13.2369205 161.531078,13.4905852 93.722227,12.2222619 C74.432128,11.8614826 55.1499734,11.3738709 35.876646,10.7716838 C25.4843733,10.4471423 15.5519981,16.5185737 16.0154266,22.7621346 C16.5176947,29.5364728 24.7437705,34.4045959 35.876646,34.7525854 C103.626355,36.8692996 171.496997,37.499198 239.32262,36.6071084 C258.617133,36.3529109 277.906349,35.9724139 297.187621,35.4773415 C307.553412,35.2108871 317.543164,30.1530485 317.04884,23.4868907" id="Fill-1" fill="#FDF9E2" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

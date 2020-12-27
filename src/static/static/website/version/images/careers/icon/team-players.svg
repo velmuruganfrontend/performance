@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Team-players</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="25.2972973" y="15.5675676" width="23.3513514" height="17.5135135"></rect>
+        <rect id="path-2" x="-2.91891892" y="15.5675676" width="23.3513514" height="17.5135135"></rect>
+        <rect id="path-3" x="0" y="0" width="45.7297297" height="17.5135135"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-129.000000, -121.000000)">
+            <g id="Team-players" transform="translate(129.000000, 121.000000)">
+                <rect id="Rectangle-23-Copy-6" fill="#FFFFFF" x="0" y="0" width="60" height="60"></rect>
+                <g id="Group-9" transform="translate(7.000000, 12.000000)">
+                    <g id="Rectangle-25-Copy" transform="translate(36.972973, 24.324324) rotate(-270.000000) translate(-36.972973, -24.324324) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#130D23" stroke-width="4" x="27.2972973" y="17.5675676" width="19.3513514" height="13.5135135"></rect>
+                    </g>
+                    <g id="Rectangle-25-Copy-3" transform="translate(8.756757, 24.324324) rotate(-270.000000) translate(-8.756757, -24.324324) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#130D23" stroke-width="4" x="-0.918918919" y="17.5675676" width="19.3513514" height="13.5135135"></rect>
+                    </g>
+                    <g id="Rectangle-25-Copy-2" transform="translate(22.864865, 8.756757) rotate(-360.000000) translate(-22.864865, -8.756757) ">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#130D23" stroke-width="4" x="2" y="2" width="41.7297297" height="13.5135135"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

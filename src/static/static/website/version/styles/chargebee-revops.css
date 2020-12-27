@@ -1,0 +1,221 @@
+.cb-row {
+  padding: 50px 15px;
+  color: #00000A;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.5; }
+  @media (min-width: 768px) {
+    .cb-row {
+      font-size: 18px;
+      padding: 70px 60px; } }
+  @media (min-width: 1441px) {
+    .cb-row {
+      padding: 90px 80px;
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto; }
+      .cb-row:first-child {
+        max-width: none; }
+        .cb-row:first-child .cb-hero {
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 1440px; } }
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #000000; }
+
+.cb-link {
+  color: #000FF0;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 500; }
+  .cb-link--icon:after {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    margin-left: 8px;
+    background: url("../images/home/jan-2019/arrow/arrow.svg") center/contain no-repeat; }
+
+@media (max-width: 767px) {
+  .cb-body ol {
+    padding-left: 20px; }
+  .cb-body * {
+    word-break: break-word; } }
+
+.cb-body .nav > li > a {
+  padding: 4px 0; }
+
+.cb-body .nav > li > a:focus, .cb-body .nav > li > a:hover {
+  background-color: transparent; }
+
+@media (min-width: 992px) {
+  .cb-body #marketing {
+    padding-top: 0; } }
+
+.cb-hero {
+  display: grid;
+  grid-gap: 30px; }
+  @media (min-width: 992px) {
+    .cb-hero {
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+      grid-gap: 80px; } }
+  @media (min-width: 1200px) {
+    .cb-hero {
+      grid-gap: 100px; } }
+  .cb-hero .cb-article {
+    max-width: 500px;
+    margin: auto 0; }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .cb-hero .cb-article {
+        margin: auto; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .cb-hero__figure {
+      max-width: 550px;
+      margin-left: auto;
+      margin-right: auto; } }
+
+.cb-article {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  max-width: 550px; }
+  @media (min-width: 1200px) {
+    .cb-article {
+      max-width: 720px; } }
+  .cb-article--full {
+    margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .cb-article--full .cb-article__footer {
+        margin-left: -80px;
+        margin-right: -80px; } }
+    @media (min-width: 1024px) {
+      .cb-article--full .cb-article__footer {
+        margin-left: -150px;
+        margin-right: -150px; } }
+  .cb-article__title {
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.25;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    margin-bottom: 16px;
+    text-align: center; }
+    @media (max-width: 767px) {
+      .cb-article__title {
+        font-size: 24px; } }
+    .cb-article__title--left {
+      text-align: left; }
+  .cb-article__desc {
+    text-align: center;
+    margin-bottom: 28px; }
+    .cb-article__desc--left {
+      text-align: left; }
+  .cb-article__icon {
+    margin-bottom: 30px; }
+    .cb-article__icon img {
+      margin-left: auto;
+      margin-right: auto; }
+  .cb-article__action {
+    display: inline-block;
+    font-size: 16px; }
+    @media (max-width: 767px) {
+      .cb-article__action {
+        min-width: 180px; } }
+    .cb-article__actions {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      text-align: center;
+      grid-gap: 30px;
+      overflow-x: auto;
+      padding-bottom: 16px;
+      align-items: flex-end; }
+    .cb-article__action--icon {
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      margin-bottom: 16px;
+      margin-top: 28px; }
+    .cb-article__action--link {
+      color: #000FF0;
+      font-weight: 500; }
+
+@media (min-width: 992px) {
+  .cb-panel {
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-column-gap: 5%; } }
+
+.cb-panel__item {
+  list-style: none; }
+  .cb-panel__item a {
+    color: #666678;
+    font-size: 16px; }
+  .cb-panel__item--title {
+    color: #00000A;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: 24px; }
+  .cb-panel__item.active a {
+    color: #000FF0;
+    font-weight: 500; }
+
+.cb-panel__header {
+  position: sticky;
+  top: 0;
+  height: max-content; }
+
+.cb-panel__heading {
+  display: inline;
+  position: relative;
+  transition: background-size .3s ease;
+  background: linear-gradient(to bottom, transparent 62%, #ffe6ab 0) center center/0% 75% no-repeat;
+  background-size: 100% 100%; }
+
+.cb-panel__content {
+  font-weight: bold;
+  padding-top: 30px; }
+  .cb-panel__contents {
+    font-size: 20px; }
+  @media (max-width: 767px) {
+    .cb-panel__content {
+      font-size: 18px; } }
+  @media (min-width: 992px) {
+    .cb-panel__content {
+      padding-top: 40px; } }
+  .cb-panel__content:not(:first-child) {
+    margin-top: 30px; }
+    @media (min-width: 992px) {
+      .cb-panel__content:not(:first-child) {
+        margin-top: 40px; } }
+
+.cb-panel__desc {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  padding-left: 0; }
+  @media (max-width: 767px) {
+    .cb-panel__desc {
+      font-size: 16px; } }
+  .cb-panel__desc--item {
+    list-style-type: disc;
+    margin-bottom: 20px; }
+  .cb-panel__desc--icon {
+    list-style: none; }
+  .cb-panel__desc--figure {
+    list-style: none;
+    margin: 30px 0; }
+
+@media (min-width: 1200px) {
+  .cb-panel__list, .cb-panel__contents {
+    max-width: 80%; } }
+
+@media (min-width: 992px) {
+  .cb-height--vh {
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: 100vh;
+    display: grid;
+    align-items: center; } }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Fearless</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="21 31.75 9.625 9 28.875 18.1875 36.75 11.625 39.375 27.8125 53.375 31.75 42.875 40.5 47.25 51 33.25 44.875 21 51 7 40.5"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-59.000000, -121.000000)">
+            <g id="Fearless" transform="translate(59.000000, 121.000000)">
+                <rect id="Rectangle-23-Copy-7" fill="#FFFFFF" x="0" y="0" width="60" height="60"></rect>
+                <g id="Path-6">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#130D23" stroke-width="4" d="M10.5334511,40.6500883 L21.2111456,48.6583592 L33.1934274,42.6672183 L43.4879459,47.1710702 L40.4615722,39.9077733 L49.1752128,32.6464061 L37.6050579,29.3923 L35.3369962,15.4059197 L29.1705148,20.5446542 L14.0172829,13.3124299 L23.6021452,32.4821545 L10.5334511,40.6500883 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 880 530" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{display:inline;fill:#B7CFE5;}
+	.st3{display:inline;fill:#C9DBEE;}
+	.st4{fill:#E6EDF5;}
+	.st5{fill:#C9DBEE;}
+	.st6{fill:#B7CFE5;}
+	.st7{fill:#FFFFFF;}
+	.st8{display:inline;fill:#E6EDF5;}
+	.st9{display:inline;fill:#FFFFFF;}
+	.st10{fill:none;stroke:#C9DBED;stroke-miterlimit:10;}
+  .nostroke {display: none;}
+
+  .dot {
+    animation: 8s linear infinite fliesMotion;
+		-webkit-animation: 8s linear infinite fliesMotion;
+		-moz-animation: 8s linear infinite fliesMotion;
+  }
+
+  .dot__b {
+    animation: 14s linear infinite fliesMotion;
+		-webkit-animation: 14s linear infinite fliesMotion;
+		-moz-animation: 14s linear infinite fliesMotion;
+  }
+
+  .dot__c {
+    animation: 12s linear infinite fliesMotion;
+		-webkit-animation: 12s linear infinite fliesMotion;
+		-moz-animation: 12s linear infinite fliesMotion;
+  }
+
+  .dot__d {
+    animation: 12s linear infinite fliesMotion;
+		-webkit-animation: 12s linear infinite fliesMotion;
+		-moz-animation: 12s linear infinite fliesMotion;
+  }
+
+  @keyframes fliesMotion {
+    0%, 100% {
+      opacity: 0;
+    }
+    10%, 96% {
+      opacity: 1;
+    }
+  }
+
+	@-webkit-keyframes fliesMotion {
+    0%, 100% {
+      opacity: 0;
+    }
+    10%, 96% {
+      opacity: 1;
+    }
+  }
+
+	@-moz-keyframes fliesMotion {
+    0%, 100% {
+      opacity: 0;
+    }
+    10%, 96% {
+      opacity: 1;
+    }
+  }
+</style>
+<title>Asset 2</title>
+<g id="dot__a-wrap" class="dot__a-wrap">
+	<!-- <circle id="dot__a" class="st5 dot__a" cx="213.3" cy="396.8" r="4.2"> -->
+  <circle id="dot__a" class="st5 dot__a dot" cx="" cy="" r="4.2">
+    <animateMotion dur="8s" repeatCount="indefinite">
+      <mpath xlink:href="#dot__a-motionpath"/>
+    </animateMotion>
+  </circle>
+	<path id="dot__a-motionpath" class="st10 nostroke" d="M4.5,264.2c0,0-17.9,45.7,22,58.3S73.4,321,97.5,361c21.3,35.4,35.5,42.8,116.5,35.4"/>
+</g>
+<g id="dot__c-wrap" class="dot__c-wrap">
+	<!-- <circle id="dot__c" class="st5 dot__c" cx="441.9" cy="347.4" r="4.2"> -->
+  <circle id="dot__c" class="st5 dot__c dot" cx="" cy="" r="4.2">
+    <animateMotion dur="12s" repeatCount="indefinite">
+      <mpath xlink:href="#dota__c-motionpath"/>
+    </animateMotion>
+  </circle>
+	<path id="dota__c-motionpath" class="st10 nostroke" d="M393.8,0.5c0,0,43.4,13.6,16.9,65.1C391,104,389,147.3,425,162.3c36,15,57.3-2.6,63.8-14.6
+		c6.7-12.5,6.9-46.3-36.7-34.6s-46.8,61.5-46.5,77.1c0.4,15.6,10.8,40.5,38.8,63.9s17,80.7-2.8,93.4"/>
+</g>
+<g id="dot__b-wrap" class="dot__b-wrap">
+	<!-- <circle id="dot__b" class="st5 dot__b" cx="573.4" cy="304.5" r="4.2"> -->
+  <circle id="dot__b" class="st5 dot__b dot" cx="" cy="" r="4.2">
+    <animateMotion dur="14s" repeatCount="indefinite">
+      <mpath xlink:href="#dota__b-motionpath"/>
+    </animateMotion>
+  </circle>
+	<path id="dota__b-motionpath" class="st10 nostroke" d="M573.3,304.5c0,0-11.9-43.9,47.2-48.8c33.8-2.8,40-16.5,39.2-27.7c-0.7-9-6.1-16.9-14-21.3
+		c-7.8-4.3-19.5-8.4-29.7-2.7c-16.9,9.7,28.5,30,28.5,30s30.9,11.7,57.6,3.3c26.7-8.3,10.5-48.7,1.7-62
+		c-20.4-30.8-32.1-56.3-13.8-79c21.7-26.8,64.6-16.7,81.3-15"/>
+</g>
+<g id="dot__d-wrap" class="dot__d-wrap">
+	<!-- <circle id="dot__d" class="st5 dot__d" cx="571.3" cy="382.6" r="4.2"> -->
+  <circle id="dot__d" class="st5 dot__d dot" cx="" cy="" r="4.2">
+    <animateMotion dur="12s" repeatCount="indefinite">
+      <mpath xlink:href="#dota__d-motionpath"/>
+    </animateMotion>
+  </circle>
+	<path id="dota__d-motionpath" class="st10 nostroke" d="M571.3,381.7c0,0,17.3,56,69.1,45.2c39.9-8.4,58-44.3,64.2-60.3c2.7-7,3-14.7,0.5-21.8
+		c-3.3-9.3-11.5-18.2-32.4-8.5c-36.2,16.9-17.8,60.1,21.7,67.4c39.5,7.3,77-48.3,77-48.3s30-43.6,59.2-24.9"/>
+</g>
+</svg>

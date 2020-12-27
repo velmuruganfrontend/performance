@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="187px" height="135px" viewBox="0 0 187 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="29.7048567%" y1="62.9809988%" x2="154.309043%" y2="-17.2634393%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#DCDCF0" stop-opacity="0.7" offset="46%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-8" transform="translate(-524.000000, -1709.000000)">
+            <g id="Group-28" transform="translate(524.000000, 1709.000000)">
+                <rect id="Rectangle-Copy-2" fill-opacity="0.1" fill="#FFFFFF" x="0" y="0" width="187" height="135"></rect>
+                <g id="Asset-6texture" transform="translate(24.000000, 15.000000)" fill-rule="nonzero">
+                    <polygon id="Path" fill="#167AF4" points="103.770732 43.0170732 71.0707317 24.1317073 51.5926829 35.4512195 84.5707317 54.1756098"></polygon>
+                    <polygon id="Path" fill="#1F0256" points="103.770732 43.0170732 84.5707317 54.1756098 84.5780488 54.1829268 84.5780488 89.897561 103.668293 78.804878"></polygon>
+                    <polygon id="Path" fill="#A0D0FF" points="43.9170732 0 43.9170732 66.4536585 84.5780488 89.9487805 84.5780488 23.495122"></polygon>
+                    <polygon id="Path" fill="#E8E8F9" points="51.5926829 35.4512195 38.5829268 43.0170732 71.2829268 61.895122 84.5707317 54.1756098"></polygon>
+                    <polygon id="Path" fill="#8C8C96" points="84.5707317 54.1756098 71.2829268 61.895122 71.1804878 97.6829268 84.5780488 89.897561 84.5780488 54.1829268"></polygon>
+                    <polygon id="Path" fill="#C5C5DC" points="71.2829268 61.895122 71.1804878 97.6829268 38.4804878 78.804878 38.5829268 43.0170732"></polygon>
+                    <rect id="Rectangle" fill="#A0D0FF" x="91.5585366" y="16.8731707" width="5.12926829" height="5.12926829"></rect>
+                    <rect id="Rectangle" fill="#A0D0FF" x="98.6121951" y="23.1804878" width="2.19512195" height="2.19512195" rx="1.09756098"></rect>
+                    <rect id="Rectangle" fill="#A0D0FF" x="38.4804878" y="36.9219512" width="2.19512195" height="2.19512195" rx="1.09756098"></rect>
+                    <polyline id="Path" fill-opacity="0.4" fill="url(#linearGradient-1)" points="33.9146341 119.64878 71.1804878 97.6829268 71.2829268 61.895122 38.5829268 43.0170732 0 64.9097561"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

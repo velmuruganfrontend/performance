@@ -1,0 +1,8 @@
+/* copyright © 2011 chargebee.com. All rights reserved */
+
+/*
+   This css is a combined css. It contains the following open source css also
+
+   * Blueprint  (The licence applicable for blueprint  is present at   http://chargebee.com/licenses/blueprint_license.txt  )
+*/
+

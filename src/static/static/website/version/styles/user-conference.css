@@ -1,0 +1,533 @@
+.uc-hidden {
+  display: none !important;
+  visibility: hidden !important; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #090015;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  line-height: 1.5;
+  font-size: 16px; }
+
+.img-responsive {
+  max-width: 100%; }
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none; }
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important; } }
+
+.visible-xs {
+  display: none; }
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important; } }
+
+@media (max-width: 767px) {
+  div#drift-widget-container {
+    display: none !important; }
+  .size-sm {
+    margin-left: auto;
+    margin-right: auto; }
+  .size-xs {
+    margin-left: auto;
+    margin-right: auto; }
+  .clr-white {
+    color: #ffffff !important;
+    font-weight: bold; } }
+
+.uc-container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 15px; }
+  @media (min-width: 768px) {
+    .uc-container {
+      padding: 0 40px; } }
+  @media (min-width: 992px) {
+    .uc-container {
+      padding: 0 80px; } }
+  .uc-container--shadow {
+    position: relative; }
+    .uc-container--shadow:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%); }
+
+.uc-nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 30px 0;
+  margin: 0;
+  text-align: right;
+  list-style: none;
+  align-items: center;
+  color: #f8f6c7;
+  font-family: "IBM Plex Mono", Roboto; }
+
+.uc-row__title {
+  color: #f8f6c7;
+  font-family: "IBM Plex Mono", Roboto;
+  margin-bottom: 40px; }
+  @media (min-width: 768px) {
+    .uc-row__title {
+      text-align: center; } }
+
+.uc-row--shadow {
+  position: relative; }
+  @media (max-width: 767px) {
+    .uc-row--shadow:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      width: 30px;
+      background: linear-gradient(270deg, #210438 0, rgba(33, 4, 56, 0) 100%);
+      right: -15px; } }
+
+.uc-hero__label {
+  color: #f7f5c2;
+  font-family: "IBM Plex Mono", Roboto;
+  font-size: 14px;
+  margin-bottom: 16px; }
+  @media (min-width: 768px) {
+    .uc-hero__label {
+      font-size: 16px;
+      letter-spacing: 2px; } }
+
+.uc-hero__title {
+  font-family: bely-display, sans-serif;
+  font-size: 42px;
+  line-height: 52px;
+  margin-bottom: 30px; }
+  .uc-hero__title span {
+    color: #f4a24c; }
+  @media (min-width: 768px) {
+    .uc-hero__title {
+      font-size: 48px;
+      line-height: 60px; } }
+  @media (min-width: 992px) {
+    .uc-hero__title {
+      font-size: 54px;
+      line-height: 70px; } }
+  @media (min-width: 1200px) {
+    .uc-hero__title {
+      font-size: 64px;
+      line-height: 82px; } }
+
+.uc-hero__desc {
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  letter-spacing: -0.6px;
+  margin: 30px auto 60px auto;
+  max-width: 420px; }
+  @media (min-width: 768px) {
+    .uc-hero__desc {
+      margin: 60px auto 90px auto; } }
+  @media (min-width: 992px) {
+    .uc-hero__desc {
+      font-size: 22px;
+      margin: 80px auto 120px auto; } }
+  @media (min-width: 1200px) {
+    .uc-hero__desc {
+      font-size: 28px;
+      max-width: 520px; } }
+
+.uc-hero__card {
+  display: grid;
+  align-items: center;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (min-width: 992px) {
+    .uc-hero__card {
+      margin-top: 50px;
+      max-width: none; } }
+  @media (min-width: 992px) {
+    .uc-hero__card {
+      grid-gap: 30px;
+      grid-template-columns: 420px 1fr; } }
+  @media (min-width: 1200px) {
+    .uc-hero__card {
+      grid-gap: 100px;
+      grid-template-columns: 480px 1fr; } }
+
+.uc-hero__date {
+  font-size: 16px;
+  color: #f4a24c;
+  margin-top: 8px;
+  margin-bottom: 60px;
+  font-family: "IBM Plex Mono", Roboto; }
+
+.uc-hero__figure {
+  margin: 0 auto;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .uc-hero__figure {
+      margin-top: 50px;
+      position: sticky;
+      top: 0; } }
+
+@media (min-width: 768px) {
+  .uc-sticky {
+    position: relative;
+    display: block; } }
+
+.uc-card {
+  position: relative;
+  display: grid;
+  grid-gap: 30px;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  overflow: hidden; }
+  .uc-card:hover .uc-card__hover {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px); }
+  .uc-card:hover .uc-card__default, .uc-card:hover .uc-card__figure {
+    filter: blur(30px); }
+  .uc-cards {
+    max-width: 940px;
+    margin: auto;
+    width: 100%;
+    grid-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(7, 310px);
+    margin-bottom: 90px; }
+    @media (max-width: 767px) {
+      .uc-cards {
+        width: auto;
+        overflow-x: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-left: 15px; } }
+    @media (min-width: 768px) {
+      .uc-cards {
+        grid-gap: 30px;
+        grid-template-columns: calc(50% - 15px) calc(50% - 15px);
+        margin-bottom: 160px; } }
+  .uc-card__default, .uc-card__figure {
+    transition: .5s; }
+  @media (min-width: 768px) {
+    .uc-card__column--two {
+      grid-template-columns: calc(50% - 15px) calc(50% - 15px);
+      grid-column: 1/-1; } }
+  .uc-card__hover {
+    opacity: 0;
+    transform: translate3d(0px, 30px, 0px);
+    transform-origin: bottom;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    transition: .5s;
+    border-radius: 8px;
+    color: #340403;
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    z-index: 9999;
+    padding: 30px;
+    background-color: transparent; }
+    .uc-card__hover .uc-card__desc {
+      margin-top: auto;
+      margin-bottom: auto;
+      color: #00000A; }
+    .uc-card__hover * {
+      max-width: 620px;
+      margin: auto; }
+  .uc-card__figure img {
+    margin-top: 24px; }
+    @media (max-width: 767px) {
+      .uc-card__figure img {
+        margin: 24px auto;
+        max-height: 90px;
+        width: auto; } }
+
+.uc-card {
+  text-align: center;
+  padding: 30px 15px;
+  border-radius: 8px;
+  height: 100%; }
+  @media (min-width: 768px) {
+    .uc-card {
+      padding: 40px; } }
+  .uc-card__label, .uc-card__speaker, .uc-card__heading {
+    color: #000000;
+    font-family: "IBM Plex Mono", Roboto;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 8px; }
+    @media (min-width: 768px) {
+      .uc-card__label, .uc-card__speaker, .uc-card__heading {
+        font-size: 16px; } }
+  .uc-card__title {
+    color: #330403;
+    font-family: bely-display, sans-serif;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: normal;
+    letter-spacing: -1.4px;
+    margin-bottom: 12px; }
+    @media (min-width: 768px) {
+      .uc-card__title {
+        font-size: 36px;
+        line-height: 42px; } }
+    @media (min-width: 992px) {
+      .uc-card__title {
+        font-size: 48px;
+        line-height: 56px; } }
+  .uc-card__desc {
+    color: #ffffff;
+    font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 12px; }
+    @media (min-width: 992px) {
+      .uc-card__desc {
+        font-size: 20px; } }
+  .uc-card__heading {
+    color: #ffffff;
+    margin-bottom: 24px; }
+  .uc-card--bg-yellow {
+    background-color: #f4a24c; }
+  .uc-card--bg-orange {
+    background-color: #e75f2e; }
+  .uc-card--bg-lightorange {
+    background-color: #fb802b; }
+  .uc-card--bg-red {
+    background-color: #de4a4a; }
+
+.uc-footer {
+  text-align: center;
+  padding-bottom: 90px; }
+  @media (min-width: 768px) {
+    .uc-footer {
+      padding-bottom: 0; } }
+  .uc-footer__label {
+    font-family: "IBM Plex Mono", Roboto;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    margin-bottom: 0; }
+    .uc-footer__label span {
+      color: #d82423;
+      font-size: 40px;
+      vertical-align: sub; }
+      @media (min-width: 768px) {
+        .uc-footer__label span {
+          font-size: 32px; } }
+    @media (min-width: 768px) {
+      .uc-footer__label {
+        font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 24px;
+        margin-bottom: 32px; } }
+  .uc-footer__action {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 60px; }
+    @media (min-width: 768px) {
+      .uc-footer__action {
+        padding: 30px 0 30px 0;
+        border-top: 1px solid #979797; } }
+    @media (min-width: 992px) {
+      .uc-footer__action {
+        padding: 60px 0 90px 0;
+        margin-top: 120px; } }
+
+.fr-form {
+  font-size: 16px;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+  .fr-form.text-center form {
+    margin-left: auto;
+    margin-right: auto; }
+  @media (max-width: 767px) {
+    .fr-form {
+      margin-top: 24px; } }
+  .fr-form form {
+    border-radius: 3px; }
+    @media (min-width: 768px) {
+      .fr-form form {
+        margin-bottom: 40px;
+        display: grid;
+        border: 1px solid #00000A;
+        position: relative;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 480px; }
+        .fr-form form div, .fr-form form input {
+          height: 100%; } }
+    @media (max-width: 767px) {
+      .fr-form form {
+        max-width: 420px;
+        position: relative; } }
+    .fr-form form [id^="label-email"] {
+      display: none; }
+    .fr-form form .hs-error-msgs {
+      color: #E71324;
+      list-style-type: none;
+      font-weight: normal;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+      font-size: 14px;
+      margin-top: 8px; }
+      @media (min-width: 768px) {
+        .fr-form form .hs-error-msgs {
+          position: absolute;
+          margin-top: 60px;
+          left: 0;
+          top: 0; } }
+      .fr-form form .hs-error-msgs .hs-error-msg {
+        margin-bottom: 0; }
+    .fr-form form .hs-form-field {
+      position: relative;
+      z-index: 8; }
+    .fr-form form .hs_error_rollup {
+      display: none; }
+    .fr-form form input {
+      -webkit-appearance: none;
+      -moz-appearance: none; }
+      .fr-form form input, .fr-form form input:hover, .fr-form form input:active, .fr-form form input:focus {
+        outline: none;
+        height: 44px; }
+        @media (min-width: 768px) {
+          .fr-form form input, .fr-form form input:hover, .fr-form form input:active, .fr-form form input:focus {
+            border: none;
+            box-shadow: none;
+            background: #ffffff;
+            padding: 14px 20px;
+            margin: 0;
+            font-size: 14px;
+            line-height: 16px;
+            width: 100%; } }
+      .fr-form form input[type="email"] {
+        border-radius: 3px 0 0 3px; }
+      .fr-form form input[type="submit"] {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-color: #500ad2;
+        color: #ffffff;
+        padding-left: 24px;
+        padding-right: 44px;
+        position: relative;
+        border-radius: 0 3px 3px 0;
+        font-size: 16px;
+        font-weight: 600;
+        box-shadow: 0 2px 10px 0 rgba(0, 4, 48, 0.08), 0 12px 21px 0 rgba(0, 4, 48, 0.24); }
+        @media (max-width: 767px) {
+          .fr-form form input[type="submit"] {
+            border: 1px solid #00000A;
+            color: transparent;
+            max-width: 40px;
+            padding: 11px 26px;
+            margin-top: -2px;
+            margin-right: -1px;
+            border-left: none; } }
+      @media (max-width: 767px) {
+        .fr-form form input {
+          padding: 8px 12px; }
+          .fr-form form input[type="email"] {
+            border: 1px solid #00000A;
+            width: calc(100% - 52px);
+            font-size: 16px;
+            line-height: 1.5; } }
+    @media (max-width: 767px) {
+      .fr-form form .hs-submit {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        z-index: 10; } }
+    .fr-form form .hs-submit .actions {
+      position: relative; }
+      .fr-form form .hs-submit .actions:after {
+        content: '';
+        transition: .3s ease;
+        background: url("../images/home/jan-2019/arrow/button-arrow.svg") no-repeat;
+        position: absolute;
+        top: 0;
+        background-size: 16px 14px;
+        background-position: center;
+        right: 0;
+        width: 16px;
+        height: 100%;
+        margin-right: 20px; }
+        @media (max-width: 767px) {
+          .fr-form form .hs-submit .actions:after {
+            height: 18px;
+            margin-right: 0;
+            top: 12px;
+            right: 14px; } }
+      .fr-form form .hs-submit .actions:hover:after {
+        margin-right: 16px; }
+
+#uc-form__content {
+  position: relative; }
+  @media (max-width: 767px) {
+    #uc-form__content {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 15px;
+      margin-bottom: -100%;
+      transition: margin .5s;
+      background: linear-gradient(0deg, #3f0561 50%, rgba(33, 4, 56, 0) 100%);
+      z-index: 999999; } }
+
+.animate {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: .1;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+.ff-ibm__mono {
+  font-family: "IBM Plex Mono", Roboto;
+  color: #f8f6c7;
+  margin-bottom: 24px; }
+
+.replay-now:after {
+  content: "";
+  position: absolute;
+  background: url(../images/home/jan-2019/arrow/button-arrow.svg) no-repeat;
+  right: 18px;
+  width: 16px;
+  height: 15px;
+  top: 17px;
+  transition: 0.3s ease; }
+
+.replay-now:hover:after {
+  transform: translateY(4px);
+  transform: rotate(90deg); }
+
+@media (max-width: 991px) {
+  .replay-now-center {
+    margin-top: 50px; } }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="577px" height="98px" viewBox="0 0 577 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy 3 + Rectangle Copy Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="577" height="98"></rect>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Customers-Artboard-1-Copy-4" transform="translate(-737.000000, -438.000000)">
+            <g id="Group-4" transform="translate(737.000000, 210.000000)">
+                <g id="Rectangle-Copy-3-+-Rectangle-Copy-Mask" transform="translate(0.000000, 228.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#D8D8D8" opacity="0" xlink:href="#path-1"></use>
+                    <path d="M575.860719,402.914209 C576.489927,402.914209 577,402.184495 577,401.327426 L577,36 L0,100.07993 L2.57244335e-13,401.319137 C2.57244335e-13,402.200071 0.499800668,402.914209 1.13928087,402.914209" id="Rectangle-Copy-3" fill="#060035" mask="url(#mask-2)"></path>
+                    <path d="M1.13928087,403 C0.510073419,403 2.84217094e-13,402.294314 2.84217094e-13,401.383611 L5.41461429e-13,0 L577,84.1493136 L577,401.395324 C577,402.281562 576.500199,403 575.860719,403" id="Rectangle-Copy" fill-opacity="0.600000024" fill="#6450F0" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

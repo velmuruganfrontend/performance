@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 22</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Final-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Order-management-final-Copy" transform="translate(-183.000000, -3006.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="4215"></rect>
+            <g id="Group-22" transform="translate(183.000000, 3006.000000)" fill="#6200EA">
+                <path d="M19.5,32 C12.5892857,32 7,26.4107143 7,19.5 C7,12.5892857 12.5892857,7 19.5,7 C26.4107143,7 32,12.5892857 32,19.5 C32,26.4107143 26.4107143,32 19.5,32 Z M35.3481818,17.7272727 C34.5327273,10.335 28.665,4.46727273 21.2727273,3.65181818 L21.2727273,0 L17.7272727,0 L17.7272727,3.65181818 C10.335,4.46727273 4.46727273,10.335 3.65181818,17.7272727 L0,17.7272727 L0,21.2727273 L3.65181818,21.2727273 C4.46727273,28.665 10.335,34.5327273 17.7272727,35.3481818 L17.7272727,39 L21.2727273,39 L21.2727273,35.3481818 C28.665,34.5327273 34.5327273,28.665 35.3481818,21.2727273 L39,21.2727273 L39,17.7272727 L35.3481818,17.7272727 Z" id="Fill-3"></path>
+                <circle id="Oval-2" cx="19.5" cy="19.5" r="4.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

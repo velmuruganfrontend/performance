@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="215px" height="320px" viewBox="0 0 215 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Line 3 + Line 3 Copy + Line 3 Copy 5 + Line 3 Copy 6 + Line 3 Copy 7 + Line 3 Copy 8 + Line 3 Copy 9 + Line 3 Copy 10 + Line 3 Copy 2 + Line 3 Copy 3 + Line 3 Copy 4 Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.25 0.25 214.25 0.25 214.25 319.25 0.25 319.25"></polygon>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#ECECEC" offset="0%"></stop>
+            <stop stop-color="#D5D5D5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#ECECEC" offset="0%"></stop>
+            <stop stop-color="#D5D5D5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Latest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Line-3-+-Line-3-Copy-+-Line-3-Copy-5-+-Line-3-Copy-6-+-Line-3-Copy-7-+-Line-3-Copy-8-+-Line-3-Copy-9-+-Line-3-Copy-10-+-Line-3-Copy-2-+-Line-3-Copy-3-+-Line-3-Copy-4-Mask">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#4B36B6" xlink:href="#path-1"></use>
+            <line x1="-25.25" y1="49.75" x2="49.75" y2="-24.25" id="Line-3" stroke="url(#linearGradient-3)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="-12.5" y1="226.5" x2="227" y2="-12" id="Line-3-Copy" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="0.5" y1="263.5" x2="240" y2="25" id="Line-3-Copy-5" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="-6.5" y1="320.5" x2="233" y2="82" id="Line-3-Copy-6" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="12.5" y1="349.5" x2="252" y2="111" id="Line-3-Copy-7" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="40.5" y1="370.5" x2="280" y2="132" id="Line-3-Copy-8" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="70.5" y1="388.5" x2="310" y2="150" id="Line-3-Copy-9" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="98.5" y1="412.5" x2="338" y2="174" id="Line-3-Copy-10" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="-37.5" y1="199.5" x2="202" y2="-39" id="Line-3-Copy-2" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="-54.5" y1="166.5" x2="185" y2="-72" id="Line-3-Copy-3" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+            <line x1="-73.5" y1="136.5" x2="166" y2="-102" id="Line-3-Copy-4" stroke="url(#linearGradient-4)" stroke-linecap="square" mask="url(#mask-2)"></line>
+        </g>
+    </g>
+</svg>

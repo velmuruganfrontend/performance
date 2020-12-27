@@ -1,0 +1,350 @@
+.search-form {
+  max-width: 680px;
+  margin: 15px auto; }
+
+.search-input-group {
+  position: relative; }
+
+.search-form .form-control,
+.search-form .btn {
+  height: 60px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  line-height: 20px;
+  background: #FFFFFF;
+  border-color: #758393; }
+
+.search-form .btn,
+.search-form .btn:focus,
+.search-form .btn:active {
+  border-left-width: 0;
+  outline-width: 0;
+  color: #222222;
+  line-height: 17px;
+  font-weight: 500;
+  text-align: left;
+  min-width: 200px;
+  font-size: 14px; }
+
+.search-input-group-btn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 1111; }
+
+ul.result-tabs {
+  color: #5c5c5c;
+  position: relative; }
+
+ul.result-tabs > li {
+  display: inline-block;
+  padding: 8px 15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-top-width: 2px;
+  border-bottom: none; }
+
+ul.result-tabs > li:hover {
+  color: black; }
+
+ul.result-tabs > li.active {
+  background: white;
+  color: #000000;
+  border-color: #dadde0; }
+
+.result-container {
+  background: white;
+  border: 1px solid #dadde0;
+  margin: -1px 0 0;
+  padding: 10px 20px;
+  line-height: 21px; }
+
+.result-container > .result-name {
+  color: #858484;
+  font-size: 20px;
+  padding: 0 0 20px;
+  text-align: right; }
+
+.result-container > .result-name > span {
+  color: #000000; }
+
+.result-container > div > .result {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+
+.result-container > div > .result:last-child {
+  border-bottom: none;
+  padding: 0; }
+
+.result-container > div > .result h3 {
+  font-size: 18px;
+  color: #265fa9; }
+
+.result-container > div > .result > p > em {
+  background: #ffd93f;
+  font-style: normal; }
+
+.result-container > div > .result span.link {
+  color: #b0afaf;
+  font-size: 13px;
+  word-break: break-all; }
+
+.result-container .st-page {
+  text-align: right; }
+
+.result-container .st-page a {
+  margin: 0 10px; }
+
+.result-container .no-result {
+  color: #000;
+  font-size: 22px;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin: 30px 0; }
+
+.search-result-block {
+  margin: 50px 0; }
+
+.search-result-filter {
+  display: none;
+  font-size: 20px;
+  color: #575553;
+  margin-bottom: 50px;
+  margin-top: 10px; }
+
+.search-result-filter > strong,
+.search-result-heading > strong,
+.search-result-heading > span,
+.search-result-empty > span {
+  color: #000; }
+
+.search-result-heading,
+.search-result-empty {
+  color: #999;
+  font-size: 18px;
+  margin-bottom: 30px; }
+
+.search-result > .tag {
+  font-size: 12px;
+  line-height: 14px;
+  color: #858484;
+  border: 1px solid #D7D7D7;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  padding: 2px 6px; }
+
+.search-result > h6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #222222;
+  line-height: 21px;
+  margin-bottom: 5px; }
+
+.search-result > hr {
+  width: 80px;
+  margin: 0; }
+
+.search-result-loading {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  z-index: 1111;
+  pointer-events: none; }
+
+.search-result-loading > span {
+  border: 1px solid #9AA0A8;
+  background: #fff url(../images/help/loading.gif) no-repeat 18px 14px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 12px 18px 12px 50px;
+  margin-top: 20%;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px; }
+
+/*swiftype override*/
+.swiftype-widget .autocomplete li p {
+  font-family: acumin-pro,helvetica,sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 8px 12px; }
+
+.st-prev,
+.st-next {
+  padding: 8px 16px;
+  font-size: 18px;
+  border: 1px solid;
+  border-radius: 3px; }
+
+.st-prev {
+  margin-right: 20px; }
+
+@media (min-width: 768px) {
+  .search-form .form-control {
+    padding-right: 300px; }
+  .search-input-group-divider {
+    width: 1px;
+    height: 30px;
+    background: #758393;
+    display: block;
+    position: absolute;
+    z-index: 11;
+    top: 0;
+    bottom: 0;
+    right: 200px;
+    margin: auto; } }
+
+@media (max-width: 767px) {
+  .search-input-group-btn {
+    top: 100%;
+    background-color: #FFF;
+    width: 100%;
+    margin-top: -3px;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #758393; }
+  .select2-hidden-accessible {
+    width: auto;
+    height: auto;
+    clip: auto;
+    opacity: 0; }
+  .search-result-filter .select2-container {
+    pointer-events: none; } }
+
+.select2-container--default .select2-results__option--highlighted[aria-selected]:before {
+  content: "";
+  position: absolute;
+  left: -26px;
+  border-left: 2px solid #500ad2;
+  border-bottom: 2px solid #500ad2;
+  width: 16px;
+  height: 8px;
+  transform: rotate(-45deg);
+  top: 10px; }
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  color: #500ad2; }
+
+@media (min-width: 768px) {
+  .search-input-group-divider {
+    background-color: #d3d3d3; }
+  .search-form .form-control, .select2-container--open .select2-dropdown {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.09);
+    border: none; }
+    .search-form .form-control:hover, .search-form .form-control:focus, .select2-container--open .select2-dropdown:hover, .select2-container--open .select2-dropdown:focus {
+      box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.09) !important;
+      border: none !important; } }
+
+@media (max-width: 767px) {
+  .banner-block-light {
+    padding-bottom: 100px; } }
+
+.swiftype-widget .autocomplete {
+  background: #fff;
+  border-color: transparent;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.09); }
+  .swiftype-widget .autocomplete li.active {
+    background-color: #ececf7; }
+    .swiftype-widget .autocomplete li.active p.title {
+      color: #333; }
+  .swiftype-widget .autocomplete span.tag {
+    margin-left: 12px !important; }
+
+span.tag {
+  font-size: 8px !important;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  padding: 2px 4px !important;
+  display: inline-block !important;
+  border-radius: 2px !important;
+  border: none !important;
+  background: #f1f1f1 !important;
+  color: #858484 !important;
+  margin: 0 !important; }
+  span.tag--docs {
+    background: #e9f4e6 !important;
+    color: #77b85c !important; }
+  span.tag--apidocs {
+    background: #f6f7fc !important;
+    color: #2f64ca !important; }
+  span.tag--tutorial {
+    background: #e6dcfa !important;
+    color: #5a29e1 !important; }
+  span.tag--faq {
+    background: #fbf1d1 !important;
+    color: #c6a53b !important; }
+
+.search-result {
+  margin-bottom: 40px; }
+  .search-result a {
+    color: #000ff0;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 12px; }
+  .search-result > h6 {
+    margin-top: 16px;
+    line-height: 24px; }
+  .search-result-heading > strong {
+    color: #000ff0; }
+  .search-result em {
+    background-color: #fbf1d1; }
+
+.no-result__title {
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+  font-size: 59px; }
+
+.no-result__label {
+  font-weight: 500;
+  font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #500ad2;
+  font-size: 20px; }
+
+.no-result__link, .no-result__link:hover, .no-result__link:focus {
+  font-weight: 500;
+  color: #000ff0;
+  text-decoration: none;
+  outline: none; }
+
+.no-result__content {
+  margin: 42px auto;
+  padding: 20px 24px 20px;
+  max-width: 600px;
+  text-align: left;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.09); }
+  .no-result__content p {
+    font-weight: 600;
+    margin-bottom: 0; }
+    .no-result__content p.no-result__heading {
+      font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-weight: bold; }
+  @media (min-width: 768px) {
+    .no-result__content {
+      padding: 30px 42px 36px; } }
+  .no-result__content ul {
+    padding: 0;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    list-style: none; }
+    .no-result__content ul li {
+      position: relative;
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 14px;
+      line-height: 20px; }
+      .no-result__content ul li:before {
+        content: "";
+        width: 4px;
+        background-color: #500ad2;
+        height: 4px;
+        display: inline-block;
+        margin-right: 8px; }

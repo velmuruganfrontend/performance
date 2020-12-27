@@ -1,0 +1,153 @@
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+@gray-darker:            #192a3a;
+@gray-dark:              #000000;
+@gray-light:             lighten(#000, 60%);   // #999
+@gray-lighter:           lighten(#000, 90.8%); // #eee
+
+@brand-primary:         #FF7846;/*1f3c5a*/
+@brand-success:         #6450f0;
+@brand-info:            #6C6EFA;
+@brand-warning:         #FCBD1B;
+@brand-danger:          #e84849;
+
+@btn-warning-color:		#353535;
+
+/* Global text color on `<body>`*/
+@text-color:           #222222;
+
+/* Global textual link color*/
+@link-color:            @brand-success;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+@font-family-sans-serif:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+@font-size-base:          14px;
+@font-size-large:         ceil((@font-size-base * 1.3)); // ~18px
+@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+
+@font-size-h1:            floor((@font-size-base * 3.2)); // ~44px
+@font-size-h2:            ceil((@font-size-base * 2.8)); // ~40px
+@font-size-h3:            floor((@font-size-base * 2)); // ~28px
+@font-size-h4:            ceil((@font-size-base * 1.7)); // ~24px
+@font-size-h5:            floor((@font-size-base * 1.5)); // ~21px
+@font-size-h6:            floor((@font-size-base * 1.3)); // ~18px
+
+/* By default, this inherits from the `<body>`*/
+@headings-font-weight:    400;
+@headings-color:          @gray-dark;
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+@padding-base-vertical:     12px;
+@padding-base-horizontal:   20px;
+
+@padding-large-vertical:    15px;
+@padding-large-horizontal:  25px;
+
+@border-radius-base:        3px;
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+//@navbar-height:                    68px;
+//@navbar-padding-horizontal:        18px;
+//@navbar-padding-vertical:          8px;
+
+@navbar-default-color:             #777;
+@navbar-default-bg:                #fff;
+@navbar-default-border:            transparent;
+
+// Navbar links
+@navbar-default-link-color:                @gray-darker;
+@navbar-default-link-hover-color:          @gray-darker;
+@navbar-default-link-active-color:         @gray-darker;
+@navbar-default-link-active-bg:            transparent;
+
+//== Navs
+//
+//##
+
+//=== Shared nav styles
+@nav-link-hover-bg:                         @brand-success;
+@nav-pills-active-link-hover-bg:            @brand-success;
+
+//== Form states and alerts
+//
+//## Define colors for form feedback states and, by default, alerts.
+
+@state-primary-text:             #fff;
+@state-primary-bg:               #7098c9;
+@state-primary-border:           darken(spin(@state-info-bg, -10), 7%);
+
+@state-success-text:             #21c489;
+@state-success-bg:               #dff0d8;
+@state-success-border:           darken(spin(@state-success-bg, -10), 5%);
+
+@state-info-text:                @brand-info;
+@state-info-bg:                  #e0e7eb;
+@state-info-border:              darken(spin(@state-info-bg, -10), 7%);
+
+@state-warning-text:             #ffcc00;
+@state-warning-bg:               #fcf8e3;
+@state-warning-border:           darken(spin(@state-warning-bg, -10), 5%);
+
+//== Modals
+//
+//##
+/* Padding applied to the modal body*/
+@modal-inner-padding:         20px;
+
+
+//== Progress bars
+//
+//##
+/* Background color of the whole progress component*/
+@progress-bg:                 #f0f0f0;
+
+//== List group
+//
+//##
+/* `.list-group-item` border color*/
+@list-group-border:             transparent;
+@list-group-link-color:         #555;
+@list-group-link-heading-color: #333;
+
+//== Panels
+//
+//##
+@panel-default-border:        #dce0e3;
+@panel-default-heading-bg:    #fafafa;
+
+//== Thumbnails
+//
+//##
+/* Thumbnail border color*/
+@thumbnail-border:            #ebebeb;
+
+//== Wells
+//
+//##
+@well-bg:                     #f6f7f7;
+@well-border:                 tarnsparent;
+
+//--Breadcrumb
+@breadcrumb-bg:                 transparent;
+
+//== Carousel
+//
+//##
+@carousel-text-shadow:                        0;
+@carousel-control-color:                      #a3aab3;
+@carousel-control-width:                      5%;
+@carousel-control-opacity:                    1;
+@carousel-caption-color:                      @brand-primary;
+@carousel-indicator-active-bg:				  @brand-success;
+@carousel-indicator-border-color:			  @brand-success;

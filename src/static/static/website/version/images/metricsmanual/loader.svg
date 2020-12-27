@@ -1,0 +1,16 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-bar-chart">
+    <g transform="rotate(180 50 50)">
+      <rect ng-attr-x="{{config.x1}}" y="15" ng-attr-width="{{config.width}}" height="51.2887" fill="#fa6164" x="16" width="8">
+        <animate attributeName="height" calcMode="spline" values="50;70;30;50" keyTimes="0;0.33;0.66;1" dur="1.5" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" begin="-0.6000000000000001s" repeatCount="indefinite"></animate>
+      </rect>
+      <rect ng-attr-x="{{config.x2}}" y="15" ng-attr-width="{{config.width}}" height="44.1067" fill="#FFB400" x="36" width="8">
+        <animate attributeName="height" calcMode="spline" values="50;70;30;50" keyTimes="0;0.33;0.66;1" dur="1.5" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" begin="-0.30000000000000004s" repeatCount="indefinite"></animate>
+      </rect>
+      <rect ng-attr-x="{{config.x3}}" y="15" ng-attr-width="{{config.width}}" height="68.8493" fill="#0491AE" x="56" width="8">
+        <animate attributeName="height" calcMode="spline" values="50;70;30;50" keyTimes="0;0.33;0.66;1" dur="1.5" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" begin="-0.8999999999999999s" repeatCount="indefinite"></animate>
+      </rect>
+      <rect ng-attr-x="{{config.x4}}" y="15" ng-attr-width="{{config.width}}" height="30.0104" fill="#844198" x="76" width="8">
+        <animate attributeName="height" calcMode="spline" values="50;70;30;50" keyTimes="0;0.33;0.66;1" dur="1.5" keySplines="0.5 0 0.5 1;0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite"></animate>
+      </rect>
+    </g>
+  </svg>

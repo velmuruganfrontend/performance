@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Human</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="23" cy="23" r="23"></circle>
+        <path d="M12,32 C19.6666667,39.3333333 27.3333333,39.3333333 35,32 C42.6666667,24.6666667 35,24.6666667 12,32 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-199.000000, -121.000000)">
+            <g id="Human" transform="translate(199.000000, 121.000000)">
+                <rect id="Rectangle-23-Copy-5" fill="#FFFFFF" x="0" y="0" width="60" height="60"></rect>
+                <g id="Group-10" transform="translate(7.000000, 7.000000)">
+                    <g id="Oval-8">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <circle stroke="#130D23" stroke-width="4" cx="23" cy="23" r="21"></circle>
+                    </g>
+                    <g id="Path-7">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <path stroke="#130D23" stroke-width="3" d="M15.0015986,32.628004 C21.3797179,37.6362833 27.5340487,37.0656277 33.963166,30.9160372 C35.3110261,29.6267798 36.081387,28.6318388 36.3056517,28.1249394 C36.0251482,28.0492632 35.5846198,28 35,28 C31.6540228,28 24.9441479,29.5431384 15.0015986,32.628004 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

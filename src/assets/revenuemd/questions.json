@@ -1,0 +1,86 @@
+[
+    {
+       "question_id":"1",
+       "question_label":"What has been bothering you lately about your Revenue?",
+       "answerType":"choice",
+       "options":"My customers are leaving (increase in churn)|I'm unable to add new customers (Stagnant New MRR)|I'm unable to add new customers (Stagnant New MRR)",
+       "dependent":""
+    },
+    {
+       "question_id":"2",
+       "question_label":"Is it a one-time thing or has it been happening for a while?",
+       "answerType":"choice",
+       "options":"One-time thing|Been happening for a few months now",
+       "dependent":"1a"
+    },
+    {
+       "question_id":"3",
+       "question_label":"Are you unable to add any new customers or are you unable to add customers only in higher plans?",
+       "answerType":"choice",
+       "options":"I'm not able to add any new customers|I'm unable to able to add new customers only in my higher plans",
+       "dependent":"1b"
+    },
+    {
+       "question_id":"4",
+       "question_label":"Are customers not upgrading to a higher plan or are free to paid conversions not happening?",
+       "answerType":"choice",
+       "options":"Customers aren't upgrading to higher plans|Free to paid conversions aren't happening\n",
+       "dependent":"1c"
+    },
+    {
+       "question_id":"5",
+       "question_label":"Is it because of a few big accounts leaving or because of many small accounts leaving?",
+       "answerType":"choice",
+       "options":"One/few big accounts leaving caused this|Many small accounts churning caused this\n",
+       "dependent":"2a"
+    },
+    {
+       "question_id":"6",
+       "question_label":"Is the churn voluntary or involuntary?Involuntary churn is when customers churn due to card expiries or card cancellations.",
+       "answerType":"choice",
+       "options":"Voluntary|Involuntary",
+       "dependent":"2b"
+    },
+    {
+       "question_id":"7",
+       "question_label":"Do you have a free trial?",
+       "answerType":"choice",
+       "options":"Yes|No",
+       "dependent":"3a"
+    },
+    {
+       "question_id":"8",
+       "question_label":"Is there a free trial for these higher plans?",
+       "answerType":"choice",
+       "options":"Yes|No",
+       "dependent":"3b"
+    },
+    {
+       "question_id":"9",
+       "question_label":"Are customers stagnant in a plan or is churn happening along with a decrease in expansion MRR?",
+       "answerType":"choice",
+       "options":"Customers are stagnant|Customers are churning along with decrease in expansion MRR",
+       "dependent":"4a"
+    },
+    {
+       "question_id":"10",
+       "question_label":"Was it due to downgrades or cancellations?",
+       "answerType":"choice",
+       "options":"Downgrades|Cancellations",
+       "dependent":"6a"
+    },
+    {
+       "question_id":"11",
+       "question_label":"Is it early-stage or late-stage churn?Early-stage is when the churn happens within the first few months of activation. Late-stage is when it happens after a year or so.",
+       "answerType":"choice",
+       "options":"Early-stage churn|Late-stage churn\n",
+       "dependent":"10a"
+    },
+    {
+       "question_id":"12",
+       "question_label":"Cancellation - Is it early-stage or late-stage churn?Early-stage is when the churn happens within the first few months of activation. Late-stage is when it happens after a year or so.",
+       "answerType":"choice",
+       "options":"Early-stage|Late-stage",
+       "dependent":"10b"
+    }
+ ]

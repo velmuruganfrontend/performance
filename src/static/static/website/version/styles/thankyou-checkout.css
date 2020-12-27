@@ -1,0 +1,132 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 1.5;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background: #FFFFFF;
+}
+
+.cw-logo {
+  margin-top: 186px;
+  max-width: 38px;
+  margin-bottom: 20px;
+}
+
+.cw-status__text {
+  color: #00001E;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 3px;
+}
+
+.cw-client__domain {
+  display: block;
+  color: #6200EA;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+.cw-loader__wrap {
+  position: relative;
+  width: 600px;
+  height: 50px;
+  background: white;
+}
+
+.cw-loader {
+  width: 100%;
+  height: 100%;
+}
+
+.cw-text__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  left: 0;
+  color: #666678;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cw-text__wrap span {
+  display: inline-block;
+  padding: 13px 0;
+  vertical-align: middle;
+}
+
+.vertical .carousel-inner {
+  height: 100%;
+}
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s cubic-bezier(0.93, 0, 0.18, 0.98) all;
+  -o-transition: 0.6s cubic-bezier(0.93, 0, 0.18, 0.98) transform, 0.3s ease-in opacity;
+  -webkit-transition: 0.3s ease-in opacity, 0.6s cubic-bezier(0.93, 0, 0.18, 0.98) -webkit-transform;
+  transition: 0.3s ease-in opacity, 0.6s cubic-bezier(0.93, 0, 0.18, 0.98) -webkit-transform;
+  transition: 0.6s cubic-bezier(0.93, 0, 0.18, 0.98) transform, 0.3s ease-in opacity;
+  transition: 0.6s cubic-bezier(0.93, 0, 0.18, 0.98) transform, 0.3s ease-in opacity, 0.6s cubic-bezier(0.93, 0, 0.18, 0.98) -webkit-transform;
+}
+
+.carousel.vertical .active {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.carousel.vertical .active.left {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  opacity: 0;
+}
+
+.carousel.vertical .active.right {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+.carousel.vertical .next {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+
+.carousel.vertical .prev {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .item {
+  left: 0;
+}

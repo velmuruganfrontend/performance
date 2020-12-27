@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy">
+            <g id="blue-small">
+                <circle id="Oval" fill="#3C4352" cx="25" cy="25" r="25"></circle>
+                <text id="fb" font-family="Museo-300, Museo" font-size="32" font-weight="300" fill="#FFFFFF">
+                    <tspan x="13" y="35">fb</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

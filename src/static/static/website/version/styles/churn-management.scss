@@ -1,0 +1,548 @@
+// =============================================================================
+// Page level variables
+// =============================================================================
+
+
+//=============================================================================
+//  Variables
+//=============================================================================
+// -----------------------------------------------------------------------------
+// Fonts
+// -----------------------------------------------------------------------------
+$ff-basis : basis-grotesque,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$ff-sfpro : "SF Pro Text", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+//------------------------------------------------------------------------------
+//  font-size
+//------------------------------------------------------------------------------
+$fw_base    : normal;
+$fw_medium  : 500;
+$fw_bold    : bold;
+
+
+//------------------------------------------------------------------------------
+//  font-size
+//------------------------------------------------------------------------------
+$fs_xs      : 14px;
+$fs_st      : 16px;
+$fs_sm      : 18px;
+$fs_md      : 24px;
+$fs_lg      : 32px;
+$fs_xl      : 40px;
+$fs_hero    : 46px;
+
+
+// -----------------------------------------------------------------------------
+// Color
+// -----------------------------------------------------------------------------
+$clr_white      : #ffffff;
+$clr_black      : #000000;
+$clr_link       : #000FF0;
+
+$clr_primary    : #320E6A;
+
+$clr_base       : #242438;
+$clr_base_dark  : #00000A;
+
+
+
+// =============================================================================
+// Page level Selectors
+// =============================================================================
+$prefix            : cm;
+body{
+    font-family: $ff-sfpro;
+    font-size: $fs_st;
+    line-height: 1.5;
+    color: $clr_base;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+//------------------------------------------------------------------------------
+//  Js style
+//------------------------------------------------------------------------------
+#{$prefix}{
+    &-{
+        &hidden{
+          display: none !important;
+          visibility: hidden !important;
+        }
+    }
+}
+
+
+
+//=============================================================================
+//  Main Styles
+//=============================================================================
+//------------------------------------------------------------------------------
+//  Common
+//------------------------------------------------------------------------------
+.#{$prefix}-link{
+    color: $clr_link;
+    font-family: $ff-basis;
+    font-weight: $fw_medium; 
+
+    &:hover,
+    &focus{
+        color: $clr_link;
+        text-decoration: none;
+    }
+
+    &--{
+        &white{
+            color: $clr_white;
+
+            &:hover,
+            &:focus{
+                color: $clr_white;
+                opacity: .8;
+                text-decoration: none;
+            }
+
+            &:after{
+                content: '';
+                display: inline-block;
+                width: 12px;
+                height: 10px;
+                margin-left: 8px;
+                background: url('../images/home/jan-2019/arrow/button-arrow.svg') center/contain no-repeat; 
+            }
+        }
+        &icon{
+            &:after{
+                content: '';
+                display: inline-block;
+                width: 12px;
+                height: 10px;
+                margin-left: 8px;
+                background: url('../images/home/jan-2019/arrow/arrow.svg') center/contain no-repeat; 
+            }
+        }
+    }
+}
+
+//------------------------------------------------------------------------------
+//  layout
+//------------------------------------------------------------------------------
+.l-row{
+    &:not(:last-child){
+        margin-top: 160px;
+        margin-bottom: 160px;
+
+        @media (max-width: 991px){
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        @media (max-width: 767px){
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+    }
+
+    &--{
+        &hero{
+            margin: 0 !important;
+            padding-top: 110px;
+            padding-bottom: 50px;
+
+            @media (min-width: 768px){
+                padding-top: 160px;
+                padding-bottom: 100px;
+            }
+        }
+        &reduceBottom{
+          margin-bottom: 100px !important;
+
+          @media (max-width: 991px){
+              margin-bottom: 80px !important;
+          }
+          @media (max-width: 767px){
+              margin-bottom: 60px !important;
+          }
+        }
+        &reduceTop{
+          margin-top: 100px !important;
+
+          @media (max-width: 991px){
+              margin-top: 80px !important;
+          }
+          @media (max-width: 767px){
+              margin-top: 60px !important;
+          }
+        }
+        &glow{
+          margin: 0 !important;
+        }
+    }
+}
+
+
+
+//------------------------------------------------------------------------------
+//  Button
+//------------------------------------------------------------------------------
+.#{$prefix}-btn{
+    color: $clr_white;
+    font-family: $ff-basis;
+    font-size: $fs_sm;
+    font-weight: $fw_bold;
+    border-radius: 4px;
+    background-color: #6200EA;
+    display: inline-block;
+    height: 54px;
+    line-height: 54px;
+    padding-left: 32px;
+    padding-right: 32px;
+    transition: all 0.2s ease-out;
+
+    &:after{
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 14px;
+        margin-left: 8px;
+        background: url('../images/home/jan-2019/arrow/button-arrow.svg') center/contain no-repeat; 
+    }
+
+
+    &:hover,
+    &:focus{
+        color: $clr_white;
+        transition: all 0.2s ease-in;
+        // transform: scale(1.02);
+        text-decoration: none;
+        // box-shadow: 0 -3px 0 #3a008c inset;
+        // box-shadow: 0 0 14px 0 rgba(0,0,0,.12), 0 14px 24px 0 rgba(0,0,0,.12);
+        box-shadow: inset -2px -2px 0 0 rgba(32,0,77,0.2), inset 1px 2px 0 0 rgba(209,176,255,0.18), 0 2px 4px 0 rgba(0,4,48,0.08), 0 8px 8px 0 rgba(0,4,48,0.12), 0 16px 32px 0 rgba(0,4,48,0.24);
+    } 
+}
+
+
+
+
+//------------------------------------------------------------------------------
+//  Hero
+//------------------------------------------------------------------------------
+.#{$prefix}-hero{
+    text-align: center;
+    font-family: $ff-basis;
+
+    &__{
+
+        &header{
+          margin-bottom: 48px;
+          margin-top: 20px;
+          color: $clr_white;
+          &--{
+            &black{
+              color: #00001E;
+            }
+          }
+        }
+        &title{
+          font-size: $fs_hero;
+          font-weight: $fw_bold;
+          letter-spacing: -1.54px;
+          line-height: 56px;
+          margin-bottom: 16px;
+          margin-top: 0;
+
+            @media (min-width: 768px) and (max-width: 1199px){
+                line-height: 46px;
+                font-size: $fs_xl;
+            }
+            @media (max-width: 767px){
+                font-size: 32px;
+                line-height: 38px;
+            }
+            @media (max-width: 480px){
+                font-size: 28px;
+                line-height: 34px;
+            }
+        }
+        &desc:not(.text-left){
+          max-width: 500px;
+          margin: auto;
+          opacity: 0.8;
+        }
+        &action{
+            &s{
+              @media (min-width: 768px){
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                &:not(.text-left){
+                  justify-content: center;
+                }
+              }
+            }
+            &{
+                & + &{
+                    margin-left: 24px;
+
+                     @media (max-width: 767px){
+                        margin: 24px 0 0;
+                     }
+                }
+            }
+        }
+        &figure{
+          img{
+            margin-left: auto;
+            margin-right: auto;
+            @media only screen and (max-width: 767px){
+              margin: 24px auto;
+              max-width: 240px;
+            }
+          }
+        }
+    }
+}
+//------------------------------------------------------------------------------
+//  CTA
+//------------------------------------------------------------------------------
+.#{$prefix}-cta{
+  text-align: center;
+  &__{
+    &title {
+      color: #1D0046;
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: -0.08px;
+      font-family: $ff-basis;
+      @media only screen and (min-width: 768px) {
+        font-size: 32px;
+        letter-spacing: -0.4px;
+        line-height: 42px;
+      }
+      @media only screen and (min-width: 992px) {
+        font-size: 40px;
+        letter-spacing: -1.08px;
+        line-height: 53px;
+      }
+    }
+    &header{
+      margin-bottom: 36px;
+    }
+  }
+}
+
+//------------------------------------------------------------------------------
+//  Glow
+//------------------------------------------------------------------------------
+.#{$prefix}-glow{
+  background-color: $clr_white;
+  padding: 16px 24px;
+  border-radius: 100px;
+  box-shadow: 0 1px 4px -1px rgba(0,0,0,0.06), 0 4px 14px -1px rgba(0,0,0,0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin: 0 auto 32px;
+  transition: all .2s ease-out;
+
+      @media (max-width: 991px){
+          display: block;
+          text-align: center;
+      }
+
+  &:hover,
+  &:focus{
+    text-decoration: none;
+    color: $clr_base;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,.12), 0 14px 24px 0 rgba(0,0,0,.12);
+  }
+
+  &__{
+      &icon{
+           @media (max-width: 991px){
+              margin: 4px auto;
+              display: inline-block;
+          }
+      }
+      &content{
+          color: $clr_base;
+          margin-left: 24px;
+      }
+  }
+}
+//------------------------------------------------------------------------------
+//  Article
+//------------------------------------------------------------------------------
+.#{$prefix}-article{
+  &__{
+    &title{
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: $fw_bold;
+      font-family: $ff-basis;
+      margin-bottom: 12px;
+      &--{
+        &highlight{
+          color: $clr_link;
+        }
+      }
+      @media only screen and (max-width: 767px){
+        font-size: 20px;
+        line-height: 28px;
+      }
+      &--{
+        &middle{
+          margin-top: 24px;
+          @media only screen and (min-width: 768px){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 180px;
+            text-align: center;
+            max-width: 400px;
+            margin: auto;
+          }
+        }
+      }
+    }
+    &desc{
+      color: #16172C;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: $ff-sfpro;
+    }
+    &heading{
+      font-size: 16px;
+      line-height: 32px;
+      font-family: $ff-basis;
+      color: #00001E;
+      font-weight: $fw_bold;
+      margin-bottom: 8px;
+    }
+    &bg{
+      &--{
+        &sixty{
+          background: url("../images/recurring-payments/churn-management/60.png") top/contain no-repeat;
+          background-position: top 32px center;
+          padding-top: 74px;
+          @media only screen and (max-width: 767px) {
+            padding-top: 48px;
+            background-position: top 0 center;
+          }
+          background-size: 75%;
+          text-align: center;
+          max-width: 440px;
+          margin: auto;
+        }
+        &seventy{
+          background: url("../images/recurring-payments/churn-management/75.png") top/contain no-repeat;
+          background-position: top 32px center;
+          padding-top: 74px;
+          @media only screen and (max-width: 767px) {
+            padding-top: 48px;
+            background-position: top 0 center;
+          }
+          background-size: 75%;
+          text-align: center;
+          max-width: 440px;
+          margin: auto;
+        }
+      }
+    }
+    &list{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 16px;
+      li{
+        background: url("../images/recurring-payments/churn-management/bullets.svg") center/contain no-repeat;
+        background-position: left center;
+        background-size: 18px;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 28px;
+        margin: 4px 0;
+      }
+    }
+  }
+}
+
+//------------------------------------------------------------------------------
+//  Testimonial
+//------------------------------------------------------------------------------
+.#{$prefix}-testimonial{
+  font-family: $ff-sfpro;
+  background-color: $clr_white;
+  max-width: 480px;
+  padding: 32px 36px;
+  border-radius: 8px;
+  box-shadow: 0 0 1px 1px rgba(0,0,0,0.12);
+  display: block;
+  transition: .2s ease;
+  position: relative;
+  overflow: hidden;
+  color: $clr_base;
+  @media only screen and (max-width: 767px){
+    margin-top: 24px;
+  }
+  &--{
+    &disabled{
+      cursor: default;
+    }
+  }
+
+  &:after{
+      content: '';
+      background: url("../images/home/jan-2019/quote-graphic.png") center/contain no-repeat;
+      width: 130px;
+      height: 105px;
+      position: absolute;
+      display: block;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+  }
+  &:hover,
+  &:focus{
+    color: $clr_base;
+    text-decoration: none;
+  }
+
+  &:not(.cm-testimonial--disabled):hover,
+  &:not(.cm-testimonial--disabled):focus{
+      box-shadow: 0 1px 4px -1px rgba(0,0,0,0.06), 
+                  0 4px 14px -1px rgba(0,0,0,0.18);
+  }
+
+
+  &__{
+      &figure{
+          margin-bottom: 16px;
+      }
+      &content{
+          margin-bottom: 24px;
+      }
+      &author{
+        color: $clr_base_dark;
+        font-size: $fs_sm;
+        line-height: 21px;
+      }
+  }
+}
+.mTopSm{
+  margin-top: 24px;
+}
+.pad-bottom-none{
+  padding-bottom: 0 !important;
+}
+.diplay-block-md{
+  @media only screen and (max-width: 1024px) {
+    display: block;
+    .cm-hero__action + .cm-hero__action{
+      margin: 24px 0 0;
+    }
+  }
+}

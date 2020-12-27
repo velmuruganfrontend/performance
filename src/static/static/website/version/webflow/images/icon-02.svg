@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="79px" height="79px" viewBox="0 0 79 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-02</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-516.000000, -388.000000)">
+            <g id="Page-1" transform="translate(530.000000, 407.000000)">
+                <polygon id="Fill-1" fill="#ECECFF" points="9.708 40.2827 18.833 40.2827 18.833 16.6577 9.708 16.6577"></polygon>
+                <polygon id="Fill-2" fill="#F3F3FF" points="25.083 40.2827 34.208 40.2827 34.208 24.2567 25.083 24.2567"></polygon>
+                <polygon id="Fill-3" fill="#ECECFF" points="40.583 40.2827 49.708 40.2827 49.708 6.9877 40.583 6.9877"></polygon>
+                <g id="Group-9" transform="translate(0.000000, 0.282700)" stroke-linecap="round" stroke="#8890A0" stroke-linejoin="round">
+                    <polygon id="Stroke-4" points="6.75 40 15.875 40 15.875 16.375 6.75 16.375"></polygon>
+                    <polygon id="Stroke-6" points="22.125 40 31.25 40 31.25 23.974 22.125 23.974"></polygon>
+                    <polygon id="Stroke-7" points="37.625 40 46.75 40 46.75 6.705 37.625 6.705"></polygon>
+                    <polyline id="Stroke-8" stroke-width="2" points="51.5 40 0 40 0 0.717"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

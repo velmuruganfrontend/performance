@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 28.1 25" style="enable-background:new 0 0 28.1 25;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#632AB4;}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0" y1="12.5" x2="25" y2="12.5">
+		<stop  offset="8.872768e-02" style="stop-color:#DAC0FE"/>
+		<stop  offset="0.3296" style="stop-color:#E1CCFE"/>
+		<stop  offset="0.7611" style="stop-color:#F3EBFF"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</linearGradient>
+	<path class="st0" d="M12.5,25L12.5,25C5.6,25,0,19.4,0,12.5v0C0,5.6,5.6,0,12.5,0h0C19.4,0,25,5.6,25,12.5v0
+		C25,19.4,19.4,25,12.5,25z"/>
+	<g id="Solid_1_">
+		<path class="st1" d="M26.2,4.9H13c-1,0-1.9,0.8-1.9,1.9v11.3c0,1,0.8,1.9,1.9,1.9h13.2c1,0,1.9-0.8,1.9-1.9V6.8
+			C28.1,5.8,27.2,4.9,26.2,4.9z M17.7,6.8h3.8v3.4L20.2,9c-0.2-0.2-0.4-0.3-0.7-0.3c-0.2,0-0.5,0.1-0.7,0.3l-1.2,1.2V6.8z
+			 M26.2,18.2h-6.6v0H13V6.8h2.8v5.7c0,0.4,0.2,0.7,0.6,0.9c0.4,0.1,0.8,0.1,1-0.2l2.2-2.2l2.2,2.2c0.2,0.2,0.4,0.3,0.7,0.3
+			c0.1,0,0.2,0,0.4-0.1c0.4-0.1,0.6-0.5,0.6-0.9V6.8h2.8L26.2,18.2z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="56px" viewBox="0 0 73 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>zendesk-medium</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-17" transform="translate(-990.000000, -281.000000)" fill-rule="nonzero" fill="#03363D">
+            <g id="zendesk-medium" transform="translate(990.000000, 281.000000)">
+                <polygon id="Shape" points="33.6039672 14.775443 33.6039672 55.2304767 0.263924174 55.2304767"></polygon>
+                <path d="M33.6039672,0.254501807 C33.6039672,9.50753844 26.1405443,17.0086067 16.9339457,17.0086067 C7.72734702,17.0086067 0.263924174,9.50753844 0.263924174,0.254501807 L33.6039672,0.254501807 L33.6039672,0.254501807 Z" id="Shape"></path>
+                <path d="M39.0964432,55.2304767 C39.0964432,45.9774401 46.5598661,38.4763718 55.7664647,38.4763718 C64.9730634,38.4763718 72.4364862,45.9774401 72.4364862,55.2304767 L39.0964432,55.2304767 Z" id="Shape"></path>
+                <polygon id="Shape" points="39.0964432 40.7095356 39.0964432 0.254501807 72.4400528 0.254501807"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

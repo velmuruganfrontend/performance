@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="105px" viewBox="0 0 74 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 29</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-8" transform="translate(-305.000000, -1091.000000)" fill-rule="nonzero">
+            <g id="Group-29" transform="translate(305.000000, 1092.000000)">
+                <g id="Asset-7texture">
+                    <polygon id="Path" stroke="#9ACAC9" fill="#D3EBE6" points="31 0 31 58.0753718 73.1621622 82.7027027 73.1621622 24.6273309"></polygon>
+                    <g id="Group" transform="translate(0.189189, 45.405405)" stroke="#00001E">
+                        <polygon id="Path" fill="#FFD662" points="51.3330561 14.7794755 26.0143748 29.4905539 0.53032373 14.7794755 25.849005 0.0740968691"></polygon>
+                        <polygon id="Path" fill="#D2AB3F" points="51.3330561 14.7794755 51.2532225 42.6569976 25.9345411 57.368076 26.0143748 29.4905539"></polygon>
+                        <polygon id="Path" fill="#FFD662" points="26.0143748 29.4905539 25.9345411 57.368076 0.45049005 42.6569976 0.53032373 14.7794755"></polygon>
+                    </g>
+                    <rect id="Rectangle" fill="#D3EBE6" x="14.7837838" y="31.6216216" width="4.05405405" height="4.05405405"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="52.0810811" y="46.2162162" width="4.05405405" height="4.05405405"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" x="64.2432432" y="59.1891892" width="1.62162162" height="1.62162162" rx="0.810810811"></rect>
+                    <rect id="Rectangle" fill="#D3EBE6" x="57.7567568" y="81.0810811" width="1.62162162" height="1.62162162" rx="0.810810811"></rect>
+                    <rect id="Rectangle" fill="#D3EBE6" x="20.4594595" y="36.4864865" width="1.62162162" height="1.62162162" rx="0.810810811"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

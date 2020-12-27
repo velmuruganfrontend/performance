@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>close-circle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-387.000000, -571.000000)" fill="#ED6347" fill-rule="nonzero">
+            <g id="close-circle" transform="translate(387.000000, 571.000000)">
+                <path d="M10,0 C15.53,0 20,4.47 20,10 C20,15.53 15.53,20 10,20 C4.47,20 0,15.53 0,10 C0,4.47 4.47,0 10,0 Z M13.59,5 L10,8.59 L6.41,5 L5,6.41 L8.59,10 L5,13.59 L6.41,15 L10,11.41 L13.59,15 L15,13.59 L11.41,10 L15,6.41 L13.59,5 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

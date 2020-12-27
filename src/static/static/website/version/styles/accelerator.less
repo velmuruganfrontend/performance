@@ -1,0 +1,529 @@
+@app: '.cw';
+
+@body-color: #130D23;
+
+body {
+	color: @body-color;
+
+	@media (min-width: 767px) {
+		& {
+			font-size: 14px;
+		}
+	}
+}
+
+.clearfix() {
+	& {
+		&:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+	}
+}
+
+
+// ===============================
+// Scroll Down
+// ===============================
+.cw-scrolldown__wrap {
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 0.8;
+	animation: scrollDownAnim 1400ms ease-out infinite;
+
+	&:before, &:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		width: 16px;
+		height: 2px;
+		border-radius: 2px;
+		background-color: fade(#fff, 70%);
+	}
+
+	&:before {
+		left: 0;
+		transform-origin: 0 right;
+		transform: rotate(45deg);
+	}
+
+	&:after {
+		right: 0;
+		transform-origin: 0 left;
+		transform: rotate(-45deg);
+	}
+
+	@keyframes scrollDownAnim {
+		to {
+			opacity: 0;
+			transform: translate3d(0, 10px ,0);
+		}
+	}
+}
+
+// ===============================
+// Section
+// ===============================
+.cw-section {
+	@section: cw-section;
+	position: relative;
+	z-index: 1;
+	background-color: #fff;
+	// overflow: hidden;
+	&__inwrap {
+		position: relative;
+		.clearfix;
+	}
+
+	&.fullscreen {
+		.@{section}__inwrap {
+			height: 100vh;	
+		}
+	}
+
+	@media (max-width: 575px) {
+		& {
+			padding-bottom: 60px !important;
+		}
+	}
+}
+
+
+
+// ===============================
+// Quote
+// ===============================
+.cw-quote {
+	border-left: 4px solid #5110B1;
+	padding-left: 24px;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 500;
+	margin-right: 1.5em;
+
+	@media (orientation: landscape) {
+		& {
+			max-width: 80%;
+		}
+	}
+	
+	@media (min-width: 768px) {
+		& {
+			border-left-width: 8px;
+			font-size: 24px;
+			line-height: 36px;
+		}
+
+	}
+}
+
+
+// ===============================
+// Quote
+// ===============================
+.cw-block {
+	padding-left: 20px;
+	&__heading {
+		position: relative;
+		color: #5110B1;
+		font-size: 18px;
+		line-height: 20px;
+		font-weight: bold;
+		margin-bottom: 16px;
+
+		&:before {
+			content: '';
+			position: absolute;
+			left: -20px;
+			top: 0;
+			bottom: 0;
+			margin: auto 0;
+		  width: 0; 
+		  height: 0; 
+		  border-top: 6px solid transparent;
+		  border-bottom: 6px solid transparent;
+		  
+		  border-left: 6px solid #5110B1;
+		}
+	}
+
+	&__desc {
+		color: #44435A;
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	& + & {
+		margin-top: 42px;
+	}
+}
+
+// ===============================
+// Hero
+// ===============================
+.cw-hero {
+	@hero: cw-hero;
+	&.max {
+		.@{hero}__inwrap {
+			height: 100vh;
+			display: flex;
+			align-content: flex-start;
+			justify-content: center;
+		}
+	}
+	&__inwrap {
+		display: flex;
+		flex-flow: column;
+	}
+
+	&__header {
+	}
+
+	&__label {
+		display: inline-block;
+		color: #FF6C36;
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 8px;
+	}
+
+	&__title {
+		display: inline-flex;
+		flex-flow: column;
+		color: #fff;
+		font-size: 28px;
+    line-height: 38px;
+	}
+
+	&__header + &__action {
+		margin-top: 30px;
+	}
+
+
+	@media (min-width: 768px) {
+		& {
+			&__label {
+				font-size: 24px;
+				line-height: 28px;
+			}
+
+			&__title {
+				font-size: 50px;
+				line-height: 64px;
+				
+			}
+			
+			&__header + &__action {
+				margin-top: 60px;
+			}
+		}
+	}
+}
+
+
+// ===============================
+// Hero
+// ===============================
+.cw-article {
+	&__heading {
+		font-size: 28px;
+		line-height: 36px;
+		font-weight: bold;
+		margin-bottom: 16px;
+	}
+
+	&__desc {
+		color: #44435A;
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	@media (min-width: 768px) {
+		& {
+			&__heading {
+				font-size: 36px;
+				line-height: 48px;
+			}
+		}
+	}
+}
+
+// ===============================
+// Accordion
+// ===============================
+
+.cw-accordion {
+	border: 1px solid #D5DFE5;	
+	border-radius: 2px;	
+	background-color: #FFFFFF;
+
+	&__item {
+		position: relative;
+		padding: 34px 30px; 
+		& + & {
+			border-top: 1px solid #D5DFE5;
+		}
+
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 34px;
+			margin: auto 0;
+			width: 0; 
+		  height: 0; 
+		  border-top: 6px solid #44435A;
+		  border-left: 6px solid transparent;
+		  border-right: 6px solid transparent;
+		}
+	}
+
+	&__header, &__heading {
+		color: #44435A;
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	&__content {
+		position: absolute;
+		display:none;
+		padding: 48px 80px 52px 28px;
+		background-color: #FFFFFF;	
+		box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+	}
+
+	&__heading {
+		font-weight: bold;
+	}
+
+	&__heading + &__desc {
+		margin-top: 36px;
+	}
+}
+
+
+.cw-logos {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	margin: 0 1em;
+	overflow: hidden;
+	&__item {
+		flex: 0 1 auto;
+		margin: 0 16px 25px;
+	}
+	
+	@media (min-width: 768px) {
+		& {
+			&__item {
+				margin: 0 16px 25px;
+			}
+		}
+	}
+
+	@media (min-width: 992px) {
+		& {
+			&__item {
+				margin-bottom: 45px;
+			}
+		}
+	}
+
+	@media (min-width: 1200px) {
+		& {
+			justify-content: space-between;
+			&__item {
+				margin: 0;
+			}
+		}
+	}
+}
+
+
+// ===============================
+// CTA
+// ===============================
+.cw-cta {
+	&__title {
+		color: #fff;
+		font-size: 36px;
+		line-height: 50px;
+		font-weight: normal;
+		margin-bottom: 24px;
+	}
+	&__link {
+		font-size: 20px;	
+		line-height: 24px;
+		text-decoration: none;
+
+		&, &:hover, &:active {
+			color: #FF6C36;
+		}
+	}
+
+
+}
+
+.ca-content {
+	&__list {
+		list-style: none;
+	}
+	&__item {
+		&::before {
+			content: "•";
+			color: #5110B1;
+			display: inline-block;
+			width: 1em;
+			margin-left: -1.5em;
+			font-size: 26px;
+			line-height: 1;
+			vertical-align: bottom;
+	  }
+		& + & {
+			margin-top: 10px;
+		}
+	}
+}
+
+
+.cw-mediaquote {
+	padding-bottom: 24px;
+	&__wrap {
+		padding: 16px 24px;
+		border-radius: 2px;	
+		background-color: #5110B1;	
+		box-shadow: 0 1px 16px 0 rgba(19,13,35,0.6), 1px 6px 23px 0 rgba(15,10,30,0.5);
+	}
+
+	&__title, &__subtitle {
+		color: #FFFDFE;
+	}
+
+	&__title {
+		font-size: 32px;	
+		font-weight: 500;	
+		letter-spacing: -0.16px;	
+		line-height: 44px;
+		margin-bottom: 12px;
+	}
+
+	&__subtitle {
+		font-size: 24px;
+		font-weight: bold;
+		letter-spacing: -0.47px;	
+		line-height: 28px;
+		margin-bottom: 4px;
+	}
+
+	&__desc {
+		color: fade(#FFF, 70%);
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	&__content + &__action {
+		margin-top: 20px;
+	}
+
+	&__link {
+		text-decoration: none;
+		font-size: 20px;
+		line-height: 28px;
+		font-weight: normal;
+		&, &:hover, &:focus {
+			color: white;
+		}
+	}
+
+	@media (min-width: 768px) {
+		& {
+			&__wrap {
+				padding: 32px 48px;
+			}
+		}
+	}
+
+	@media (min-width: 992px) {
+		& {
+			&__title {
+				font-size: 40px;
+				line-height: 48px;
+			}
+		}
+	} 
+}
+
+.sectionA {
+	width: 100%;
+	min-height: 100%;
+	background-image: url('../images/accelerator/hero-bg.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.sectionG {
+	.cw-logos {
+		&__wrap {
+			position: relative;
+			overflow: hidden;
+		}
+
+		@media (min-height: 768px) {
+			& {
+				&__wrap {
+					margin-left: 1em;
+					margin-right: 1em;
+					&:before, &:after {
+						content: '';
+						position: absolute;
+						top: 0;
+						height: 100%;
+						width: calc(100% - 88%);
+					}
+
+
+					&:before {
+						left: 0;
+						background-image: linear-gradient(-88deg, rgba(19,13,35,0.00) 0%, #130D23 62%);
+					}
+
+					&:after {
+						right: 0;
+						background-image: linear-gradient(88deg, rgba(19,13,35,0.00) 0%, #130D23 62%);
+					}
+				}
+			}
+		}
+		@media (min-width: 992px) {
+			& {
+				justify-content: space-between;
+				&__wrap {
+					margin-left: 5%;
+					margin-right: 5%;
+					&:before, &:after {
+						width: calc(100% - 96%);
+					}
+				}
+			}
+		}
+	}
+}
+
+.accelerator-logos{
+	display: block;
+	text-align: center;
+	.cw-logos__item{
+		display: inline-block;
+		margin: 18px 16px;
+	}
+}

@@ -1,0 +1,616 @@
+/*********************
+VARIABLES
+*********************/
+$primary-font: "SF Pro Text", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+$secondary-font: basis-grotesque,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+$prefix: '.cs-';
+
+$fw-base: normal;
+$fw-medium:	500;
+$fw-bold:	bold;
+
+$fs-xs:	14px;
+$fs-st:	16px;
+$fs-sm:	18px;
+$fs-md:	20px;
+$fs-lg:	32px;
+$fs-xl:	40px;
+$fs-hero: 48px;
+	
+	
+$clr-white: #ffffff;
+$clr-black: #000000;
+$clr-link: #000FF0;
+$clr-primary: #3A008C;
+$clr-base: #242438;
+$clr-base-dark: #00000A;
+$clr-base-light: #8a8c8e;
+
+/*********************
+BREAKPOINTS
+*********************/
+
+ @mixin breakpoint($point) {
+    @if $point == 'lg' {
+        @media (min-width: 1200px) { @content ; }
+    }
+    @else if $point == 'md' {
+        @media (min-width: 992px) and (max-width: 1199px) { @content ; }
+    }
+    @else if $point == 'sm' {
+        @media (min-width: 768px) and (max-width: 991px) { @content ; }
+    }
+    @else if $point == 'xs' {
+        @media (max-width: 767px)  { @content ; }
+    }
+    @else if $point == 'from-sm' {
+        @media (min-width: 768px) { @content ; }
+    }
+    @else if $point == 'from-md' {
+        @media (min-width: 992px) { @content ; }
+    }
+    @else if $point == 'upto-md' {
+        @media (max-width: 1199px) { @content ; }
+    }
+    @else if $point == 'upto-sm' {
+        @media (max-width: 991px) { @content ; }
+    }
+}
+
+@mixin flex-layout($justify-content: space-between, $align-items: center, $flex-direction:null, $align-content:null) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    @if ($flex-direction) {
+        flex-direction: $flex-direction;
+    }
+    @if ($align-content) {
+        align-content: $align-content;
+    }
+}
+
+@mixin font-typography($font-size: inherit, $font-weight: 400, $line-height:null, $color : inherit, $letter-spacing:null) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $color;
+    @if ($line-height) {
+        line-height: $line-height;
+    }
+    @if ($letter-spacing) {
+        letter-spacing: $letter-spacing;
+    }
+}
+.cs-main{
+    font-family: $primary-font;
+}
+//@include breakpoint('from-sm') {}
+//#{$prefix}header {}
+//@include flex-layout(center);
+//@include font-typography(16px, 400, 19px, $l-font-color);
+.sm-pad-zero{
+    @include breakpoint('upto-sm'){
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        .row{
+            margin: 0;
+        }
+        .col-sm-12{
+            padding: 0;
+        }
+    }
+}
+#{$prefix}{
+    &row:first-child{
+        padding-top: 120px;
+        @include breakpoint('upto-sm'){
+            padding-top: 60px;
+        }
+    }
+    &link{
+        font-family: $secondary-font;
+        @include font-typography(16px, 500, 18px, $clr-link);
+        opacity: .875;
+        display: inline-block;
+        @include breakpoint('from-md'){
+            &:not(:first-child){
+                margin-left: 48px;
+            }
+        }
+        @include breakpoint('upto-sm'){
+            display: block;
+            &:not(:last-child){
+                margin-bottom: 16px;
+            }
+        }
+        &--{
+            &icon{
+                &:after{
+                    content: '';
+                    display: inline-block;
+                    width: 12px;
+                    height: 10px;
+                    margin-left: 8px;
+                    background: url(../images/home/jan-2019/arrow/arrow.svg) center/contain no-repeat;
+                }
+            }
+            &inner{
+                color: $clr-link;
+                text-decoration: none;
+                font-weight: $fw-medium;
+                &:hover,&:focus{
+                    color: $clr-link;
+                    text-decoration: none;
+                }
+            }
+        }
+        &:hover,&:focus{
+            color: $clr-link;
+            opacity: 1;
+            text-decoration: none;
+            outline: none;
+        }
+    }
+    &row:not(:last-child){
+        padding-bottom: 120px;
+        @include breakpoint('upto-sm'){
+            padding-bottom: 80px;
+        }
+    }
+    &hero{
+        &__{
+            &banner{
+                min-height: 540px;
+                background: #333;
+                background-repeat: no-repeat;
+                color: $clr-white;
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                border-radius: 6px;
+                margin-bottom: 40px;
+                overflow: hidden;
+                    
+                @include breakpoint('upto-sm'){
+                    border-radius: 0;
+                    min-height: 320px;
+                }
+                @include breakpoint('xs'){
+                    background-position: left !important;
+                }
+                &--{ 
+                    &shadow{
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        @include breakpoint('from-sm'){
+                            background: linear-gradient(135deg, rgba(0,0,0,0) 30%,rgba(0,0,0,1) 100%);
+                        }
+                        @include breakpoint('xs'){
+                            background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+                        }
+                    }
+                }
+            }
+            &content{
+                position: absolute;
+                right: 0;
+                bottom: 30px;
+                max-width: 380px;
+                padding: 36px;
+                @include breakpoint('xs'){
+                    padding: 15px;
+                    bottom: 0;
+                    left: 0;
+                    max-width: 280px;
+                }
+            }
+            &logo{
+                margin-bottom: 16px;
+            }
+            &desc{
+                @include font-typography(16px, 400, 24px, $clr-white);
+                @include breakpoint('xs'){
+                    @include font-typography(14px, 400, 18px, $clr-white);
+                }
+            }
+        }
+    }
+    &article{
+        &-{
+            &big{
+                margin-bottom: 90px;
+                @include breakpoint('xs'){
+                    margin-bottom: 60px;
+                }
+                .cs-article{
+                    max-width: 720px;
+                    @include breakpoint('sm'){
+                        max-width: 600px;
+                    }
+                    &__{
+                        &title{
+                            font-family: $secondary-font;
+                            margin-bottom: 8px;
+                            @include breakpoint('lg') {
+                                @include font-typography(44px, bold, 50px, $clr-base-dark, -1.28px);
+                            }
+                            @include breakpoint('md') {
+                                @include font-typography(40px, bold, 48px, $clr-base-dark, -1.0px);
+                            }
+                            @include breakpoint('sm') {
+                                @include font-typography(36px, bold, 42px, $clr-base-dark, -0.75px);
+                            }
+                            @include breakpoint('xs') {
+                                @include font-typography(30px, bold, 36px, $clr-base-dark, -0.5px);
+                            }
+                            &--{
+                                &mark{
+                                    @include breakpoint('from-sm'){
+                                        position: relative;
+                                        display: inline-block;
+                                    }
+                                    &:after{
+                                        content: '';
+                                        background: #ffe6ab;
+                                        width: 100%;
+                                        height: 20px;
+                                        display: block;
+                                        position: absolute;
+                                        z-index: -1;
+                                        bottom: 5px;
+                                        @include breakpoint('xs'){
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &desc{
+                            font-family: $secondary-font;
+                            @include font-typography(20px, 400, 32px, $clr-base, -0.2px);
+                            @include breakpoint('xs'){
+                                @include font-typography(16px, 400, 22px, $clr-base);
+                            }
+                        }
+                    }
+                }
+            }
+            &half{
+                .cs-article{
+                    &__{
+                        &desc{
+                            @include font-typography(16px, 400, 24px, $clr-base);
+                            margin-bottom: 24px;
+                        }
+                        &logo{
+                            margin-bottom: 32px;
+                            display: inline-block;
+                            &:not(:first-child){
+                                margin-left: 48px;
+                            }
+                        }
+                    }
+                }  
+            }
+            &full{
+                .cs-article{
+                    margin-bottom: 48px;
+                    &__{
+                        &desc{
+                            @include font-typography(18px, 400, 28px, $clr-base);
+                            margin-bottom: 16px;
+                            @include breakpoint('xs'){
+                                @include font-typography(16px, 400, 24px, $clr-base);
+                            }
+                        }
+                        &title{
+                            font-family: $secondary-font;
+                            @include font-typography(32px, bold, 42px, $clr-base-dark, -0.6px);
+                            @include breakpoint('xs'){
+                                @include font-typography(28px, bold, 36px, $clr-base-dark, -0.2px);
+                            }
+                            margin-bottom: 14px;
+                        }
+                        &list{
+                            margin: 0;
+                            padding: 0;
+
+                            @include breakpoint('upto-sm'){
+                                margin-left: 20px;
+                            }
+                        }
+                        &item{
+                            margin-bottom: 32px;
+                        }
+                    }
+                }  
+            }
+        }
+    }
+    &devider{
+        border-bottom: 1px solid #E0E0E4;
+        margin: 60px 0;
+    }
+    &table{
+        border: 1px solid #0000001f;
+        border-radius: 5px;
+        padding: 24px;
+        display: block;
+        margin-top: 40px;
+
+        @include breakpoint('xs'){
+            margin-top: 0;
+        }
+        @include breakpoint('lg'){
+            margin-top: 40px;
+        }
+
+
+        &__{
+            &row{
+                
+            }
+            &title{
+                position: relative;
+                display: inline-block;
+                font-family: $secondary-font;
+                font-size: $fs-md;
+                font-weight: bold;
+                color: #00000A;
+                line-height: 26px;
+                letter-spacing: -0.4px;
+                margin-bottom: 15px;
+
+                &:after{
+                    content: '';
+                    background: #ffe6ab;
+                    width: 100%;
+                    height: 8px;
+                    display: block;
+                    position: absolute;
+                    z-index: -1;
+                    bottom: 5px;
+                }
+            }
+            &heading,
+            &desc{
+                padding: 5px 24px 5px 0;
+                // border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+            }
+            &heading{
+                font-weight: bold;
+                font-size: 14px;
+                vertical-align: top;
+            }
+            &desc{
+                font-weight: 500;
+                font-size: 14px;
+                padding-left: 24px;
+            }
+        }
+    }
+    &testimonial{
+        &-{
+            &half{
+                position: relative;
+                margin-top: 58px;
+                .cs-testimonial{
+                    padding-left: 54px;
+                    @include breakpoint('xs'){
+                        padding: 0;
+                    }
+                    &::before{
+                        content: '';
+                        display: inline-block;
+                        width: 40px;
+                        height: 50px;
+                        background: url(../images/case-study/fishburners/quote.svg) center/contain no-repeat;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        margin-top: -16px;
+                        @include breakpoint('xs'){
+                            z-index: -1;
+                            opacity: .2;
+                        }
+                    }
+                    &__{
+                        &logo{
+                            margin-bottom: 24px
+                        }
+                        &author{
+                            font-family: $secondary-font;
+                            @include font-typography(16px, 400, 24px, $clr-base);
+                        }
+                        &desc{
+                            @include font-typography(16px, 400, 24px, $clr-base);
+                            margin-bottom: 24px;
+                        }
+                    }
+                }  
+            }
+            &full{
+                position: relative;
+                .cs-testimonial{
+                    padding-left: 64px;
+                    @include breakpoint('xs'){
+                        padding: 0;
+                    }
+                    &::before{
+                        content: '';
+                        display: inline-block;
+                        width: 48px;
+                        height: 60px;
+                        background: url(../images/case-study/fishburners/quote.svg) center/contain no-repeat;position: absolute;
+                        left: 0;
+                        top: 0;
+                        margin-top: -24px;
+                        @include breakpoint('xs'){
+                            z-index: -1;
+                            opacity: .2;
+                        }
+                    }
+                    &__{
+                        &logo{
+                            margin-bottom: 24px;
+                        }
+                        &author{
+                            font-family: $secondary-font;
+                            @include font-typography(24px, bold, 28px, $clr-base-dark, -0.6px);
+                            @include breakpoint('xs'){
+                                @include font-typography(16px, bold, 24px, $clr-base-dark, -0.2px);
+                            }
+                            @include breakpoint('sm'){
+                                @include font-typography(20px, bold, 28px, $clr-base-dark, -0.2px);
+                            }
+                            img{
+                                margin-right: 24px;
+                                border-radius: 50%;
+                                @include breakpoint('xs'){
+                                    display: block;
+                                    margin-bottom: 16px;
+                                }
+                            }
+                        }
+                        &desc{
+                            font-family: $secondary-font;
+                            @include font-typography(32px, 400, 42px, $clr-base-dark, -0.6px);
+                            @include breakpoint('xs'){
+                                @include font-typography(18px, 400, 28px, $clr-base-dark, -0.2px);
+                            }
+                            @include breakpoint('sm'){
+                                @include font-typography(28px, 400, 36px, $clr-base-dark, -0.2px);
+                            }
+                            margin-bottom: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &sidebar{
+        border: 1px solid #E0E0E4;
+        border-radius: 4px;
+        padding: 40px;
+        position: relative;
+        @include breakpoint('xs'){
+            padding: 20px;
+        }
+        @include breakpoint('sm'){
+            @include flex-layout($align-items: normal)
+        }
+        @include breakpoint('upto-sm'){
+            margin-bottom: 90px;
+        }
+        &__{
+            &item{
+                @include breakpoint('sm'){
+                    flex: 1;
+                    &:first-child{
+                        padding-right: 24px;
+                    }
+                    &:last-child{
+                        padding-left: 24px;
+                    }
+                }
+                &:not(:first-child){
+                    border-top: 1px solid #E0E0E4;
+                    margin-top: 32px;
+                    padding-top: 24px;
+                    @include breakpoint('sm'){
+                        border-top: none;
+                        margin-top: 0;
+                        padding-top: 0;
+                    }
+                }
+            }
+            &title{
+                font-family: $secondary-font;
+                @include font-typography(20px, bold, 26px, $clr-base-dark, -0.4px);
+                margin-bottom: 24px;
+                &--{
+                    &mark{
+                        @include breakpoint('from-sm'){ 
+                            position: relative;
+                            display: inline-block;
+                        }
+                        &:after{
+                            content: '';
+                            background: #ffe6ab;
+                            width: 100%;
+                            height: 8px;
+                            display: block;
+                            position: absolute;
+                            z-index: -1;
+                            bottom: 5px;
+                            @include breakpoint('xs'){
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            &content{
+                margin-bottom: 24px;
+            }
+            &heading{
+                @include font-typography(14px, bold, 21px, $clr-base-dark);
+                margin-bottom: 4px;
+            }
+            &desc{
+                @include font-typography(14px, 400, 21px, $clr-base);
+            }
+            &action{
+                border: 1px solid $clr-primary;
+                background: $clr-primary;
+                color: #fff;
+                font-size: 14px;
+                line-height: 16px;
+                font-weight: 500;
+                padding: 12px;
+                border-radius: 2px;
+                position: absolute;
+                margin-top: 16px;
+                @include breakpoint('xs'){
+                    margin-top: 0;
+                }
+                @include breakpoint('sm'){
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    max-width: 150px;
+                    text-align: center;
+                    margin: auto;
+                    margin-bottom: -18px;
+                }
+                &:after{
+                    content: '';
+                    display: inline-block;
+                    width: 12px;
+                    height: 10px;
+                    margin-left: 8px;
+                    background: url(../images/home/jan-2019/arrow/arrow.svg) center/contain no-repeat;
+                    filter: brightness(0) invert(1);
+                }
+                &:hover,&:focus{
+                    color: #fff;
+                    text-decoration: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+/*Enhancement*/
+.fs-italic{
+    font-style: italic;
+}
+/*Enhancement*/

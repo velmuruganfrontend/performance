@@ -1,0 +1,93 @@
+.flag-icon{
+    width: 42.5px;
+    height: 30px;            
+}
+#ch-js-header-cloned{
+    display: none;
+}
+.pWrap .p-carousel__content{
+    height: 410px;
+}
+.pWrap .p-carousel__label {
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 1px;
+    font-weight: normal;
+    font-size: 15px;
+    color: #787882;
+    padding: 0;
+    display: inline-block;
+}
+.pWrap .p-carousel__title {
+    font-family: acumin-pro,helvetica,sans-serif;
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 40px;
+    color: #212128;
+    margin-bottom: 20px;
+    text-transform: none;
+    min-height: 100px;
+    margin-top: 10px;
+}
+.pWrap .p-carousel__signup-button {
+    border: 0;
+    font-family: inherit;
+    min-width: inherit;
+    -webkit-transition: 400ms;
+    -o-transition: 400ms;
+    transition: 400ms;
+    background-color: #FF7846;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 9px 21px;
+    display: inline-block;
+    border-radius: 2px;
+}
+.pWrap .p-menu__tab {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 24px 12px;
+    -webkit-transition: 350ms;
+    -o-transition: 350ms;
+    transition: 350ms;
+    position: relative;
+}
+.pWrap .main-content__title {
+    font-size: 18px;
+    color: #212128;
+    line-height: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: none;
+}
+.pWrap .main-content__feature__block--margin{
+    font-size: 15px;
+}
+@media screen and (min-width:1200px) {
+    .pWrap .main-content{
+        padding: 60px 100px 0 100px;
+    }
+    .pWrap .main-content__title {
+        font-size: 18px;
+        color: #212128;
+        line-height: 24px;
+        text-transform: none;
+        margin-bottom: 5px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .pWrap .main-content{
+        margin-top: 0;
+    }
+    .pWrap .p-carousel__title {
+        font-size: 26px;
+        line-height: 32px;
+        letter-spacing: -0.5px;
+        min-height: inherit;
+    }
+}

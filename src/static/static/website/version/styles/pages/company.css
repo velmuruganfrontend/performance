@@ -1,0 +1,393 @@
+    .cw-page-title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h4 {
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    /*-------- Section --------*/
+    .cw-section {
+        margin-bottom: 80px;
+    }
+    .cw-section p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sectionA {
+        padding-top: 100px;
+    }
+    
+    .sectionA .cw-home-section__bg {
+        position: absolute;
+        top:  0;
+        left:  0;
+        z-index: -1;
+        max-width: 300px;
+    }
+
+
+    .cw-hook {
+        padding: 11px 46px;
+        color: white;
+        border-radius: 62px;
+        border:  2px solid #5110B1; 
+        background-color: #5110B1;
+    }
+
+    .cw-hook:hover {
+        background-color: transparent;
+        color: #5110B1;
+    }
+
+    .dot {
+        display: inline-block;
+        height: 12px;
+        width: 12px;
+        margin-left: 3px;
+        border-radius: 50%;
+        background-color: #FC5500;
+    }
+
+    .cw-blockquote {
+        position: relative;
+        padding-left: 55px;
+    }
+
+    .cw-blockquote p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .cw-blockquote .author {
+        display: block;
+        color: #44435A;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .cw-ventures {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .cw-ventures-list {
+        list-style: none;
+        display: inline-block;
+        padding:  0;
+        margin:  0;
+    }
+
+    .cw-ventures-list li {
+        display: inline-block;
+        margin-top: 12px;
+        margin-left: 20px;
+        vertical-align: middle;
+    }
+    @media (max-width: 767px) {
+        .cw-ventures-list li {
+            margin-top: 20px;
+        }
+    }
+    .cw-ventures-list li:first-child {
+        margin-left: 0;
+    }
+
+    .cw-address {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* Spacing */
+    .cw-mB-xxs {
+        margin-bottom: 10px;
+    }
+
+    .cw-mB-xs {
+        margin-bottom: 16px;
+    }
+
+    .cw-mB-s {
+        margin-bottom: 24px;
+    }
+
+    .cw-mB-m {
+        margin-bottom: 30px;
+    }
+
+    .cw-mB-l {
+        margin-bottom: 40px;
+    }
+
+    .cw-mB-xl {
+        margin-bottom: 60px;
+    }
+
+
+    /* --------- Media > 575px ---------*/
+    @media (max-width: 575.999px) {
+        .page-title, h2 {
+            font-size: 32px;
+            line-height: 36px;
+        } 
+        .cw-section .img-wrap.max {
+            margin-left: -15px;
+            margin-right: -15px;
+        }  
+    }
+
+    /* --------- Media < 576px ---------*/
+    @media (min-width: 576px) {
+        .cw-page-title {
+            font-size: 48px;
+            line-height: 54px;
+            letter-spacing: -0.4px;
+        }
+
+        h2 {
+            font-size: 40px;
+            line-height: 48px;
+            letter-spacing: -0.4px;
+        }
+
+        h4 {
+            font-size: 21px;
+            font-weight: bold;
+            letter-spacing: -0.4px;
+        }
+
+        .cw-section p {
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        .sectionA {
+            padding-top: 220px;
+            margin-bottom: 140px
+        }
+
+        .sectionB {
+            margin-bottom: 120px
+        }
+
+        .sectionC {
+            margin-bottom: 210px
+        }
+
+        .sectionD {
+            margin-bottom: 180px
+        }
+
+        .sectionE {
+            margin-bottom: 120px
+        }
+
+        .sectionF {
+            margin-bottom: 80px
+        }
+
+        .sectionG {
+            margin-bottom: 0px
+        }
+
+        .cw-ventures {
+            margin-top: 70px;
+        }
+
+        .sectionC .cw-blockquote {
+            margin-top: 185px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        /* .l-main{padding-bottom: 220px} */
+    }
+
+    @media (min-width: 992px) {
+        .cw-blockquote {
+            padding-left: 75px;
+        }
+
+        .cw-blockquote p {
+            font-size: 21px;
+            line-height: 32px;
+            margin-bottom: 40px;
+        }
+
+        .cw-blockquote:before {
+            width: 51px;
+        }
+        
+        .cw-ventures {
+            margin-top: 270px;
+        }
+
+        .cw-ventures {
+            text-align: left !important;
+        }
+        .sectionC .cw-blockquote {
+            margin-top: 305px;
+        }
+    }
+
+    .cw-section .cw-lead{
+        margin-bottom: 24px;
+    }
+    .cw-section .cw-lead__heading {
+        font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+        letter-spacing: -0.2px;
+        color: #130d23;
+    }
+    .cw-section .cw-lead.normal .cw-lead__heading {
+        font-weight: normal;
+    }
+    @media (min-width: 768px) {
+        .cw-section .cw-lead__heading {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    @media (min-width: 992px) {
+        .cw-section .cw-lead__heading {
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+
+      .cw-feature {
+        display: flex;
+        flex-flow: row wrap;
+      }
+      .cw-features {
+        display: flex;
+        flex-flow: column wrap;
+      }
+      .cw-feature__item {
+        flex: 1 1 auto;
+        width: 95%;
+        max-width: 95%;
+        margin-bottom: 30px;
+      }
+      .cw-feature__icon {
+        width: 20px;
+        height: 20px;
+        flex: 0 1 auto;
+        margin-top: 5px;
+      }
+      .cw-feature__content {
+        flex-flow: column wrap;
+        flex: 0 1 calc(100% - 36px);
+      }
+      .cw-feature__icon + .cw-feature__content {
+        padding-left: 16px;
+      }
+      .cw-feature__name {
+        font-family: basis-grotesque, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #130d23;
+        margin-bottom: 4px;
+      }
+      .cw-feature__desc {
+        color: #44435A;
+        font-size: 14px;
+        line-height: 21px;
+      }
+      @media (min-width: 768px) {
+        .cw-feature__item {
+          width: 50%;
+          max-width: 50%;
+          margin-bottom: 60px;
+        }
+        .cw-feature__item:nth-child(even) {
+          padding-left: 30px;
+        }
+        .cw-feature__item:nth-child(odd) {
+          padding-right: 10px;
+        }
+        .cw-feature__icon {
+          width: 30px;
+          height: 40px;
+        }
+        .cw-feature__content {
+          flex: 0 1 calc(100% - 40px);
+        }
+        .cw-feature__name {
+          font-size: 18px;
+          line-height: 24px;
+        }
+        .cw-feature__desc {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        .cw-features {
+          flex-flow: row wrap;
+        }
+        .cw-feature__icon + .cw-feature__content {
+          padding-left: 30px;
+        }
+      }
+
+      .cw-card {
+        background: #090707;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 3px 6px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+        padding: 48px 30px 18px 60px;
+        display: block;
+        max-width: 920px;
+        margin: 120px auto 24px;
+        text-align: left;
+      }
+      .cw-card__title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        max-width: 420px;
+      }
+      .cw-card__title span {
+        color: #ff9c03;
+      }
+      .cw-card__figure {
+        max-width: 640px;
+        margin-left: auto;
+        margin-top: -100px;
+      }
+      .cw-card__cta {
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: inline-block;
+        padding: 12px 0px;
+        margin-top: 10px;
+      }
+      @media (max-width: 991px) {
+        .cw-card {
+          padding: 48px 24px;
+          border-radius: 6px;
+        }
+        .cw-card__title {
+          font-size: 22px;
+          line-height: 26px;
+        }
+        .cw-card__figure {
+          margin: 32px 0;
+        }
+        .cw-card__cta {
+          font-size: 13px;
+        }
+      }

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /online-billing/
+Disallow: /trial-signup-aone.html
+Allow: /
+Sitemap: https://www.chargebee.com/sitemap.xml
+Sitemap: https://www.chargebee.com/docs/sitemap.xml
+Sitemap: https://www.chargebee.com/tutorials/sitemap.xml
+Sitemap: https://www.chargebee.com/blog/sitemap.xml

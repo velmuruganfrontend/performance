@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="61px" viewBox="0 0 66 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-6" transform="translate(-810.000000, -2517.000000)">
+            <g id="Group-17" transform="translate(811.000000, 2518.000000)">
+                <g id="Group-16" transform="translate(7.000000, 1.000000)" fill="#E2E9F9">
+                    <circle id="Oval" cx="29" cy="29.7742268" r="29"></circle>
+                </g>
+                <path d="M25.5087506,53 L22.7410297,34.5161133 C26.6619676,39.9928204 30.006297,41.3619972 32.7740178,38.6236436 C36.9255991,34.5161133 39.5,21 34.5038434,15.0053439 C31.1730723,11.0089065 28.174708,9.29743551 25.5087506,9.87093092 C23.8942468,17.8577956 21.0112042,21.8512279 16.8596229,21.8512279 C10.632251,21.8512279 10.5,27 13.745937,29.7239945 C15.0916835,30.8533467 15.6005221,33.3984743 15.2724525,37.3593774 C14.8413077,42.5647723 11.8964946,47.2320264 7.38379938,49.8621604 L2,53 C-0.666666667,41 -0.666666667,33.6666667 2,31 C6,27 3.5,26 6.5,13.5 C8.5,5.16666667 14.5,1 24.5,1" id="Path-12" stroke="#00001E" stroke-width="2"></path>
+                <path d="M23.5,1 C36.4021257,-1.33333333 40.9021257,7.66666667 37,28" id="Path-13" stroke="#00001E" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

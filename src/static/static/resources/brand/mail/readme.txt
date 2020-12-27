@@ -1,0 +1,1 @@
+All the images(inside mail directory) are used in email's and signature.
